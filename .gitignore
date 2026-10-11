@@ -1,0 +1,14 @@
+# Android APK & decompiled files
+base.apk
+*.apk
+apk_extract/
+
+# Flutter & Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# Mac OS
+.DS_Store
