@@ -1,0 +1,55 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Flightradar24 @ Twitter</title>
+    <meta name="description" content="Twitter"/>
+    <meta name="twitter:widgets:csp" content="on">
+    <meta name="twitter:dnt" content="on">
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
+    <style type="text/css">body {background-color: #393939}</style>
+    <script>
+        function getAndroidVersion() {
+            ua = navigator.userAgent.toLowerCase();
+            var match = ua.match(/android\s([0-9\.]*)/i);
+            return match ? match[1] : undefined;
+        };
+    </script>
+</head>
+<body>
+<a class="twitter-timeline"
+   data-dnt="true"
+   data-theme="dark"
+   data-chrome="transparent noheader nofooter noborders"
+   data-tweet-limit="3"
+   href="https://twitter.com/flightradar24?ref_src=twsrc%5Etfw"></a>
+<div id="fr24-twitter-footer" style="text-align: center;">
+    <a href="https://twitter.com/flightradar24"
+       style="display: inline-block; text-decoration: none;">
+        <table>
+            <tr>
+                <td style="text-align: center; padding-left: 5px;">
+                    <span id="fr24-twitter-button-title"
+                          style="color: rgb(100, 190, 241); font-family: -apple-system; font-weight: normal; font-size: 16px;">Follow us on <script>if (parseInt(getAndroidVersion()) == 7) document.write("X"); else document.write("𝕏")</script></span>
+                </td>
+            </tr>
+        </table>
+    </a>
+</div>
+<script>
+        if (typeof fr24_twitterButtonTitle === "string") {
+            document.getElementById("fr24-twitter-button-title").innerHTML = fr24_twitterButtonTitle;
+        }
+
+</script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script src="file:///android_asset/twitter/customize-twitter-1.1.min.js"
+        type="text/javascript"></script>
+<script>
+    var options = {
+        "url": "file:///android_asset/twitter/twitter.css",
+        "timeout_length": 600
+    };
+    CustomizeTwitterWidget(options);
+</script>
+</body>
+</html>

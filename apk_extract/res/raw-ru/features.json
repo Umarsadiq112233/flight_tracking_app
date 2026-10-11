@@ -1,0 +1,1395 @@
+{
+    "adverts": {
+        "featureDescription": "Реклама отключена",
+        "featureGroup": "General",
+        "featureId": 130,
+        "featureInfo": "Пользователи с планом Free видят рекламу в приложении, в то время как Silver и Gold подписчики - нет. Оформите подписку, чтобы пользоваться Flightradar24 быстрее и без рекламы.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 90,
+        "featureUpgradeDescription": "Реклама отключена",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "app.include.premium": {
+        "featureDescription": "Включить премиум рекламу",
+        "featureGroup": null,
+        "featureId": 85,
+        "featureInfo": null,
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 1000,
+        "featureUpgradeDescription": "Включить премиум рекламу",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "events": {
+        "featureDescription": "Режим событий",
+        "featureGroup": null,
+        "featureId": 86,
+        "featureInfo": null,
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 1000,
+        "featureUpgradeDescription": "Режим событий",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "history.aircraft.days": {
+        "featureDescription": "История воздушного судна",
+        "featureGroup": "Past flights",
+        "featureId": 134,
+        "featureInfo": "Ищете информацию об истории воздушного судна? Просматривайте подробности предыдущих рейсов, включая пункты отправления и назначения, запланированное и актуальное время вылета и прилёта.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 180,
+        "featureUpgradeDescription": "История воздушного судна",
+        "featureUpgradeInfo": "Ищете информацию об истории воздушного судна? Просматривайте подробности предыдущих рейсов, включая пункты отправления и назначения, запланированное и актуальное время вылета и прилёта.",
+        "planLimits": {
+            "Basic": 7,
+            "Silver": 90,
+            "Gold": 365,
+            "Business": 1095
+        },
+        "unit": "day"
+    },
+    "history.flight.days": {
+        "featureDescription": "История рейса",
+        "featureGroup": "Past flights",
+        "featureId": 56,
+        "featureInfo": "Получайте информацию о предыдущих рейсах, включая тип воздушного судна, регистрацию, аэропорт отправления и пункт назначения, запланированное и актуальное время вылета и прилёта. Как далеко в историю вы сможете заглянуть, зависит от вашего плана подписки.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 175,
+        "featureUpgradeDescription": "История рейса",
+        "featureUpgradeInfo": "Ищете информацию об истории воздушного судна? Просматривайте подробности предыдущих рейсов, включая тип воздушного судна, регистрацию, запланированное и актуальное время вылета и прилёта.",
+        "planLimits": {
+            "Basic": 7,
+            "Silver": 90,
+            "Gold": 365,
+            "Business": 1095
+        },
+        "unit": "day"
+    },
+    "history.flight.kml": {
+        "featureDescription": "Загрузить CSV/KML файлы",
+        "featureGroup": "Past flights",
+        "featureId": 57,
+        "featureInfo": "Manual download of CSV/KML files of past flights with flight data including position, speed and altitude. The number of downloads per day is limited by your subscription level. If interested in automated or commercial products, please visit <a target=\"_blank\" href=\"https://www.flightradar24.com/business/data-services\">data services</a> for more information.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 200,
+        "featureUpgradeDescription": "Загрузить CSV/KML файлы",
+        "featureUpgradeInfo": "Ручная загрузка файлов в формате CSV/KML, которые содержат информацию о предыдущих рейсах, включая метоположение, скорость и высоту. Количество доступных загрузок в день ограничено вашим планом подписки.",
+        "planLimits": {
+            "Silver": 10,
+            "Gold": 25,
+            "Business": 60
+        },
+        "unit": "/day"
+    },
+    "history.playback.days": {
+        "featureDescription": "Playback",
+        "featureGroup": "Past flights",
+        "featureId": 141,
+        "featureInfo": "Изучайте, как выглядит воздушное пространство в опредённый момент времени в прошлом. Также для одиночных рейсов доступен playback. Как далеко в прошлое в сможете заглянуть, зависит от вашего плана подписки.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 185,
+        "featureUpgradeDescription": "Playback",
+        "featureUpgradeInfo": "Просматривайте playback для одиночного рейса с подробной информацией о полёте и типе воздушного судна. Вы с лёгкостью можете попасть в любую точку его пути или следить за ним от взлёта до посадки.",
+        "planLimits": {
+            "Basic": 7,
+            "Silver": 90,
+            "Gold": 365,
+            "Business": 1095
+        },
+        "unit": "day"
+    },
+    "history.playback.flight.days": {
+        "featureDescription": "Playback для рейса",
+        "featureGroup": "Past flights",
+        "featureId": 140,
+        "featureInfo": "Просматривайте playback для одиночного рейса с подробной информацией о полёте и типе воздушного судна. Вы с лёгкостью можете попасть в любую точку его пути или следить за ним от взлёта до посадки.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 190,
+        "featureUpgradeDescription": "Playback для рейса",
+        "featureUpgradeInfo": "Перенеситесь в прошлое и ознакомьтесь с обзором рейсов по всему миру или просмотрите подробный playback одного полета с графиками высоты и скорости.",
+        "planLimits": {
+            "Basic": 7,
+            "Silver": 90,
+            "Gold": 365,
+            "Business": 1095
+        },
+        "unit": "day"
+    },
+    "map.data.ads-b": {
+        "featureDescription": "Данные ADS-B",
+        "featureGroup": "Live flight tracking",
+        "featureId": 48,
+        "featureInfo": "Позиционирование в режиме реального времени воздушных судов, оборудованных системой ADS-B. <a href=\"/how-it-works/#adsb\" target=\"_blank\">Подробнее о ADS-B здесь</a>.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 131,
+        "featureUpgradeDescription": "Данные ADS-B",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.data.delaystats": {
+        "featureDescription": "Статистика задержек",
+        "featureGroup": null,
+        "featureId": 73,
+        "featureInfo": "Получите обзор текущей ситуации с задержками рейсов в аэропорту, доступно для всего мира или конкретном регионе.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 1000,
+        "featureUpgradeDescription": "Статистика задержек",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.data.faa": {
+        "featureDescription": "Данные радара",
+        "featureGroup": "Live flight tracking",
+        "featureId": 50,
+        "featureInfo": "Официальные радиолокационные данные для Северной Америки (США/Канада) и прилегающего морского региона. <a href=\"/how-it-works/#faa\" target=\"_blank\">Подробнее о радиолокационных данных здесь</a>.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 133,
+        "featureUpgradeDescription": "Данные радара",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.data.flarm": {
+        "featureDescription": "Данные FLARM",
+        "featureGroup": "Live flight tracking",
+        "featureId": 52,
+        "featureInfo": "Позиционирование в режиме реального времени воздушных судов, оборудованных системой FLARM. <a href=\"/how-it-works/#adsb\" target=\"_blank\">Подробнее о FLARM здесь</a>.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 135,
+        "featureUpgradeDescription": "Данные FLARM",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.data.mlat": {
+        "featureDescription": "Данные MLAT",
+        "featureGroup": "Live flight tracking",
+        "featureId": 49,
+        "featureInfo": "Позиционирование в режиме реального времени воздушных судов, не оборудованных системой ADS-B. <a href=\"/how-it-works/#mlat\" target=\"_blank\">Подробнее о MLAT здесь</a>.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 132,
+        "featureUpgradeDescription": "Данные MLAT",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.data.satellite": {
+        "featureDescription": "Данные спутниковой связи",
+        "featureGroup": "Live flight tracking",
+        "featureId": 51,
+        "featureInfo": "Данные в режиме реального времени с воздушных судов, оснащённых спутниковой связью, таких как Solar Impulse 2.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 134,
+        "featureUpgradeDescription": "Данные спутниковой связи",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.filters.saved": {
+        "featureDescription": "Фильтры",
+        "featureGroup": "Customization",
+        "featureId": 139,
+        "featureInfo": "Вы можете фильтровать по категории воздушного судна, например, пассажирские, грузовые и военные, либо с помощью специальных фильтров, используя позывной, аэропорт, высоту, скорость, тип самолета и регистрацию. Вы можете использовать некоторые фильтры бесплатно, например по авиакомпании, воздушным суднам, аэропортам и маршрутам. Количество фильтров которые вы можете сохранить, зависит от подписки. Доступ к фильтру по категории и расширенным фильтрам доступен только с подпиской Silver или Gold.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 205,
+        "featureUpgradeDescription": "Фильтры",
+        "featureUpgradeInfo": "Вы можете фильтровать по категории воздушного судна, например, пассажирские, грузовые и военные, либо с помощью специальных фильтров, используя позывной, аэропорт, высоту, скорость, тип самолета и регистрацию. Вы можете использовать некоторые фильтры бесплатно, например по авиакомпании, воздушным суднам, аэропортам и маршрутам. Количество фильтров которые вы можете сохранить, зависит от подписки. Доступ к фильтру по категории и расширенным фильтрам доступен только с подпиской Silver или Gold.",
+        "planLimits": {
+            "Basic": 1,
+            "Silver": 10,
+            "Gold": 25,
+            "Business": 60
+        },
+        "unit": null
+    },
+    "map.info.aircraft": {
+        "featureDescription": "Информация о воздушном судне",
+        "featureGroup": "Aircraft details",
+        "featureId": 54,
+        "featureInfo": "Basic пользователи могут видеть тип воздушного судна, регистрацию и Mode-S код. Silver, Gold и Business подписчики также могут видеть серийный номер производителя и возраст воздушного судна.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 150,
+        "featureUpgradeDescription": "Информация о воздушном судне",
+        "featureUpgradeInfo": "Ищете информацию об истории воздушного судна? Просматривайте подробности предыдущих рейсов, включая пункты отправления и назначения, запланированное и актуальное время вылета и прилёта. Как далеко в историю вы сможете заглянуть, зависит от вашего плана подписки.",
+        "planLimits": {
+            "Basic": "limited",
+            "Silver": "full",
+            "Gold": "full",
+            "Business": "full"
+        },
+        "unit": null
+    },
+    "map.info.aircraft.age": {
+        "featureDescription": "Возраст воздушного судна",
+        "featureGroup": "Aircraft details",
+        "featureId": 123,
+        "featureInfo": "Интересно, абсолютно ли новый борт перед вами или двадцатилетний? Проверяйте возраст воздушного судна, которое вы отслеживаете, и когда оно впервые взлетело.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 155,
+        "featureUpgradeDescription": "Возраст воздушного судна",
+        "featureUpgradeInfo": "Интересно, абсолютно ли новый борт перед вами или двадцатилетний? Проверяйте возраст воздушного судна, которое вы отслеживаете, и когда оно впервые взлетело.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.aircraft.country": {
+        "featureDescription": "Страна регистрации воздушного судна",
+        "featureGroup": "Aircraft details",
+        "featureId": 163,
+        "featureInfo": "На панели информации о рейсе можно увидеть страну регистрации каждого самолета.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 156,
+        "featureUpgradeDescription": "Страна регистрации воздушного судна",
+        "featureUpgradeInfo": "На панели информации о рейсе можно увидеть страну регистрации каждого самолета.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.aircraft.code": {
+        "featureDescription": "Mode-S код",
+        "featureGroup": "Aircraft details",
+        "featureId": 137,
+        "featureInfo": "Шестизначный буквенно-цифровой код, который уникально идентифицирует транспондер воздушного судна",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 152,
+        "featureUpgradeDescription": "Mode-S код",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.aircraft.msn": {
+        "featureDescription": "Серийный номер воздушного судна",
+        "featureGroup": "Aircraft details",
+        "featureId": 122,
+        "featureInfo": "Просматривайте уникальный серийный номер воздушного судна (MSN), присваиваемый производителем, который остается прежним даже при изменении регистрации воздушного судна.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 154,
+        "featureUpgradeDescription": "Серийный номер воздушного судна",
+        "featureUpgradeInfo": "Просматривайте уникальный серийный номер воздушного судна (MSN), присваиваемый производителем, который остается прежним даже при изменении регистрации воздушного судна.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.aircraft.registration": {
+        "featureDescription": "Регистрация",
+        "featureGroup": "Aircraft details",
+        "featureId": 135,
+        "featureInfo": "Уникальный идентификатор воздушного судна, также называемый бортовым номером из-за того, что его печатают снаружи борта, часто на хвосте. ",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 151,
+        "featureUpgradeDescription": "Регистрация воздушного судна",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.aircraft.type": {
+        "featureDescription": "Тип воздушного судна",
+        "featureGroup": "Aircraft details",
+        "featureId": 136,
+        "featureInfo": "Подробное название воздушного судна, включая присвоенный код типа ICAO. Используйте код ICAO для создания воздушных фильтров.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 153,
+        "featureUpgradeDescription": "Тип воздушного судна",
+        "featureUpgradeInfo": "Подробное название воздушного судна, включая присвоенный код типа ICAO. Используйте код ICAO для создания воздушных фильтров.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.airport.arrivals": {
+        "featureDescription": "Прилёты",
+        "featureGroup": null,
+        "featureId": 89,
+        "featureInfo": null,
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 120,
+        "featureUpgradeDescription": null,
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.airport.departures": {
+        "featureDescription": "Вылеты",
+        "featureGroup": null,
+        "featureId": 90,
+        "featureInfo": null,
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 121,
+        "featureUpgradeDescription": null,
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.airport.onground.hours": {
+        "featureDescription": "Воздушное судно на земле",
+        "featureGroup": "Past flights",
+        "featureId": 58,
+        "featureInfo": "Список воздушных судов, посадку которых в конкретном аэропорту мы отслеживаем. Воздушное судно остаётся в списке, пока мы не сможем подтвердить, что оно покинуло аэропорт. Насколько далеко назад можно отмотать список, зависит от уровня вашей подписки.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 195,
+        "featureUpgradeDescription": "Воздушное судно на земле",
+        "featureUpgradeInfo": "Список воздушных судов, посадку которых в конкретном аэропорту мы отслеживаем. Воздушное судно остаётся в списке, пока мы не сможем подтвердить, что оно покинуло аэропорт. Насколько далеко назад можно отмотать список, зависит от уровня вашей подписки.",
+        "planLimits": {
+            "Basic": 1,
+            "Silver": 168,
+            "Gold": 720,
+            "Business": 2160
+        },
+        "unit": "hour-time"
+    },
+    "map.info.flight": {
+        "featureDescription": "Информация о рейсе",
+        "featureGroup": "Flight details",
+        "featureId": 53,
+        "featureInfo": "Basic пользователям доступны показатели путевой скорости, уточнённой высоты, курс и местоположение. Silver подписчикам доступна вся информация Basic пользователей, а также вертикальная скорость и сигналы squawk. Gold и Business подписчики, кроме того, имеют доступ к информации FIR и UIR и расширенным Mode-S данным, к которым в том числе относятся высота по GPS, ветер и температура, а также дополнительные данные о скорости воздушного судна.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 160,
+        "featureUpgradeDescription": "Информация о рейсе",
+        "featureUpgradeInfo": "Ищете информацию об истории воздушного судна? Просматривайте подробности предыдущих рейсов, включая тип воздушного судна, регистрацию, запланированное и актуальное время вылета и прилёта. Как далеко в историю вы сможете заглянуть, зависит от вашего плана подписки.",
+        "planLimits": {
+            "Basic": "limited",
+            "Silver": "enhanced",
+            "Gold": "full",
+            "Business": "full"
+        },
+        "unit": null
+    },
+    "map.info.flight.airspace": {
+        "featureDescription": "FIR/UIR",
+        "featureGroup": "Flight details",
+        "featureId": 120,
+        "featureInfo": "Смотрите, кто из авиадиспетчеров в настоящий момент ответственен за рейс, благодаря данным мировых районов полётной информации (FIR) и верхнего воздушного пространства (UIR).",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 171,
+        "featureUpgradeDescription": "FIR/UIR",
+        "featureUpgradeInfo": "Смотрите, кто из авиадиспетчеров в настоящий момент ответственен за рейс, с помощью границ мировых районов полётной информации (FIR) и верхнего воздушного пространства (UIR), отображаемых на карте. Текущая зона управления воздушным движением для отдельного рейса также отображается в информационном блоке этого рейса.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.calibrated-altitude": {
+        "featureDescription": "Уточнённая высота",
+        "featureGroup": "Flight details",
+        "featureId": 144,
+        "featureInfo": "Уточнённая по давлению высота над уровнем моря",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 163,
+        "featureUpgradeDescription": "Уточнённая высота",
+        "featureUpgradeInfo": "Уточнённая по давлению высота над уровнем моря",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ems": {
+        "featureDescription": "Расширенные Mode S данные",
+        "featureGroup": "Flight details",
+        "featureId": 121,
+        "featureInfo": null,
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 166,
+        "featureUpgradeDescription": "Расширенные Mode S данные",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ems.alt.gps": {
+        "featureDescription": "Высота по GPS",
+        "featureGroup": "Flight details",
+        "featureId": 129,
+        "featureInfo": "Высота воздушного судна, определяемая с помощью GPS, определяется по эллипсоиде всей Земли и не обязательно соотносится с высотой над поверхностью земли.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 166,
+        "featureUpgradeDescription": "Высота по GPS",
+        "featureUpgradeInfo": "Высота воздушного судна, определяемая с помощью GPS, определяется по эллипсоиде всей Земли и не обязательно соотносится с высотой над поверхностью земли.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ems.ias": {
+        "featureDescription": "Приборная скорость",
+        "featureGroup": "Flight details",
+        "featureId": 124,
+        "featureInfo": "Приборная скорость - это скорость воздушного судна, регистрируемая индикаторами воздушной скорости без каких-либо корректировок с учётом температуры или давления.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 169,
+        "featureUpgradeDescription": "Приборная скорость",
+        "featureUpgradeInfo": "Приборная скорость - это скорость воздушного судна, регистрируемая индикаторами воздушной скорости без каких-либо корректировок с учётом температуры или давления.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ems.mach": {
+        "featureDescription": "Мах",
+        "featureGroup": "Flight details",
+        "featureId": 126,
+        "featureInfo": "Число Маха - это отношение истинной воздушной скорости к скорости звука на высоте данного рейса.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 172,
+        "featureUpgradeDescription": "Мах",
+        "featureUpgradeInfo": "Число Маха - это отношение истинной воздушной скорости к скорости звука на высоте данного рейса.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ems.oat": {
+        "featureDescription": "Температура",
+        "featureGroup": "Flight details",
+        "featureId": 128,
+        "featureInfo": "Просматривайте отчёты о температуре воздуха за бортом прямо с воздушного судна.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 170,
+        "featureUpgradeDescription": "Температура",
+        "featureUpgradeInfo": "Просматривайте отчёты о температуре воздуха за бортом прямо с воздушного судна.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ems.tas": {
+        "featureDescription": "Истинная воздушная скорость",
+        "featureGroup": "Flight details",
+        "featureId": 125,
+        "featureInfo": "Истинная воздушная скорость - это скорость воздушного судна, скорректированная по местоположению и приборной погрешности с учётом давления и температуры.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 167,
+        "featureUpgradeDescription": "Истинная воздушная скорость",
+        "featureUpgradeInfo": "Истинная воздушная скорость - это скорость воздушного судна, скорректированная по местоположению и приборной погрешности с учётом давления и температуры.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ems.wind": {
+        "featureDescription": "Ветер",
+        "featureGroup": "Flight details",
+        "featureId": 127,
+        "featureInfo": "Проверяйте, летит ли рейс с попутным ветром или против него. Просматривайте отчёты о скорости ветра и его направлении, полученные непосредственно с борта воздушного судна.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 168,
+        "featureUpgradeDescription": "Ветровые условия за бортом",
+        "featureUpgradeInfo": "Проверяйте, летит ли рейс с попутным ветром или против него. Просматривайте отчёты о скорости ветра и его направлении, полученные непосредственно с борта воздушного судна.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ground-speed": {
+        "featureDescription": "Путевая скорость",
+        "featureGroup": "Flight details",
+        "featureId": 143,
+        "featureInfo": "Скорость относительно земной поверхности.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 160,
+        "featureUpgradeDescription": "Путевая скорость",
+        "featureUpgradeInfo": "Скорость относительно земной поверхности.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.position": {
+        "featureDescription": "Позиция",
+        "featureGroup": "Flight details",
+        "featureId": 146,
+        "featureInfo": "Местоположение воздушного судна дано с указанием широты и долготы.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 161,
+        "featureUpgradeDescription": "Позиция",
+        "featureUpgradeInfo": "Местоположение воздушного судна дано с указанием широты и долготы.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.squawk": {
+        "featureDescription": "Код Squawk",
+        "featureGroup": "Flight details",
+        "featureId": 118,
+        "featureInfo": "Четырёхзначный код, приписанный рейсу службой управления воздушного движения, чтобы отметить его на мониторе локатора.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 165,
+        "featureUpgradeDescription": "Код Squawk",
+        "featureUpgradeInfo": "Squawk код - это четерёхзначный код, приписанный рейсу службой управления воздушного движения, чтобы отметить его на мониторе локатора.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.track": {
+        "featureDescription": "Курс",
+        "featureGroup": "Flight details",
+        "featureId": 145,
+        "featureInfo": "Направление воздушного судна",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 162,
+        "featureUpgradeDescription": "Курс",
+        "featureUpgradeInfo": "Направление воздушного судна",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.vertical-speed": {
+        "featureDescription": "Вертикальная скорость",
+        "featureGroup": "Flight details",
+        "featureId": 119,
+        "featureInfo": "Наблюдайте, как быстро воздушное судно взлетает или снижается.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 164,
+        "featureUpgradeDescription": "Вертикальная скорость",
+        "featureUpgradeInfo": "Наблюдайте, как быстро воздушное судно взлетает или снижается.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.labels.rows": {
+        "featureDescription": "Текстовые метки",
+        "featureGroup": "Customization",
+        "featureId": 59,
+        "featureInfo": "Выбирайте, какая информация будет путешествовать вместе с иконками воздушного судна. Добавляйте такие идентификаторы, как позывной, номер рейса или регистрация и включайте дополнительную информацию о типе воздушного судна или его регистрации, высоте и скорости, пунктах вылета и прилёта. Число доступных текстовых меток  зависит от вашего плана подписки.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 210,
+        "featureUpgradeDescription": "Текстовые метки воздушных судов",
+        "featureUpgradeInfo": "Выбирайте, какая информация будет путешествовать вместе с иконками воздушного судна. Добавляйте такие идентификаторы, как позывной, номер рейса или регистрация и включайте дополнительную информацию о типе воздушного судна или его регистрации, высоте и скорости, пунктах вылета и прилёта. Число доступных текстовых меток  зависит от вашего плана подписки.",
+        "planLimits": {
+            "Basic": 1,
+            "Silver": 4,
+            "Gold": 4,
+            "Business": 4
+        },
+        "unit": null
+    },
+    "map.layer.atc": {
+        "featureDescription": "Границы приема-передачи УВД",
+        "featureGroup": "Map layers",
+        "featureId": 70,
+        "featureInfo": "Смотрите, кто из авиадиспетчеров в настоящий момент ответственен за рейс, с помощью границ мировых районов полётной информации (FIR) и верхнего воздушного пространства (UIR), отображаемых на карте. Текущая зона управления воздушным движением для отдельного рейса также отображается в информационном блоке этого рейса.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 340,
+        "featureUpgradeDescription": "Границы приема-передачи УВД",
+        "featureUpgradeInfo": "Смотрите, кто из авиадиспетчеров в настоящий момент ответственен за рейс, с помощью границ мировых районов полётной информации (FIR) и верхнего воздушного пространства (UIR), отображаемых на карте. Текущая зона управления воздушным движением для отдельного рейса также отображается в информационном блоке этого рейса.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.ndb": {
+        "featureDescription": "Навигационные средства",
+        "featureGroup": "Aeronautical charts",
+        "featureId": 142,
+        "featureInfo": "Просматривайте на карте навигационные средства (радиомаяки), которые помогают навигации воздушного судна пилотами.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 505,
+        "featureUpgradeDescription": "Навигационные средства",
+        "featureUpgradeInfo": "Просматривайте на карте навигационные средства (радиомаяки), которые помогают навигации воздушного судна пилотами.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.ndb.alt.high": {
+        "featureDescription": "Большая высота",
+        "featureGroup": "Aeronautical charts",
+        "featureId": 133,
+        "featureInfo": "Просматривайте на карте навигационные путевые точки и воздушные трассы для рейсов, осуществляющихся на большой высоте.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 520,
+        "featureUpgradeDescription": "Карты полётов на больших высотах",
+        "featureUpgradeInfo": "Просматривайте на карте навигационные путевые точки и воздушные трассы для рейсов, осуществляющихся на большой высоте.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.ndb.alt.low": {
+        "featureDescription": "Малая высота",
+        "featureGroup": "Aeronautical charts",
+        "featureId": 132,
+        "featureInfo": "Просматривайте на карте навигационные путевые точки и воздушные трассы для рейсов, осуществляющихся на малой высоте.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 510,
+        "featureUpgradeDescription": "Карты полётов на малых высотах",
+        "featureUpgradeInfo": "Просматривайте на карте навигационные путевые точки и воздушные трассы для рейсов, осуществляющихся на малой высоте.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.ndb.charts": {
+        "featureDescription": "Аэронавигационные карты",
+        "featureGroup": "Aeronautical charts",
+        "featureId": 71,
+        "featureInfo": "Чтобы безопасно добираться до места назначения и поддерживать дистанцию по отношению к другим рейсам, воздушные суда следуют воздушными трассами между навигационными путевыми точками. Просматривайте маршрут рейса с нашими картами большой и малой высоты, а также специальным слоем навигационных средств.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 500,
+        "featureUpgradeDescription": "Аэронавигационные карты",
+        "featureUpgradeInfo": "Чтобы безопасно добираться до места назначения и поддерживать дистанцию по отношению к другим рейсам, воздушные суда следуют воздушными трассами между навигационными путевыми точками. Просматривайте маршрут рейса с нашими картами большой и малой высоты, а также специальным слоем навигационных средств.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.tracks.oceanic": {
+        "featureDescription": "Океанические треки",
+        "featureGroup": "Map layers",
+        "featureId": 72,
+        "featureInfo": "На таких территориях, как Атлантический и Тихий океаны, рейсы следуют организованными треками, чтобы оставаться безопасно разделенными, в то время как за их пределами воздушные суда контролируются управлением воздушного движения. Треки обновляются дважды в день с учётом ветра и погоды. Просмотривайте эти треки на нашей карте в режиме реального времени и изучайте, как рейсы следуют  по ним, чтобы безопасно перемещаться над открытым океаном.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 350,
+        "featureUpgradeDescription": "Океанические треки",
+        "featureUpgradeInfo": "На таких территориях, как Атлантический и Тихий океаны, рейсы следуют организованными треками, чтобы оставаться безопасно разделенными, в то время как за их пределами воздушные суда постоянно контролируются управлением воздушного движения. Треки обновляются дважды в день с учётом ветра и погоды. Просматривайте эти треки на нашей карте в режиме реального времени и изучайте, как рейсы следуют  по ним, чтобы безопасно перемещаться над открытым океаном.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.vor": {
+        "featureDescription": "Данные РМА",
+        "featureGroup": null,
+        "featureId": 92,
+        "featureInfo": null,
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 1000,
+        "featureUpgradeDescription": "Данные РМА",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather": {
+        "featureDescription": "Актуальная погода",
+        "featureGroup": "Weather layers",
+        "featureId": 63,
+        "featureInfo": "Солнечно и тепло в Мадриде, дождливо и промозгло в Сан-Франциско. Проверяйте актуальную погоду, в том числе температуру и метеоусловия, в более 3000 аэропортов по всему миру на нашей карте в режиме реального времени.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 270,
+        "featureUpgradeDescription": "Актуальная погода",
+        "featureUpgradeInfo": "Солнечно и тепло в Мадриде, дождливо и промозгло в Сан-Франциско. Проверяйте актуальную погоду, в том числе температуру и метеоусловия, в более 3000 аэропортов по всему миру на нашей карте в режиме реального времени.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.airmet": {
+        "featureDescription": "AIRMETs/SIGMETs",
+        "featureGroup": "Weather layers",
+        "featureId": 110,
+        "featureInfo": "Данные AIRMETS / SIGMETS предоставлены организациями, прогнозирующими неблагоприятные погодные условия, потенциально опасные для полётов. Информация обновляется каждые 30 минут. Нажмите на AIRMET/SIGMET, чтобы увидеть полный текст.",
+        "featurePlans": [
+            "Business"
+        ],
+        "featureSortOrder": 300,
+        "featureUpgradeDescription": "AIRMETs/SIGMETs",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.auradar": {
+        "featureDescription": "Австралийский радар",
+        "featureGroup": "Weather layers",
+        "featureId": 159,
+        "featureInfo": "Австралийский радар это совмещенное изображение осадков по всей Австралии с разрешением в 2 км.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 300,
+        "featureUpgradeDescription": "Австралийский радар",
+        "featureUpgradeInfo": "Австралийский радар это совмещенное изображение осадков по всей Австралии с разрешением в 2 км.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.cat": {
+        "featureDescription": "Clear-air turbulence",
+        "featureGroup": "Weather layers",
+        "featureId": 157,
+        "featureInfo": "Clear-air turbulence is the turbulent movement of air without any visual clues, this can often impact aviation. See clear air turbulence at various altitudes for a specific time in the future overlayed on our live map.",
+        "featurePlans": [
+            "Business"
+        ],
+        "featureSortOrder": 300,
+        "featureUpgradeDescription": "Clear-air turbulence",
+        "featureUpgradeInfo": "Clear-air turbulence is the turbulent movement of air without any visual clues, this can often impact aviation. See clear air turbulence at various altitudes for a specific time in the future overlayed on our live map.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.highlevel": {
+        "featureDescription": "Неблагоприятные погодные условия на большой высоте",
+        "featureGroup": "Weather layers",
+        "featureId": 112,
+        "featureInfo": "Forecasted areas of high level significant weather, such as wind patterns and storm activity, available for up to a 24-hour period in six hour increments.",
+        "featurePlans": [
+            "Business"
+        ],
+        "featureSortOrder": 310,
+        "featureUpgradeDescription": "Неблагоприятные погодные условия на большой высоте",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.icing": {
+        "featureDescription": "Icing",
+        "featureGroup": "Weather layers",
+        "featureId": 155,
+        "featureInfo": "Icing can lead to ice build up on aircraft which can be extremely dangerous for pilots. See forecasted icing at various altitudes for a specific time in the future overlayed on our live map.",
+        "featurePlans": [
+            "Business"
+        ],
+        "featureSortOrder": 300,
+        "featureUpgradeDescription": "Icing",
+        "featureUpgradeInfo": "Icing can lead to ice build up on aircraft which can be extremely dangerous for pilots. See forecasted icing at various altitudes for a specific time in the future overlayed on our live map.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.ict": {
+        "featureDescription": "In cloud turbulence",
+        "featureGroup": "Weather layers",
+        "featureId": 156,
+        "featureInfo": "Currents and water vapor in and around clouds can cause turbulence, this can often impact aviation. See in cloud turbulence at various altitudes for a specific time in the future overlayed on our live map.",
+        "featurePlans": [
+            "Business"
+        ],
+        "featureSortOrder": 300,
+        "featureUpgradeDescription": "In cloud turbulence",
+        "featureUpgradeInfo": "Currents and water vapor in and around clouds can cause turbulence, this can often impact aviation. See in cloud turbulence at various altitudes for a specific time in the future overlayed on our live map.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.lightning": {
+        "featureDescription": "Молнии",
+        "featureGroup": "Weather layers",
+        "featureId": 113,
+        "featureInfo": "На карте показаны зарегистрированные удары молний, информация обновляется каждые 15 минут.",
+        "featurePlans": [
+            "Business"
+        ],
+        "featureSortOrder": 320,
+        "featureUpgradeDescription": "Молнии",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.naradar": {
+        "featureDescription": "Северо-Американский радар",
+        "featureGroup": "Weather layers",
+        "featureId": 158,
+        "featureInfo": "Северо-Американский радар высокого разрешения - это совмещенное изображение с нескольких радаров, покрывающих континентальную часть США, Аляску, Гавайи, Пуэрто-Рико и южную часть Канады. Северо-Американский радар высокого разрешения предлагает разрешение 1 км и частые обновления для точной информации о погодных условиях.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 300,
+        "featureUpgradeDescription": "Северо-Американский радар",
+        "featureUpgradeInfo": "Северо-Американский радар высокого разрешения - это совмещенное изображение с нескольких радаров, покрывающих континентальную часть США, Аляску, Гавайи, Пуэрто-Рико и южную часть Канады. Северо-Американский радар высокого разрешения предлагает разрешение 1 км и частые обновления для точной информации о погодных условиях.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.radar": {
+        "featureDescription": "Интенсивные осадки",
+        "featureGroup": "Weather layers",
+        "featureId": 109,
+        "featureInfo": "Просматривайте погоду, которая создаёт трудности для полётов, на нашей карте в режиме реального времени. Глобальный Радар отображает области интенсивных осадков по всему миру, таким образом, вы сможете узнать, какое влияние они могут оказывать на рейсы. Слой интенсивных осадков обновляется каждые 30 минут.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 295,
+        "featureUpgradeDescription": "Интенсивные осадки",
+        "featureUpgradeInfo": "Просматривайте погоду, которая создаёт трудности для полётов, на нашей карте в режиме реального времени. Глобальный Радар отображает области интенсивных осадков по всему миру, таким образом, вы сможете узнать, какое влияние они могут оказывать на рейсы. Слой интенсивных осадков обновляется каждые 30 минут.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.radar.global": {
+        "featureDescription": "Общее количество осадков",
+        "featureGroup": "Weather layers",
+        "featureId": 149,
+        "featureInfo": "Актуальное отображение осадков по всему миру на нашей карте в режиме реального времени. Слой общего количества осадков обновляется 12 раз в день.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 290,
+        "featureUpgradeDescription": "Общее количество осадков",
+        "featureUpgradeInfo": "Актуальное отображение осадков по всему миру на нашей карте в режиме реального времени. Слой общего количества осадков обновляется 12 раз в день.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.satellite": {
+        "featureDescription": "Облачность",
+        "featureGroup": "Weather layers",
+        "featureId": 108,
+        "featureInfo": "Отображение на карте облачного покрова по всему миру благодаря Глобальному ИК-спутнику, информация обновляется каждые 60 минут.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 280,
+        "featureUpgradeDescription": "Облачность",
+        "featureUpgradeInfo": "Глобальный ИК-спутник позволяет вам видеть облачного покрова по всему миру на нашей карте в режиме реального времени, информация обновляется каждые 60 минут.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.volcano": {
+        "featureDescription": "Извержения вулканов",
+        "featureGroup": "Weather layers",
+        "featureId": 111,
+        "featureInfo": "Извержения вулканов могут значительно влиять на авиацию (помните исландский Эйяфьядлайёкюдль?). Проверяйте активные вулканы и местоположение любых облаков пепла, влияющих на полёты, на нашей карте в режиме реального времени.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 260,
+        "featureUpgradeDescription": "Извержения вулканов",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.wind": {
+        "featureDescription": "Ветры",
+        "featureGroup": "Weather layers",
+        "featureId": 150,
+        "featureInfo": "На нашей карте с шагом в 1000 футов (в диапазоне от 1000 до 51 000 футов) в режиме реального времени скорость и направление ветра отображаются либо как дуги ветра, либо как цветовой градиент. Слой ветров обновляется 12 раз в день.",
+        "featurePlans": [
+            "Business"
+        ],
+        "featureSortOrder": 298,
+        "featureUpgradeDescription": "Ветры",
+        "featureUpgradeInfo": "На нашей карте с шагом в 1000 футов (в диапазоне от 1000 до 51 000 футов) в режиме реального времени скорость и направление ветра отображаются либо как дуги ветра, либо как цветовой градиент. Слой ветров обновляется 12 раз в день.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.search": {
+        "featureDescription": "Поиск",
+        "featureGroup": null,
+        "featureId": 94,
+        "featureInfo": null,
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 1000,
+        "featureUpgradeDescription": "Поиск",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.status.flight": {
+        "featureDescription": "Статус рейса",
+        "featureGroup": "Aircraft on map",
+        "featureId": 104,
+        "featureInfo": "Просматривайте номер рейса, авиакомпанию, аэропорт отправления, пункт назначения, расписание рейса, ожидаемое время прилёта, актуальное время вылета, среднее время в пути, средние показатели задержки и дальность полёта.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 130,
+        "featureUpgradeDescription": "Статус рейса",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.tracking.live": {
+        "featureDescription": "Отслеживание рейсов в режиме реального времени",
+        "featureGroup": "Live flight tracking",
+        "featureId": 47,
+        "featureInfo": "Получайте данные о рейсах по всему миру в режиме реального времени.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 130,
+        "featureUpgradeDescription": "Отслеживание рейсов в режиме реального времени",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.widgets.bookmarks.max": {
+        "featureDescription": "Избранное",
+        "featureGroup": "Customization",
+        "featureId": 162,
+        "featureInfo": "Создавайте закладки для более простого доступа к сохранённым режимам настройки и предпочтениям. Закладки могут включать в себя местоположение на карте, слои карт, настройки и фильтры. Число доступных закладок зависит от вашего плана подписки.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 240,
+        "featureUpgradeDescription": "Избранное",
+        "featureUpgradeInfo": "Создавайте закладки для более простого доступа к сохранённым режимам настройки и предпочтениям. Закладки могут включать в себя местоположение на карте, слои карт, настройки и фильтры. Число доступных закладок зависит от вашего плана подписки.",
+        "planLimits": {
+            "Basic": 1,
+            "Silver": 10,
+            "Gold": 25,
+            "Business": 60
+        },
+        "unit": null
+    },
+    "support.level": {
+        "featureDescription": "Приоритетная поддержка клиентов",
+        "featureGroup": "General",
+        "featureId": 83,
+        "featureInfo": "Запросы в службу поддержки от Silver и Gold подписчиков имеют приоритет.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 100,
+        "featureUpgradeDescription": "Приоритетная поддержка клиентов",
+        "featureUpgradeInfo": "Запросы в службу поддержки от Silver и Gold подписчиков имеют приоритет.",
+        "planLimits": {
+            "Silver": "Yes",
+            "Gold": "Yes",
+            "Business": "Yes"
+        },
+        "unit": null
+    },
+    "support.platform": {
+        "featureDescription": "Кроссплатформенная поддержка",
+        "featureGroup": "General",
+        "featureId": 138,
+        "featureInfo": "Наслаждайтесь дополнительными функциями с Silver или Gold подписками на всех платформах, где доступен Flightradar24.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 105,
+        "featureUpgradeDescription": "Кроссплатформенная поддержка",
+        "featureUpgradeInfo": "Наслаждайтесь дополнительными функциями с Silver или Gold подписками на всех платформах, где доступен Flightradar24.",
+        "planLimits": {
+            "Basic": "Limited",
+            "Silver": "Yes",
+            "Gold": "Yes",
+            "Business": "Yes"
+        },
+        "unit": null
+    },
+    "usage.rights": {
+        "featureDescription": "Разрешённые типы использования",
+        "featureGroup": "General",
+        "featureId": 82,
+        "featureInfo": "Коммерческое использование Flightradar24 за рамками Business подписки запрещено в соответствии с <a href=\"/terms-and-conditions\" target=\"_blank\">Условиями предоставления сервисов (Terms of Service)</a> Flightradar24.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 125,
+        "featureUpgradeDescription": "Разрешённые типы использования",
+        "featureUpgradeInfo": null,
+        "planLimits": {
+            "Basic": "Private",
+            "Silver": "Private",
+            "Gold": "Private",
+            "Business": "Private & Business"
+        },
+        "unit": null
+    },
+    "user.alerts.max": {
+        "featureDescription": "Настраиваемые оповещения",
+        "featureGroup": "Customization",
+        "featureId": 131,
+        "featureInfo": "Позвольте рейсам находиться самим. Создавайте оповещения по номеру рейса, регистрации, авиакомпании или типу воздушного судна и получайте уведомление, когда появится рейс, отвечающий вашим критериям. Количество оповещений, которые вы можете создавать, зависит от вашего плана подписки.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 215,
+        "featureUpgradeDescription": "Настраиваемые оповещения",
+        "featureUpgradeInfo": "Позвольте рейсам находиться самим. Создавайте оповещения по номеру рейса, регистрации, авиакомпании или типу воздушного судна и получайте уведомление, когда появится рейс, отвечающий вашим критериям. Количество оповещений, которые вы можете создавать, зависит от вашего плана подписки.",
+        "planLimits": {
+            "Silver": 10,
+            "Gold": 25,
+            "Business": 60
+        },
+        "unit": null
+    },
+    "user.sessions.max": {
+        "featureDescription": "Сессии",
+        "featureGroup": "General",
+        "featureId": 103,
+        "featureInfo": "Аккаунты действительны для одного пользователя и могут использоваться одновременно на 3 или 4 устройствах (браузеры/планшеты/телефоны) в зависимости от плана подписки.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 110,
+        "featureUpgradeDescription": "Сессии",
+        "featureUpgradeInfo": null,
+        "planLimits": {
+            "Silver": 3,
+            "Gold": 3,
+            "Business": 4
+        },
+        "unit": null
+    },
+    "user.users": {
+        "featureDescription": "Users",
+        "featureGroup": "General",
+        "featureId": 154,
+        "featureInfo": "Each Flightradar24 account is valid for a single user. If you are interested in multi-user accounts please <a href=\"/contact-us\">contact our business team</a> for options and pricing.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 100,
+        "featureUpgradeDescription": "Users",
+        "featureUpgradeInfo": "Each Flightradar24 account is valid for a single user. If you are interested in multi-user accounts please <a href=\"/contact-us\">contact our business team</a> for options and pricing.",
+        "planLimits": {
+            "Silver": 1,
+            "Gold": 1,
+            "Business": 1
+        },
+        "unit": null
+    },
+    "map.view.3d.mobile": {
+        "featureId": 155,
+        "featureGroup": "Map views",
+        "featureSortOrder": 400,
+        "featureDescription": "3D режим",
+        "featureUpgradeDescription": "3D режим",
+        "featureInfo": "Follow a 3D model over high-resolution satellite and terrain imagery. Now also see other nearby flights and aircraft shadows. Access three 3D sessions using a free Basic account and get more sessions by watching an ad. Unlimited access to 3D view is available with any paid Flightradar24 subscription.",
+        "featureUpgradeInfo": "3D режим, включая режим с неограниченным числом сессий, доступен для любых планов подписки Flightradar24.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Basic": -2,
+            "Silver": -1,
+            "Gold": -1,
+            "Business": -1
+        },
+        "unit": "session"
+    },
+    "airport.panel.latest.events": {
+        "featureId": 1000,
+        "featureGroup": "Airport",
+        "featureSortOrder": 130,
+        "featureDescription": "Недавние события",
+        "featureUpgradeDescription": "Недавние события",
+        "featureInfo": "Посмотрите общее количество взлётов и посадок за последние 7 дней для выбранного вами аэропорта.\n\nПоследние события доступны с подписками Silver или Gold.",
+        "featureUpgradeInfo": "Посмотрите общее количество взлётов и посадок за последние 7 дней для выбранного вами аэропорта.\n\nПоследние события доступны с подписками Silver или Gold.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Silver": -1,
+            "Gold": -1,
+            "Business": -1
+        },
+        "unit": null
+    },
+    "airport.panel.movements.per.day": {
+        "featureId": 1001,
+        "featureGroup": "Airport",
+        "featureSortOrder": 130,
+        "featureDescription": "Движения за день",
+        "featureUpgradeDescription": "Движения за день",
+        "featureInfo": "Посмотрите общее количество посадок и взлётов с разбивкой по дням за последние 7 дней.\n\nДанные по движениям за день доступны с подпиской Gold.",
+        "featureUpgradeInfo": "Посмотрите общее количество посадок и взлётов с разбивкой по дням за последние 7 дней.\n\nДанные по движениям за день доступны с подпиской Gold.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Gold": -1,
+            "Business": -1
+        },
+        "unit": null
+    },
+    "airport.panel.runway.usage": {
+        "featureId": 1002,
+        "featureGroup": "Airport",
+        "featureSortOrder": 130,
+        "featureDescription": "Использование взлётно-посадочной полосы",
+        "featureUpgradeDescription": "Использование взлётно-посадочной полосы",
+        "featureInfo": "Посмотрите данные за последние 7 дней о взлётах и посадках по каждой взлётно-посадочной полосе выбранного аэропорта.\n\nДанные по использованию взлётно-посадочной полосы доступны с подпиской Gold.",
+        "featureUpgradeInfo": "Посмотрите данные за последние 7 дней о взлётах и посадках по каждой взлётно-посадочной полосе выбранного аэропорта.\n\nДанные по использованию взлётно-посадочной полосы доступны с подпиской Gold.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Gold": -1,
+            "Business": -1
+        },
+        "unit": null
+    },
+    "airport.panel.runway.details": {
+        "featureId": 1003,
+        "featureGroup": "Airport",
+        "featureSortOrder": 130,
+        "featureDescription": "Информация об Аэропорте и Взлётно-Посадочной Полосе",
+        "featureUpgradeDescription": "Информация об Аэропорте и Взлётно-Посадочной Полосе",
+        "featureInfo": "Разблокируйте дополнительную информацию об аэропорте и его взлётно-посадочных полосах, включая их номер, длину и тип покрытия.\n\nСведения об аэропорте и взлётно-посадочных полосах доступны с подписками Silver или Gold.",
+        "featureUpgradeInfo": "Разблокируйте дополнительную информацию об аэропорте и его взлётно-посадочных полосах, включая их номер, длину и тип покрытия.\n\nСведения об аэропорте и взлётно-посадочных полосах доступны с подписками Silver или Gold.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Silver": -1,
+            "Gold": -1,
+            "Business": -1
+        },
+        "unit": null
+    },
+    "airport.panel.arrivals_departures": {
+        "featureId": 1004,
+        "featureGroup": "Airport",
+        "featureSortOrder": 130,
+        "featureDescription": "Прилёты и вылеты",
+        "featureUpgradeDescription": "Прилёты и вылеты",
+        "featureInfo": "Откройте доступ к дополнительным часам данных о прилётах и вылетах, включая номер рейса и пункт отправления. 12 часов доступны по умолчанию. Создайте бесплатный аккаунт, чтобы разблокировать 24 часа, или оформите подписку Silver (36) или Gold (48).",
+        "featureUpgradeInfo": "Откройте доступ к дополнительным часам данных о прилётах и вылетах, включая номер рейса и пункт отправления. 12 часов доступны по умолчанию. Создайте бесплатный аккаунт, чтобы разблокировать 24 часа, или оформите подписку Silver (36) или Gold (48).",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Basic": 24,
+            "Silver": 36,
+            "Gold": 48,
+            "Business": 72
+        },
+        "unit": "hour-time"
+    },
+    "airport.panel.onground": {
+        "featureId": 1005,
+        "featureGroup": "Airport",
+        "featureSortOrder": 130,
+        "featureDescription": "Воздушное судно на земле",
+        "featureUpgradeDescription": "Воздушное судно на земле",
+        "featureInfo": "Получите доступ к списку самолётов, отмеченных как приземлившиеся в выбранном аэропорту. Воздушное судно остаётся в списке, пока мы не сможем подтвердить, что оно покинуло аэропорт.\nФункция «Воздушные суда на земле» доступна с подпиской Silver (за последние 7 дней) и Gold (30).",
+        "featureUpgradeInfo": "Получите доступ к списку самолётов, отмеченных как приземлившиеся в выбранном аэропорту. Воздушное судно остаётся в списке, пока мы не сможем подтвердить, что оно покинуло аэропорт.\nФункция «Воздушные суда на земле» доступна с подпиской Silver (за последние 7 дней) и Gold (30).",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Basic": 2,
+            "Silver": 168,
+            "Gold": 720,
+            "Business": 2160
+        },
+        "unit": "hour-time"
+    },
+    "history.airport.days": {
+        "featureId": 1006,
+        "featureGroup": "Airport",
+        "featureSortOrder": 130,
+        "featureDescription": "Просмотр истории рейсов в аэропорту",
+        "featureUpgradeDescription": "Просмотр истории рейсов в аэропорту",
+        "featureInfo": "Посмотрите исторические данные о взлетах и посадках для каждого аэропорта, включая авиакомпанию, позывной, номер рейса, тип самолета и время полёта.\n\nКроме того, вы можете просмотреть четыре последние посадки и взлёта для выбранного вами аэропорта. Насколько далеко назад вы сможете заглянуть, зависит от вашей подписки. \n\nИстория полетов в аэропортах доступна для подписки Silver или Gold. ",
+        "featureUpgradeInfo": "Посмотрите исторические данные о взлетах и посадках для каждого аэропорта, включая авиакомпанию, позывной, номер рейса, тип самолета и время полёта.\n\nКроме того, вы можете просмотреть четыре последние посадки и взлёта для выбранного вами аэропорта. Насколько далеко назад вы сможете заглянуть, зависит от вашей подписки. \n\nИстория полетов в аэропортах доступна для подписки Silver или Gold. ",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Silver": 90,
+            "Gold": 365,
+            "Business": 1095
+        },
+        "unit": "day"
+    }
+}

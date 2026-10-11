@@ -1,0 +1,467 @@
+
+<!doctype html>
+<html class="no-js">
+
+    <head>
+        <meta charset="utf-8">
+        <title>FR24</title>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+
+        <link href="//ajax.googleapis.com" rel="dns-prefetch">
+
+        <link href="../assets/css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="subscription-wrapper">
+
+            <div class="subscription-brief">
+                <h1 class="subscription-header">
+                    The #1 choice for the serious Flightradar24 user.                </h1>
+                <h2 class="subscription-everything-in">
+                    Всё для Silver                </h2>
+                <div class="subscription-plus">
+                    <span>+</span>
+                </div>
+                <ul id="subscription-list" class="list list--tick subscription-list">
+	                <li id="hidden-list-item" class="list__item list__item--checked list__item--highlighted hidden">
+                        <a href="#" class="link">
+                            <span></span>
+                        </a>
+                    </li>
+                    <li class="list__item list__item--checked">
+                        <a href="#group-aeronautical-charts" class="link">
+                            <span>Аэронавигационные карты</span>
+                        </a>
+                    </li>
+                    <li class="list__item list__item--checked">
+                        <a href="#group-weather-layers" class="link">
+                            <span>Авиационные погодные слои</span>
+                        </a>
+                    </li>
+                    <li class="list__item list__item--checked">
+                        <a href="#group-flight-details" class="link">
+                            <span>Больше информации о рейсе</span>
+                        </a>
+                    </li>
+                    <li class="list__item list__item--checked">
+                        <a href="#map.layer.atc" class="link">
+                            <span>Границы приема-передачи УВД</span>
+                        </a>
+                    </li>
+                    <li class="list__item list__item--checked">
+                        <a href="#history.playback.flight.days" class="link">
+                            <span>Playback для рейса (365 дней)</span>
+                        </a>
+                    </li>
+                </ul>
+                <br/><br/>
+                <p class="subscription-available-devices">Используйте подписку на любом смартфоне, планшете или компьютере.</p>
+            </div>
+
+            <div id="subscription-gold-features" class="subscription-overview">
+                <h3 class="subscription-overview-header">Все функции для Gold</h3>
+                <ul class="subscription-list-overview">
+                <li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-general">
+                            <img src="../assets/img/subscription/subscription-list-general.png" class="subscription-list-overview__header-img" width="20" height="17.894736842105" alt="">
+                            <span>Общее</span>
+                        </div><div id="adverts" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Реклама отключена</span>
+                            <span>Пользователи с планом Free видят рекламу в приложении, в то время как Silver и Gold подписчики - нет. Оформите подписку, чтобы пользоваться Flightradar24 быстрее и без рекламы.</span>
+                        </div><div id="support.level" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Приоритетная поддержка клиентов</span>
+                            <span>Запросы в службу поддержки от Silver и Gold подписчиков имеют приоритет.</span>
+                        </div><div id="support.platform" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Кроссплатформенная поддержка</span>
+                            <span>Наслаждайтесь дополнительными функциями с Silver или Gold подписками на всех платформах, где доступен Flightradar24.</span>
+                        </div><div id="user.sessions.max" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Сессии (3)</span>
+                            <span>Аккаунты действительны для одного пользователя и могут использоваться одновременно на 3 или 4 устройствах (браузеры/планшеты/телефоны) в зависимости от плана подписки.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 3</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 3</span>
+                                </div>
+                            </div>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-airport">
+                            <img src="../assets/img/subscription/subscription-list-general.png" class="subscription-list-overview__header-img" width="20" height="17.894736842105" alt="">
+                            <span>Airport</span>
+                        </div><div id="airport.panel.movements.per.day" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Движения за день</span>
+                            <span>Посмотрите общее количество посадок и взлётов с разбивкой по дням за последние 7 дней.
+
+Данные по движениям за день доступны с подпиской Gold.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: без лимита</span>
+                                </div>
+                            </div>
+                        </div><div id="airport.panel.runway.usage" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Использование взлётно-посадочной полосы</span>
+                            <span>Посмотрите данные за последние 7 дней о взлётах и посадках по каждой взлётно-посадочной полосе выбранного аэропорта.
+
+Данные по использованию взлётно-посадочной полосы доступны с подпиской Gold.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: без лимита</span>
+                                </div>
+                            </div>
+                        </div><div id="airport.panel.runway.details" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Информация об Аэропорте и Взлётно-Посадочной Полосе</span>
+                            <span>Разблокируйте дополнительную информацию об аэропорте и его взлётно-посадочных полосах, включая их номер, длину и тип покрытия.
+
+Сведения об аэропорте и взлётно-посадочных полосах доступны с подписками Silver или Gold.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: без лимита</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: без лимита</span>
+                                </div>
+                            </div>
+                        </div><div id="airport.panel.arrivals_departures" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Прилёты и вылеты (48 часов)</span>
+                            <span>Откройте доступ к дополнительным часам данных о прилётах и вылетах, включая номер рейса и пункт отправления. 12 часов доступны по умолчанию. Создайте бесплатный аккаунт, чтобы разблокировать 24 часа, или оформите подписку Silver (36) или Gold (48).</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 24 часа</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 36 часов</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 48 часов</span>
+                                </div>
+                            </div>
+                        </div><div id="airport.panel.onground" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Воздушное судно на земле (30 дней)</span>
+                            <span>Получите доступ к списку самолётов, отмеченных как приземлившиеся в выбранном аэропорту. Воздушное судно остаётся в списке, пока мы не сможем подтвердить, что оно покинуло аэропорт.
+Функция «Воздушные суда на земле» доступна с подпиской Silver (за последние 7 дней) и Gold (30).</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 2 часа</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 7 дней</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 30 дней</span>
+                                </div>
+                            </div>
+                        </div><div id="history.airport.days" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Просмотр истории рейсов в аэропорту (365 дней)</span>
+                            <span>Посмотрите исторические данные о взлетах и посадках для каждого аэропорта, включая авиакомпанию, позывной, номер рейса, тип самолета и время полёта.
+
+Кроме того, вы можете просмотреть четыре последние посадки и взлёта для выбранного вами аэропорта. Насколько далеко назад вы сможете заглянуть, зависит от вашей подписки. 
+
+История полетов в аэропортах доступна для подписки Silver или Gold. </span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 90 дней</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 365 дней</span>
+                                </div>
+                            </div>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-aircraft-details">
+                            <img src="../assets/img/subscription/subscription-list-aircraft-details.png" class="subscription-list-overview__header-img" width="20" height="20" alt="">
+                            <span>Информация о воздушном судне</span>
+                        </div><div id="map.info.aircraft.msn" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Серийный номер воздушного судна</span>
+                            <span>Просматривайте уникальный серийный номер воздушного судна (MSN), присваиваемый производителем, который остается прежним даже при изменении регистрации воздушного судна.</span>
+                        </div><div id="map.info.aircraft.age" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Возраст воздушного судна</span>
+                            <span>Интересно, абсолютно ли новый борт перед вами или двадцатилетний? Проверяйте возраст воздушного судна, которое вы отслеживаете, и когда оно впервые взлетело.</span>
+                        </div><div id="map.info.aircraft.country" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Страна регистрации воздушного судна</span>
+                            <span>На панели информации о рейсе можно увидеть страну регистрации каждого самолета.</span>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-flight-details">
+                            <img src="../assets/img/subscription/subscription-list-flight-details.png" class="subscription-list-overview__header-img" width="20" height="20" alt="">
+                            <span>Информация о рейсе</span>
+                        </div><div id="map.info.flight.vertical-speed" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Вертикальная скорость</span>
+                            <span>Наблюдайте, как быстро воздушное судно взлетает или снижается.</span>
+                        </div><div id="map.info.flight.squawk" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Код Squawk</span>
+                            <span>Четырёхзначный код, приписанный рейсу службой управления воздушного движения, чтобы отметить его на мониторе локатора.</span>
+                        </div><div id="map.info.flight.ems.alt.gps" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Высота по GPS (ФУНКЦИЯ ТОЛЬКО ДЛЯ GOLD)</span>
+                            <span>Высота воздушного судна, определяемая с помощью GPS, определяется по эллипсоиде всей Земли и не обязательно соотносится с высотой над поверхностью земли.</span>
+                        </div><div id="map.info.flight.ems.tas" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Истинная воздушная скорость (ФУНКЦИЯ ТОЛЬКО ДЛЯ GOLD)</span>
+                            <span>Истинная воздушная скорость - это скорость воздушного судна, скорректированная по местоположению и приборной погрешности с учётом давления и температуры.</span>
+                        </div><div id="map.info.flight.ems.wind" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Ветер (ФУНКЦИЯ ТОЛЬКО ДЛЯ GOLD)</span>
+                            <span>Проверяйте, летит ли рейс с попутным ветром или против него. Просматривайте отчёты о скорости ветра и его направлении, полученные непосредственно с борта воздушного судна.</span>
+                        </div><div id="map.info.flight.ems.ias" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Приборная скорость (ФУНКЦИЯ ТОЛЬКО ДЛЯ GOLD)</span>
+                            <span>Приборная скорость - это скорость воздушного судна, регистрируемая индикаторами воздушной скорости без каких-либо корректировок с учётом температуры или давления.</span>
+                        </div><div id="map.info.flight.ems.oat" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Температура (ФУНКЦИЯ ТОЛЬКО ДЛЯ GOLD)</span>
+                            <span>Просматривайте отчёты о температуре воздуха за бортом прямо с воздушного судна.</span>
+                        </div><div id="map.info.flight.airspace" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">FIR/UIR (ФУНКЦИЯ ТОЛЬКО ДЛЯ GOLD)</span>
+                            <span>Смотрите, кто из авиадиспетчеров в настоящий момент ответственен за рейс, благодаря данным мировых районов полётной информации (FIR) и верхнего воздушного пространства (UIR).</span>
+                        </div><div id="map.info.flight.ems.mach" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Мах (ФУНКЦИЯ ТОЛЬКО ДЛЯ GOLD)</span>
+                            <span>Число Маха - это отношение истинной воздушной скорости к скорости звука на высоте данного рейса.</span>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-past-flights">
+                            <img src="../assets/img/subscription/subscription-list-flights.png" class="subscription-list-overview__header-img" width="20" height="16" alt="">
+                            <span>Прошлые рейсы</span>
+                        </div><div id="history.flight.days" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">История рейса (365 дней)</span>
+                            <span>Получайте информацию о предыдущих рейсах, включая тип воздушного судна, регистрацию, аэропорт отправления и пункт назначения, запланированное и актуальное время вылета и прилёта. Как далеко в историю вы сможете заглянуть, зависит от вашего плана подписки.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 7 дней</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 90 дней</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 365 дней</span>
+                                </div>
+                            </div>
+                        </div><div id="history.aircraft.days" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">История воздушного судна (365 дней)</span>
+                            <span>Ищете информацию об истории воздушного судна? Просматривайте подробности предыдущих рейсов, включая пункты отправления и назначения, запланированное и актуальное время вылета и прилёта.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 7 дней</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 90 дней</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 365 дней</span>
+                                </div>
+                            </div>
+                        </div><div id="history.playback.days" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Playback (365 дней)</span>
+                            <span>Изучайте, как выглядит воздушное пространство в опредённый момент времени в прошлом. Также для одиночных рейсов доступен playback. Как далеко в прошлое в сможете заглянуть, зависит от вашего плана подписки.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 7 дней</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 90 дней</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 365 дней</span>
+                                </div>
+                            </div>
+                        </div><div id="history.playback.flight.days" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Playback для рейса (365 дней)</span>
+                            <span>Просматривайте playback для одиночного рейса с подробной информацией о полёте и типе воздушного судна. Вы с лёгкостью можете попасть в любую точку его пути или следить за ним от взлёта до посадки.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 7 дней</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 90 дней</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 365 дней</span>
+                                </div>
+                            </div>
+                        </div><div id="history.flight.kml" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Загрузить CSV/KML файлы (25/день)</span>
+                            <span>Ручная загрузка файлов в формате CSV/KML, которые содержат информацию о предыдущих рейсах, включая метоположение, скорость и высоту. Количество доступных загрузок в день ограничено вашим планом подписки.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 10/день</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 25/день</span>
+                                </div>
+                            </div>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-customization">
+                            <img src="../assets/img/subscription/subscription-list-customization.png" class="subscription-list-overview__header-img" width="20" height="20" alt="">
+                            <span>Индивидуальные настройки</span>
+                        </div><div id="map.filters.saved" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Фильтры (25)</span>
+                            <span>Вы можете фильтровать по категории воздушного судна, например, пассажирские, грузовые и военные, либо с помощью специальных фильтров, используя позывной, аэропорт, высоту, скорость, тип самолета и регистрацию. Вы можете использовать некоторые фильтры бесплатно, например по авиакомпании, воздушным суднам, аэропортам и маршрутам. Количество фильтров которые вы можете сохранить, зависит от подписки. Доступ к фильтру по категории и расширенным фильтрам доступен только с подпиской Silver или Gold.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 1</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 10</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 25</span>
+                                </div>
+                            </div>
+                        </div><div id="map.labels.rows" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Текстовые метки (4)</span>
+                            <span>Выбирайте, какая информация будет путешествовать вместе с иконками воздушного судна. Добавляйте такие идентификаторы, как позывной, номер рейса или регистрация и включайте дополнительную информацию о типе воздушного судна или его регистрации, высоте и скорости, пунктах вылета и прилёта. Число доступных текстовых меток  зависит от вашего плана подписки.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 1</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 4</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 4</span>
+                                </div>
+                            </div>
+                        </div><div id="user.alerts.max" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Настраиваемые оповещения (25)</span>
+                            <span>Позвольте рейсам находиться самим. Создавайте оповещения по номеру рейса, регистрации, авиакомпании или типу воздушного судна и получайте уведомление, когда появится рейс, отвечающий вашим критериям. Количество оповещений, которые вы можете создавать, зависит от вашего плана подписки.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 10</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 25</span>
+                                </div>
+                            </div>
+                        </div><div id="map.widgets.bookmarks.max" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Избранное (25)</span>
+                            <span>Создавайте закладки для более простого доступа к сохранённым режимам настройки и предпочтениям. Закладки могут включать в себя местоположение на карте, слои карт, настройки и фильтры. Число доступных закладок зависит от вашего плана подписки.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 1</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 10</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 25</span>
+                                </div>
+                            </div>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-weather-layers">
+                            <img src="../assets/img/subscription/subscription-list-weather.png" class="subscription-list-overview__header-img" width="20" height="20.416666666667" alt="">
+                            <span>Погодные слои</span>
+                        </div><div id="map.layer.weather" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Актуальная погода</span>
+                            <span>Солнечно и тепло в Мадриде, дождливо и промозгло в Сан-Франциско. Проверяйте актуальную погоду, в том числе температуру и метеоусловия, в более 3000 аэропортов по всему миру на нашей карте в режиме реального времени.</span>
+                        </div><div id="map.layer.weather.satellite" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Облачность (ФУНКЦИЯ ТОЛЬКО ДЛЯ GOLD)</span>
+                            <span>Отображение на карте облачного покрова по всему миру благодаря Глобальному ИК-спутнику, информация обновляется каждые 60 минут.</span>
+                        </div><div id="map.layer.weather.radar.global" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Общее количество осадков (ФУНКЦИЯ ТОЛЬКО ДЛЯ GOLD)</span>
+                            <span>Актуальное отображение осадков по всему миру на нашей карте в режиме реального времени. Слой общего количества осадков обновляется 12 раз в день.</span>
+                        </div><div id="map.layer.weather.radar" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Интенсивные осадки (ФУНКЦИЯ ТОЛЬКО ДЛЯ GOLD)</span>
+                            <span>Просматривайте погоду, которая создаёт трудности для полётов, на нашей карте в режиме реального времени. Глобальный Радар отображает области интенсивных осадков по всему миру, таким образом, вы сможете узнать, какое влияние они могут оказывать на рейсы. Слой интенсивных осадков обновляется каждые 30 минут.</span>
+                        </div><div id="map.layer.weather.auradar" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Австралийский радар (ФУНКЦИЯ ТОЛЬКО ДЛЯ GOLD)</span>
+                            <span>Австралийский радар это совмещенное изображение осадков по всей Австралии с разрешением в 2 км.</span>
+                        </div><div id="map.layer.weather.naradar" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Северо-Американский радар (ФУНКЦИЯ ТОЛЬКО ДЛЯ GOLD)</span>
+                            <span>Северо-Американский радар высокого разрешения - это совмещенное изображение с нескольких радаров, покрывающих континентальную часть США, Аляску, Гавайи, Пуэрто-Рико и южную часть Канады. Северо-Американский радар высокого разрешения предлагает разрешение 1 км и частые обновления для точной информации о погодных условиях.</span>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-map-layers">
+                            <img src="../assets/img/subscription/subscription-list-map.png" class="subscription-list-overview__header-img" width="20" height="18.75" alt="">
+                            <span>Слои карт</span>
+                        </div><div id="map.layer.atc" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Границы приема-передачи УВД (ФУНКЦИЯ ТОЛЬКО ДЛЯ GOLD)</span>
+                            <span>Смотрите, кто из авиадиспетчеров в настоящий момент ответственен за рейс, с помощью границ мировых районов полётной информации (FIR) и верхнего воздушного пространства (UIR), отображаемых на карте. Текущая зона управления воздушным движением для отдельного рейса также отображается в информационном блоке этого рейса.</span>
+                        </div><div id="map.layer.tracks.oceanic" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Океанические треки (ФУНКЦИЯ ТОЛЬКО ДЛЯ GOLD)</span>
+                            <span>На таких территориях, как Атлантический и Тихий океаны, рейсы следуют организованными треками, чтобы оставаться безопасно разделенными, в то время как за их пределами воздушные суда контролируются управлением воздушного движения. Треки обновляются дважды в день с учётом ветра и погоды. Просмотривайте эти треки на нашей карте в режиме реального времени и изучайте, как рейсы следуют  по ним, чтобы безопасно перемещаться над открытым океаном.</span>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-map-views">
+                            <img src="../assets/img/subscription/subscription-list-general.png" class="subscription-list-overview__header-img" width="20" height="17.894736842105" alt="">
+                            <span>Режимы просмотра карты</span>
+                        </div><div id="map.view.3d.mobile" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">3D режим</span>
+                            <span>3D режим, включая режим с неограниченным числом сессий, доступен для любых планов подписки Flightradar24.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: ограничено</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: без лимита</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: без лимита</span>
+                                </div>
+                            </div>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-aeronautical-charts">
+                            <img src="../assets/img/subscription/subscription-list-charts.png" class="subscription-list-overview__header-img" width="20" height="20" alt="">
+                            <span>Аэронавигационные карты</span>
+                        </div><div id="map.layer.ndb" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Навигационные средства (ФУНКЦИЯ ТОЛЬКО ДЛЯ GOLD)</span>
+                            <span>Просматривайте на карте навигационные средства (радиомаяки), которые помогают навигации воздушного судна пилотами.</span>
+                        </div><div id="map.layer.ndb.alt.low" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Малая высота (ФУНКЦИЯ ТОЛЬКО ДЛЯ GOLD)</span>
+                            <span>Просматривайте на карте навигационные путевые точки и воздушные трассы для рейсов, осуществляющихся на малой высоте.</span>
+                        </div><div id="map.layer.ndb.alt.high" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Большая высота (ФУНКЦИЯ ТОЛЬКО ДЛЯ GOLD)</span>
+                            <span>Просматривайте на карте навигационные путевые точки и воздушные трассы для рейсов, осуществляющихся на большой высоте.</span>
+                        </div></li>                </ul>
+            </div>
+
+            <div class="__upgrade_info">
+                <table class="__upgrade_info_links_table">
+                    <tr>
+                        <td style="text-align: center; width:50%;">
+                            <a href="#open-privacy-policy" onclick="anchorClicked('open-privacy-policy')">Политика конфиденциальности</a>
+                        </td>
+                        <td style="width: 1px; background: #b9b9b9;" />
+                        <td style="text-align: center;">
+                            <a href="#open-terms-of-service" onclick="anchorClicked('open-terms-of-service')">Условия предоставления сервисов</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+        <script>
+            function anchorClicked(anchorId) {
+                if (window.AndroidInterface && AndroidInterface.onAnchorClicked) {
+                    AndroidInterface.onAnchorClicked(anchorId);
+                }
+            }
+        </script>
+
+        <script src="../assets/js/subscription.js"></script>
+
+    </body>
+
+</html>

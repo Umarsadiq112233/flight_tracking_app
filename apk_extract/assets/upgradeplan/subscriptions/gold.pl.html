@@ -1,0 +1,466 @@
+
+<!doctype html>
+<html class="no-js">
+
+    <head>
+        <meta charset="utf-8">
+        <title>FR24</title>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+
+        <link href="//ajax.googleapis.com" rel="dns-prefetch">
+
+        <link href="../assets/css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="subscription-wrapper">
+
+            <div class="subscription-brief">
+                <h1 class="subscription-header">
+                    The #1 choice for the serious Flightradar24 user.                </h1>
+                <h2 class="subscription-everything-in">
+                    Wszystkie funkcje Silver                </h2>
+                <div class="subscription-plus">
+                    <span>+</span>
+                </div>
+                <ul id="subscription-list" class="list list--tick subscription-list">
+	                <li id="hidden-list-item" class="list__item list__item--checked list__item--highlighted hidden">
+                        <a href="#" class="link">
+                            <span></span>
+                        </a>
+                    </li>
+                    <li class="list__item list__item--checked">
+                        <a href="#group-aeronautical-charts" class="link">
+                            <span>Mapy lotnicze</span>
+                        </a>
+                    </li>
+                    <li class="list__item list__item--checked">
+                        <a href="#group-weather-layers" class="link">
+                            <span>Warstwy pogody dla lotnictwa</span>
+                        </a>
+                    </li>
+                    <li class="list__item list__item--checked">
+                        <a href="#group-flight-details" class="link">
+                            <span>Więcej danych lotu</span>
+                        </a>
+                    </li>
+                    <li class="list__item list__item--checked">
+                        <a href="#map.layer.atc" class="link">
+                            <span>Granice ATC</span>
+                        </a>
+                    </li>
+                    <li class="list__item list__item--checked">
+                        <a href="#history.playback.flight.days" class="link">
+                            <span>Odtwarzanie lotu (365 dni)</span>
+                        </a>
+                    </li>
+                </ul>
+                <br/><br/>
+                <p class="subscription-available-devices">Korzystaj z subskrypcji na telefonie, tablecie lub komputerze.</p>
+            </div>
+
+            <div id="subscription-gold-features" class="subscription-overview">
+                <h3 class="subscription-overview-header">Wszystkie funkcje Gold</h3>
+                <ul class="subscription-list-overview">
+                <li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-general">
+                            <img src="../assets/img/subscription/subscription-list-general.png" class="subscription-list-overview__header-img" width="20" height="17.894736842105" alt="">
+                            <span>Ogólne</span>
+                        </div><div id="adverts" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Brak reklam</span>
+                            <span>Użytkownicy Free widzą reklamy, w przeciwieństwie do użytkowników Silver i Gold. Rozpocznij subskrypcję, aby otrzymać szybszą, wolną od reklam aplikację Flightradar24.</span>
+                        </div><div id="support.level" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Priorytety obsługi klienta</span>
+                            <span>Zapytania od użytkowników Silver i Gold mają pierwszeństwo.</span>
+                        </div><div id="support.platform" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Wsparcie międzyplatformowe</span>
+                            <span>Ciesz się dodatkowymi funkcjami dostępnymi wraz z subskrybcjami Silver i Gold na wszystkich platformach, na których dostępny jest Flightradar24.</span>
+                        </div><div id="user.sessions.max" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Sesje (3)</span>
+                            <span>Użytkownik może korzystać z konta na 3 lub 4 urządzeniach jednocześnie (przeglądarka/tablet/telefon) w zależności od subskrypcji.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 3</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 3</span>
+                                </div>
+                            </div>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-airport">
+                            <img src="../assets/img/subscription/subscription-list-general.png" class="subscription-list-overview__header-img" width="20" height="17.894736842105" alt="">
+                            <span>Airport</span>
+                        </div><div id="airport.panel.movements.per.day" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Ruch lotniczy dziennie</span>
+                            <span>Zobacz całkowitą liczbę lądowań i startów z podziałem na dni w ciągu ostatnich 7 dni.
+
+Ruch lotniczy dziennie jest dostępny w planie Gold.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: nielimitowane</span>
+                                </div>
+                            </div>
+                        </div><div id="airport.panel.runway.usage" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Wykorzystanie pasa startowego</span>
+                            <span>Zobacz łączną liczbę startów i lądowań w ciągu ostatnich 7 dni według pasa startowego dla wybranego lotniska.
+
+Wykorzystanie pasa startowego jest dostępne z planem Gold.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: nielimitowane</span>
+                                </div>
+                            </div>
+                        </div><div id="airport.panel.runway.details" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Szczegóły lotniska i pasa startowego</span>
+                            <span>Odblokuj dodatkowe informacje o lotnisku i jego pasach startowych, w tym numer pasa startowego, jego długość i typ nawierzchni.
+
+Szczegółowe informacje o lotnisku i pasie startowym są dostępne z planem Silver lub Gold.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: nielimitowane</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: nielimitowane</span>
+                                </div>
+                            </div>
+                        </div><div id="airport.panel.arrivals_departures" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Przyloty i odloty (48 godzin)</span>
+                            <span>Odblokuj dodatkowe godziny przylotów i odlotów, w tym numer lotu i miejsce wylotu. Standardowo dostępne jest 12 godzin. Utwórz bezpłatne konto, aby odblokować 24 godziny, lub przejdź na plan Silver (36) lub Gold (48).</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 24 godziny</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 36 godzin</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 48 godzin</span>
+                                </div>
+                            </div>
+                        </div><div id="airport.panel.onground" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Samoloty na ziemi (30 dni)</span>
+                            <span>Uzyskaj dostęp do listy samolotów zarejestrowanych jako lądujące na danym lotnisku. Samolot pozostanie na liście do momentu potwierdzenia, że opuścił lotnisko.Funkcja Samoloty na ziemi jest dostępna w planie Silver (ostatnie 7 dni) lub Gold (30 dni).</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 2 godziny</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 7 dni</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 30 dni</span>
+                                </div>
+                            </div>
+                        </div><div id="history.airport.days" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Zobacz historię lotów na lotnisku (365 dni)</span>
+                            <span>Zobacz historyczne dane dotyczące startów i lądowań dla każdego lotniska, w tym linię lotniczą, sygnał wywoławczy, numer lotu, typ samolotu i czas lotu.
+
+Ponadto możesz zobaczyć cztery ostatnie lądowania i starty dla wybranego lotniska. Zakres dostępnych danych zależy od poziomu subskrypcji.
+
+Historia lotów na lotniskach jest dostępna w ramach planu Silver lub Gold.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 90 dni</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 365 dni</span>
+                                </div>
+                            </div>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-aircraft-details">
+                            <img src="../assets/img/subscription/subscription-list-aircraft-details.png" class="subscription-list-overview__header-img" width="20" height="20" alt="">
+                            <span>Dane samolotu</span>
+                        </div><div id="map.info.aircraft.msn" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Numer seryjny samolotu</span>
+                            <span>Zobacz unikalny numer seryjny producenta dla samolotu (MSN), który pozostaje taki sam, nawet w przypadku zmiany rejestracji.</span>
+                        </div><div id="map.info.aircraft.age" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Wiek samolotu</span>
+                            <span>Zastanawiasz się czy samolot jest nowy, czy odbywa loty od 20 lat? Poznaj wiek i historię samolotu, który śledzisz.</span>
+                        </div><div id="map.info.aircraft.country" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Kraj rejestracji samolotu</span>
+                            <span>Zobacz kraj rejestracji każdego samolotu w panelu informacji o locie.</span>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-flight-details">
+                            <img src="../assets/img/subscription/subscription-list-flight-details.png" class="subscription-list-overview__header-img" width="20" height="20" alt="">
+                            <span>Dane lotu</span>
+                        </div><div id="map.info.flight.vertical-speed" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Prędkość pionowa</span>
+                            <span>Zobacz jak szybko samolot wznosi się lub opada.</span>
+                        </div><div id="map.info.flight.squawk" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Kod Squawk</span>
+                            <span>Czterocyfrowy kod przyporządkowany do lotu przez ATC, aby identyfikować lot z ekranami radarów.</span>
+                        </div><div id="map.info.flight.ems.alt.gps" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Wysokość GPS (FUNKCJA DOSTĘPNA DLA GOLD)</span>
+                            <span>Wysokość samolotu podawana przez GPS, oparta na elipsoidzie ziemi, której nie należy traktować jako wysokości lotu nad ziemią.</span>
+                        </div><div id="map.info.flight.ems.tas" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Rzeczywista prędkość lotu (FUNKCJA DOSTĘPNA DLA GOLD)</span>
+                            <span>Prędkość rzeczywista to prędkość samolotu uwzględniająca poprawkę związaną z pozycją lotu i błędami przyrządów pomiarowych, oraz temperaturę i ciśnienie powietrza.</span>
+                        </div><div id="map.info.flight.ems.wind" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Wiatr (FUNKCJA DOSTĘPNA DLA GOLD)</span>
+                            <span>Zobacz czy lot odbywa się z wiatrem czy pod wiatr. Poznaj prędkość i kierunek wiatru podawane przez samolot.</span>
+                        </div><div id="map.info.flight.ems.ias" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Podana prędkość lotu (FUNKCJA DOSTĘPNA DLA GOLD)</span>
+                            <span>Prędkość przyrządowa lotu podawana przez urządzenia na pokładzie, bez zmian wartości temperatury i ciśnienia.</span>
+                        </div><div id="map.info.flight.ems.oat" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Temperatura (FUNKCJA DOSTĘPNA DLA GOLD)</span>
+                            <span>Zobacz temperaturę powietrza na zewnątrz, podawaną bezpośrednio z samolotu.</span>
+                        </div><div id="map.info.flight.airspace" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">FIR/UIR (FUNKCJA DOSTĘPNA DLA GOLD)</span>
+                            <span>Sprawdź, którzy kontrolerzy są aktualnie odpowiedzialni za lot (informacje pochodzą z FIR i UIR).</span>
+                        </div><div id="map.info.flight.ems.mach" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Prędkość (mach) (FUNKCJA DOSTĘPNA DLA GOLD)</span>
+                            <span>Liczba machów to stosunek prędkości rzeczywistej do prędkości dźwięku na wysokości danego lotu.</span>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-past-flights">
+                            <img src="../assets/img/subscription/subscription-list-flights.png" class="subscription-list-overview__header-img" width="20" height="16" alt="">
+                            <span>Minione loty</span>
+                        </div><div id="history.flight.days" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Historia lotu (365 dni)</span>
+                            <span>Zdobądź informacje dotyczące minionych lotów, takie jak typ samolotu, rejestrację planowane i rzeczywiste czasy odlotu i przylotu. Dostępność historii zależna jest od poziomu subskrypcji.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 7 dni</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 90 dni</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 365 dni</span>
+                                </div>
+                            </div>
+                        </div><div id="history.aircraft.days" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Historia samolotu (365 dni)</span>
+                            <span>Szukasz informacji o minionych lotach? Zobacz szczegółowe informacje dotyczące minionych lotów, zawierające informacje o lotniskach oraz planowane i rzeczywiste czasy odlotu i przylotu.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 7 dni</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 90 dni</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 365 dni</span>
+                                </div>
+                            </div>
+                        </div><div id="history.playback.days" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Playback (365 dni)</span>
+                            <span>Zobacz, jak wyglądała przestrzeń powietrzna w konkretnym punkcie w przeszłości. Możesz także odtworzyć konkretny miniony lot. Dostępność historii zależna jest od poziomu subskrypcji.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 7 dni</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 90 dni</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 365 dni</span>
+                                </div>
+                            </div>
+                        </div><div id="history.playback.flight.days" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Odtwarzanie lotu (365 dni)</span>
+                            <span>Odtwórz miniony lot ze szczegółowymi informacjami dotyczącymi lotu i samolotu. Poznaj detale lotu na konkretnym odcinku lub prześledź lot od początku do końca.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 7 dni</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 90 dni</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 365 dni</span>
+                                </div>
+                            </div>
+                        </div><div id="history.flight.kml" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Pobierz pliki CSV/KML (25/dzień)</span>
+                            <span>Manualne pobieranie plików CSV/KML dla minionych lotów, zawierające pozycję, prędkość i wysokość. Ograniczenia pobierania są zależne od rodzaju subskrypcji.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 10/dzień</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 25/dzień</span>
+                                </div>
+                            </div>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-customization">
+                            <img src="../assets/img/subscription/subscription-list-customization.png" class="subscription-list-overview__header-img" width="20" height="20" alt="">
+                            <span>Dostosuj</span>
+                        </div><div id="map.filters.saved" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Filtry (25)</span>
+                            <span>Ustaw filtry, aby zawęzić liczbę samolotów wyświetlanych na mapie według kategorii, np. pasażerskie, cargo i wojskowe lub według niestandardowych filtrów, używając znaku wywoławczego, lotniska, wysokości, prędkości, typu samolotu i rejestracji. Możesz ustawić darmowy filtr dla linii lotniczych, samolotów, lotnisk i tras. Liczba filtrów, które możesz zapisać, zależy od Twojego planu subskrypcji. Dostęp do kategorii i filtrów zaawansowanych jest możliwy w ramach planu Silver lub Gold.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 1</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 10</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 25</span>
+                                </div>
+                            </div>
+                        </div><div id="map.labels.rows" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Etykiety (4)</span>
+                            <span>Zdecyduj, jakie informacje będą przypięte do ikony samolotu. Dodawaj identyfikatory takie jak sygnał wywoławczy, numer lotu lub rejestracja oraz dodatkowe info takie jak typ i rejestracja, wysokość i prędkość oraz lotniska wylotu i przylotu. Ilość dostępnych etykiet zależy od subskrypcji.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 1</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 4</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 4</span>
+                                </div>
+                            </div>
+                        </div><div id="user.alerts.max" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Alerty niestandardowe (25)</span>
+                            <span>Niech loty znajdują Ciebie. Stwórz niestandardowe alerty dla numeru lotu, rejestracji, przewoźnika lub typu samolotu, i otrzymuj powiadomienia, kiedy pojawi się lot odpowiadający kryteriom. Ilość alertów, które możesz zachować zależy od poziomu posiadanej subskrypcji.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 10</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 25</span>
+                                </div>
+                            </div>
+                        </div><div id="map.widgets.bookmarks.max" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Zakładki (25)</span>
+                            <span>Twórz zakładki aby mieć łatwy dostęp do ustawień i preferencji. Zakładki mogą zawierać miejsce na mapie, warstwy mapy, ustawienia i filtry. Ilość dostępnych zakładak zależy od subskrypcji.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 1</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 10</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 25</span>
+                                </div>
+                            </div>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-weather-layers">
+                            <img src="../assets/img/subscription/subscription-list-weather.png" class="subscription-list-overview__header-img" width="20" height="20.416666666667" alt="">
+                            <span>Warstwy pogody</span>
+                        </div><div id="map.layer.weather" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Obecne warunki pogodowe</span>
+                            <span>Ciepło i słonecznie w Madrycie, deszczowo i zimno w San Francisco. Zobacz aktualną pogodę, poznaj temperaturę i warunki w  powietrzu dla ponad 3,000 lotnisk na całym świecie, prezentowane na naszej mapie na żywo.</span>
+                        </div><div id="map.layer.weather.satellite" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Zachmurzenie (FUNKCJA DOSTĘPNA DLA GOLD)</span>
+                            <span>Globalna satelita IR pokazuje zachmurzenie na mapie, odświeżanie co 60 minut.</span>
+                        </div><div id="map.layer.weather.radar.global" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Całkowite opady (FUNKCJA DOSTĘPNA DLA GOLD)</span>
+                            <span>Mapa opadów na żywo. Informacje o opadach aktualizowane 12 razy dziennie.</span>
+                        </div><div id="map.layer.weather.radar" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Intensywne opady (FUNKCJA DOSTĘPNA DLA GOLD)</span>
+                            <span>Zobacz warunki pogodowe, których unikają loty bezpośrednio na naszej mapie na żywo. Globalny radar dostarcza informacji o intensywnych opadach na całym świecie, pozwalając szacować, jaki wpływ opady mogą mieć na loty. Warstwa intensywnych opadów jest odświeżana co 30 minut.</span>
+                        </div><div id="map.layer.weather.auradar" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Radar australijski (FUNKCJA DOSTĘPNA DLA GOLD)</span>
+                            <span>Radar australijski przekazuje obraz opadów przechodzących nad Australią z dokładnością do 2 km.</span>
+                        </div><div id="map.layer.weather.naradar" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Radar północnoamerykański (FUNKCJA DOSTĘPNA DLA GOLD)</span>
+                            <span>Radar północnoamerykański to wysokiej jakości połączenie obrazów z radarów monitorujących Amerykę Płn, Alaskę, Hawaje, Puerto Rico i Kanadę Płd. Dokładność do 1 km i częste aktualizacje zapewniają dostęp do szczegółowych i aktualnych informacji pogodowych.</span>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-map-layers">
+                            <img src="../assets/img/subscription/subscription-list-map.png" class="subscription-list-overview__header-img" width="20" height="18.75" alt="">
+                            <span>Warstwy map</span>
+                        </div><div id="map.layer.atc" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Granice ATC (FUNKCJA DOSTĘPNA DLA GOLD)</span>
+                            <span>Dzięki nałożonym na mapie granicom FIR i UIR możesz sprawdzić kto aktualnie kontroluje loty. Obszar ATC dla konkretnego lotu pokazany jest także w jego polu informacji.</span>
+                        </div><div id="map.layer.tracks.oceanic" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Drogi oceaniczne (FUNKCJA DOSTĘPNA DLA GOLD)</span>
+                            <span>Podczas lotów nad miejscami takimi jak Atlantyk lub Pacyfik, gdzie nie ma kontaktu z ATC, loty używają wytyczonych szlaków, aby pozostać w bezpiecznych odległościach od siebie. Szlaki odświeżane są dwa razy dziennie, w nawiązaniu do warunków pogodowych i wiatru. Zobacz szlaki na naszej mapie na żywo i śledż, jak wykorzystują je samoloty, aby bezpiecznie podróżować nad oceanami.</span>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-map-views">
+                            <img src="../assets/img/subscription/subscription-list-general.png" class="subscription-list-overview__header-img" width="20" height="17.894736842105" alt="">
+                            <span>Widoki map</span>
+                        </div><div id="map.view.3d.mobile" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Widok 3D</span>
+                            <span>Widok 3D wraz z nielimitowaną ilością sesji jest dostępny w każdej subskypcji Flightradar24.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: ograniczone</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: nielimitowane</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: nielimitowane</span>
+                                </div>
+                            </div>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-aeronautical-charts">
+                            <img src="../assets/img/subscription/subscription-list-charts.png" class="subscription-list-overview__header-img" width="20" height="20" alt="">
+                            <span>Mapy lotnicze</span>
+                        </div><div id="map.layer.ndb" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Navaids (FUNKCJA DOSTĘPNA DLA GOLD)</span>
+                            <span>Zobacz na mapie pomoce nawigacyjne, które są radiolatarniami pomagającymi pilotom w nawigacji.</span>
+                        </div><div id="map.layer.ndb.alt.low" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Mała wysokość (FUNKCJA DOSTĘPNA DLA GOLD)</span>
+                            <span>Zobacz nawigacyjne punkty drogi i trasy lotnicze dla lotów na małych wysokościach, nałożone na mapę.</span>
+                        </div><div id="map.layer.ndb.alt.high" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Duża wysokość (FUNKCJA DOSTĘPNA DLA GOLD)</span>
+                            <span>Zobacz nawigacyjne punkty drogi i trasy lotnicze dla lotów na dużych wysokościach, nałożone na mapę.</span>
+                        </div></li>                </ul>
+            </div>
+
+            <div class="__upgrade_info">
+                <table class="__upgrade_info_links_table">
+                    <tr>
+                        <td style="text-align: center; width:50%;">
+                            <a href="#open-privacy-policy" onclick="anchorClicked('open-privacy-policy')">Polityka prywatności</a>
+                        </td>
+                        <td style="width: 1px; background: #b9b9b9;" />
+                        <td style="text-align: center;">
+                            <a href="#open-terms-of-service" onclick="anchorClicked('open-terms-of-service')">Warunki użytkowania</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+        <script>
+            function anchorClicked(anchorId) {
+                if (window.AndroidInterface && AndroidInterface.onAnchorClicked) {
+                    AndroidInterface.onAnchorClicked(anchorId);
+                }
+            }
+        </script>
+
+        <script src="../assets/js/subscription.js"></script>
+
+    </body>
+
+</html>

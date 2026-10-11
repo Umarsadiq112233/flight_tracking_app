@@ -1,0 +1,25 @@
+body {
+    -webkit-user-select: none !important;
+    -webkit-touch-callout: none !important;
+}
+.timeline-Tweet-text {
+    font-size: 16px !important;
+    line-height: 22px !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+}
+.timeline-Tweet-text a,
+.timeline-Tweet-text a:visited,
+.timeline-Tweet-text a:hover,
+.timeline-Tweet-text a:active {
+    color: rgb(100, 190, 241) !important;
+}
+.timeline-Tweet:hover {
+    background-color: transparent !important;
+}
+.timeline-Tweet-media {
+     margin-left: 0 !important;
+ }
+.timeline-Tweet-actions {
+    margin-left: 0 !important;
+}

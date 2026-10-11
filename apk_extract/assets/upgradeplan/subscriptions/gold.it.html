@@ -1,0 +1,466 @@
+
+<!doctype html>
+<html class="no-js">
+
+    <head>
+        <meta charset="utf-8">
+        <title>FR24</title>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+
+        <link href="//ajax.googleapis.com" rel="dns-prefetch">
+
+        <link href="../assets/css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="subscription-wrapper">
+
+            <div class="subscription-brief">
+                <h1 class="subscription-header">
+                    The #1 choice for the serious Flightradar24 user.                </h1>
+                <h2 class="subscription-everything-in">
+                    Tutto incluso nel piano Silver                </h2>
+                <div class="subscription-plus">
+                    <span>+</span>
+                </div>
+                <ul id="subscription-list" class="list list--tick subscription-list">
+	                <li id="hidden-list-item" class="list__item list__item--checked list__item--highlighted hidden">
+                        <a href="#" class="link">
+                            <span></span>
+                        </a>
+                    </li>
+                    <li class="list__item list__item--checked">
+                        <a href="#group-aeronautical-charts" class="link">
+                            <span>Carte aeronautiche</span>
+                        </a>
+                    </li>
+                    <li class="list__item list__item--checked">
+                        <a href="#group-weather-layers" class="link">
+                            <span>Strati metereologici per l'aviazione</span>
+                        </a>
+                    </li>
+                    <li class="list__item list__item--checked">
+                        <a href="#group-flight-details" class="link">
+                            <span>Altre informazioni sul volo</span>
+                        </a>
+                    </li>
+                    <li class="list__item list__item--checked">
+                        <a href="#map.layer.atc" class="link">
+                            <span>Confini ATC</span>
+                        </a>
+                    </li>
+                    <li class="list__item list__item--checked">
+                        <a href="#history.playback.flight.days" class="link">
+                            <span>Riproduzione del volo (365 giorno)</span>
+                        </a>
+                    </li>
+                </ul>
+                <br/><br/>
+                <p class="subscription-available-devices">Usa l'abbonamento su qualsiasi telefono, tablet o computer.</p>
+            </div>
+
+            <div id="subscription-gold-features" class="subscription-overview">
+                <h3 class="subscription-overview-header">Tutte le funzionalità Gold</h3>
+                <ul class="subscription-list-overview">
+                <li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-general">
+                            <img src="../assets/img/subscription/subscription-list-general.png" class="subscription-list-overview__header-img" width="20" height="17.894736842105" alt="">
+                            <span>Generale</span>
+                        </div><div id="adverts" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Annunci eliminati</span>
+                            <span>Gli utenti Free vedono gli annunci in tutta l'app, a differenza degli utenti Silver e Gold. Effettua l'upgrade per un'esperienza più veloce e senza pubblicità su Flightradar24.</span>
+                        </div><div id="support.level" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Assistenza clienti prioritaria</span>
+                            <span>Le query degli abbonati Silver e Gold hanno la priorità.</span>
+                        </div><div id="support.platform" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Supporto multipiattaforma</span>
+                            <span>Goditi le funzionalità aggiuntive disponibili con il tuo abbonamento Silver o Gold su tutte le piattaforme in cui è disponibile Flightradar24.</span>
+                        </div><div id="user.sessions.max" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Sessioni (3)</span>
+                            <span>Gli account sono validi per un singolo utente e possono essere utilizzati contemporaneamente su 3 o 4 unità (browser/tablet/telefoni) a seconda del piano di abbonamento.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 3</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 3</span>
+                                </div>
+                            </div>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-airport">
+                            <img src="../assets/img/subscription/subscription-list-general.png" class="subscription-list-overview__header-img" width="20" height="17.894736842105" alt="">
+                            <span>Airport</span>
+                        </div><div id="airport.panel.movements.per.day" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Movimenti al giorno</span>
+                            <span>Visualizza il numero totale di atterraggi e decolli suddivisi per giorno negli ultimi 7 giorni.
+
+I movimenti giornalieri sono disponibili con un piano Gold.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: illimitati</span>
+                                </div>
+                            </div>
+                        </div><div id="airport.panel.runway.usage" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Utilizzo della pista</span>
+                            <span>Visualizza gli ultimi 7 giorni di decolli e atterraggi totali per pista dell'aeroporto scelto.
+
+L'utilizzo della pista è disponibile con un piano Gold.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: illimitati</span>
+                                </div>
+                            </div>
+                        </div><div id="airport.panel.runway.details" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Dettagli aeroporto e pista</span>
+                            <span>Ottieni informazioni aggiuntive su un aeroporto e sulle sue piste, tra cui numero, lunghezza e tipo di superficie.
+
+I dettagli su aeroporto e pista sono disponibili con un piano Silver o Gold.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: illimitati</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: illimitati</span>
+                                </div>
+                            </div>
+                        </div><div id="airport.panel.arrivals_departures" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Arrivi e partenze (48 ora)</span>
+                            <span>Sblocca orari aggiuntivi per arrivi e partenze, inclusi numero di volo e origine. 12 ore sono disponibili come standard. Crea un account gratuito per sbloccare 24 ore o passa a un piano Silver (36) o Gold (48).</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 24 ora</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 36 ora</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 48 ora</span>
+                                </div>
+                            </div>
+                        </div><div id="airport.panel.onground" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Velivolo a terra (30 giorno)</span>
+                            <span>Accedi all'elenco degli aeromobili tracciati come atterrati in un determinato aeroporto. Un aeromobile rimarrà nell'elenco finché non ne confermiamo la partenza dall'aeroporto. La funzione Aeromobile a terra è disponibile con un piano Silver (ultimi 7 giorni) o Gold (30).</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 2 ora</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 7 giorno</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 30 giorno</span>
+                                </div>
+                            </div>
+                        </div><div id="history.airport.days" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Visualizza la cronologia dei voli dell'aeroporto (365 giorno)</span>
+                            <span>Visualizza i dati storici di decollo e atterraggio per ogni aeroporto, inclusi compagnia aerea, nominativo di chiamata, numero di volo, tipo di aeromobile e orario di volo.
+
+Inoltre, visualizza gli ultimi quattro atterraggi e decolli per l'aeroporto scelto. Quanto indietro puoi andare dipende dal livello del tuo piano.
+
+La cronologia dei voli aeroportuali è disponibile con un piano Silver o Gold.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 90 giorno</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 365 giorno</span>
+                                </div>
+                            </div>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-aircraft-details">
+                            <img src="../assets/img/subscription/subscription-list-aircraft-details.png" class="subscription-list-overview__header-img" width="20" height="20" alt="">
+                            <span>Dettagli dell'aeromobile</span>
+                        </div><div id="map.info.aircraft.msn" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Numero di serie dell'aeromobile</span>
+                            <span>Controlla il numero di serie del produttore dell'aeromobile (MSN), un numero unico e invariabile anche nel caso in cui viene modificato il codice di registrazione di un aeromobile.</span>
+                        </div><div id="map.info.aircraft.age" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Età dell'aeromobile</span>
+                            <span>Ti stai chiedendo se un aeromobile è nuovissimo o ha già 20 anni? Visualizza l'età dell'aeromobile che stai seguendo e scopri a quando risale il suo primo volo.</span>
+                        </div><div id="map.info.aircraft.country" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Paese di immatricolazione dell'aeromobile</span>
+                            <span>Guarda il paese di immatricolazione di ciascun aeromobile nel pannello informativo del volo.</span>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-flight-details">
+                            <img src="../assets/img/subscription/subscription-list-flight-details.png" class="subscription-list-overview__header-img" width="20" height="20" alt="">
+                            <span>Dettagli del volo</span>
+                        </div><div id="map.info.flight.vertical-speed" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Velocità verticale</span>
+                            <span>Visualizza quanto velocemente un aereo sale o scende.</span>
+                        </div><div id="map.info.flight.squawk" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Codice Squawk</span>
+                            <span>Codice a quattro cifre assegnato a un aeromobile da un controllore del traffico aereo per associare il volo agli schermi radar.</span>
+                        </div><div id="map.info.flight.ems.alt.gps" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Quota GPS (FUNZIONALITÀ ESCLUSIVA PER IL PIANO GOLD)</span>
+                            <span>La quota dell'aeromobile trasmessa dal GPS in base all'ellissoide della Terra, senza necessariamente riflettere l'altitudine sopra il livello del suolo.</span>
+                        </div><div id="map.info.flight.ems.tas" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Velocità vera dell'aereo (FUNZIONALITÀ ESCLUSIVA PER IL PIANO GOLD)</span>
+                            <span>La velocità vera è la velocità reale di un aereomobile, corretta dell'errore strumentale e dell'errore di postazione, e tenendo conto della pressione e della temperatura.</span>
+                        </div><div id="map.info.flight.ems.wind" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Vento (FUNZIONALITÀ ESCLUSIVA PER IL PIANO GOLD)</span>
+                            <span>Scopri se un volo è influenzato da vento a favore o contrario. Visualizza la velocità e la direzione del vento trasmessa direttamente dall'aereo.</span>
+                        </div><div id="map.info.flight.ems.ias" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Velocità indicata (FUNZIONALITÀ ESCLUSIVA PER IL PIANO GOLD)</span>
+                            <span>La velocità indicata è la velocità dell'aereo in aria, presa direttamente dall'anemometro, senza correzioni di temperatura o pressione.</span>
+                        </div><div id="map.info.flight.ems.oat" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Temperatura (FUNZIONALITÀ ESCLUSIVA PER IL PIANO GOLD)</span>
+                            <span>Visualizza la temperatura dell'aria esterna trasmessa direttamente dall'aereo.</span>
+                        </div><div id="map.info.flight.airspace" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">FIR/UIR (FUNZIONALITÀ ESCLUSIVA PER IL PIANO GOLD)</span>
+                            <span>Scopri quali controllori del traffico aereo sono attualmente responsabili di un volo utilizzando i dati della Regione di informazione di volo (FIR) e della Regione superiore di informazione di volo (UIR).</span>
+                        </div><div id="map.info.flight.ems.mach" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Mach (FUNZIONALITÀ ESCLUSIVA PER IL PIANO GOLD)</span>
+                            <span>Il Mach è il quoziente tra la velocità vera dell'aereo e la velocità del suono alla quota di un determinato volo.</span>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-past-flights">
+                            <img src="../assets/img/subscription/subscription-list-flights.png" class="subscription-list-overview__header-img" width="20" height="16" alt="">
+                            <span>Voli passati</span>
+                        </div><div id="history.flight.days" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Storico voli (365 giorno)</span>
+                            <span>Ottieni informazioni sui voli precedenti, inclusi il tipo di aeromobile, codice di registrazione, origine, destinazione e orari di partenza e di arrivo effettivi e programmati. L'estensione dello storico dell'aeromobile dipenderà dal tuo piano di abbonamento.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 7 giorno</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 90 giorno</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 365 giorno</span>
+                                </div>
+                            </div>
+                        </div><div id="history.aircraft.days" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Storico aeromobile (365 giorno)</span>
+                            <span>Stai cercando informazioni sullo storico di un aereomobile? Visualizza informazioni dettagliate sui voli precedenti, inclusi origine, destinazione, orari di partenza e di arrivo effettivi e programmati.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 7 giorno</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 90 giorno</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 365 giorno</span>
+                                </div>
+                            </div>
+                        </div><div id="history.playback.days" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Riproduzione (365 giorno)</span>
+                            <span>Scopri in quale stato si trovava lo spazio aereo in un particolare momento del passato. Puoi anche visualizzare le riproduzioni di un volo specifico. L'estensione dello storico dipenderà dal tuo piano di abbonamento.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 7 giorno</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 90 giorno</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 365 giorno</span>
+                                </div>
+                            </div>
+                        </div><div id="history.playback.flight.days" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Riproduzione del volo (365 giorno)</span>
+                            <span>Guarda il video della riproduzione di un volo specifico con informazioni dettagliate sull'aereomobile e sul volo. Passa facilmente a qualsiasi momento del volo o segui la rotta dal decollo all'atterraggio.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 7 giorno</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 90 giorno</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 365 giorno</span>
+                                </div>
+                            </div>
+                        </div><div id="history.flight.kml" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Scarica file CSV/KML (25/giorno)</span>
+                            <span>Download manuale dei file CSV/KML dei voli passati con i dati di volo tra cui posizione, velocità e quota. Il numero di download al mese è limitato dal tuo piano di abbonamento.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 10/giorno</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 25/giorno</span>
+                                </div>
+                            </div>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-customization">
+                            <img src="../assets/img/subscription/subscription-list-customization.png" class="subscription-list-overview__header-img" width="20" height="20" alt="">
+                            <span>Personalizzazione</span>
+                        </div><div id="map.filters.saved" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Filtri (25)</span>
+                            <span>Puoi impostare filtri per restringere il campo degli aeromobili da mostrare sulla mappa, sia per categoria, ad esempio Passeggeri, Cargo e Militari, sia per filtri personalizzati, utilizzando nominativo di chiamata, aeroporto, altitudine, velocità, tipo di aeromobile e registrazione. Puoi utilizzare il tuo filtro gratuito sui filtri compagnia aerea, aeromobile, aeroporto e rotta. Il numero di filtri che puoi salvare dipende dal tuo piano di abbonamento. L'accesso alle categorie e ai filtri avanzati è disponibile con un piano Silver o Gold.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 1</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 10</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 25</span>
+                                </div>
+                            </div>
+                        </div><div id="map.labels.rows" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Etichette di testo (4)</span>
+                            <span>Scegli quali informazioni accompagneranno l'icona dell'aereo. Aggiungi indicatori come il nominativo, il numero del volo o il codice di registrazione e includi informazioni aggiuntive come il tipo e il codice di registrazione, la quota e la velocità o l'origine e la destinazione. Il numero di etichette di testo disponibili dipende dal tuo piano di abbonamento.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 1</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 4</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 4</span>
+                                </div>
+                            </div>
+                        </div><div id="user.alerts.max" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Avvisi personalizzati (25)</span>
+                            <span>Lascia che i voli vengano a te! Crea avvisi per numero di volo, codice di registrazione, compagnia aerea o tipo di aeronave e ricevi una notifica ogni volta che un volo corrisponde ai tuoi criteri. Il numero degli avvisi che puoi creare dipende dal tuo piano di abbonamento.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: -</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 10</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 25</span>
+                                </div>
+                            </div>
+                        </div><div id="map.widgets.bookmarks.max" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Segnalibri (25)</span>
+                            <span>Crea un segnalibro per accedere facilmente alle preferenze e alle impostazioni salvate. I segnalibri possono includere la posizione della mappa, gli strati della mappa, le impostazioni e i filtri. Il numero di segnalibri disponibili dipende dal piano di abbonamento.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: 1</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: 10</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: 25</span>
+                                </div>
+                            </div>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-weather-layers">
+                            <img src="../assets/img/subscription/subscription-list-weather.png" class="subscription-list-overview__header-img" width="20" height="20.416666666667" alt="">
+                            <span>Strati metereologici</span>
+                        </div><div id="map.layer.weather" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Meteo attuale</span>
+                            <span>Giornata calda e soleggiata a Madrid, pioggia e freddo a San Francisco. Controlla il meteo attuale, comprese le condizioni del cielo e della temperatura in più di 3000 aeroporti in tutto il mondo, sovrapposte sulla nostra mappa in tempo reale.</span>
+                        </div><div id="map.layer.weather.satellite" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Nuvolosità (FUNZIONALITÀ ESCLUSIVA PER IL PIANO GOLD)</span>
+                            <span>Il satellite infrarosso globale mostra la nuvolosità in tutto il mondo sulla mappa. Immagini aggiornate ogni 60 minuti.</span>
+                        </div><div id="map.layer.weather.radar.global" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Precipitazioni totali (FUNZIONALITÀ ESCLUSIVA PER IL PIANO GOLD)</span>
+                            <span>Panoramica delle attuali precipitazioni globali sovrapposte sulla nostra mappa in tempo reale. Lo strato delle precipitazioni totali è aggiornato 12 volte al giorno.</span>
+                        </div><div id="map.layer.weather.radar" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Precipitazioni intense (FUNZIONALITÀ ESCLUSIVA PER IL PIANO GOLD)</span>
+                            <span>Scopri le condizioni meteorologiche che i voli stanno evitando, sovrapposte sulla nostra mappa in tempo reale. Il radar globale mostra le aree di intensa piovosità in modo da conoscere l'impatto che potrebbero avere sui voli. Lo strato delle precipitazioni intense è aggiornato ogni 30 minuti.</span>
+                        </div><div id="map.layer.weather.auradar" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Radar australiano (FUNZIONALITÀ ESCLUSIVA PER IL PIANO GOLD)</span>
+                            <span>Il radar australiano è un'immagine composita delle precipitazioni in tutta l'Australia a una risoluzione di 2 km.</span>
+                        </div><div id="map.layer.weather.naradar" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Radar nordamericano (FUNZIONALITÀ ESCLUSIVA PER IL PIANO GOLD)</span>
+                            <span>Il radar nordamericano ad alta definizione è un mosaico di immagini radar che copre gli Stati Uniti continentali, l'Alaska, le Hawaii, il Portorico e la regione meridionale del Canada. Il radar nordamericano ad alta definizione combina una risoluzione di 1 km con frequenti aggiornamenti per migliorare i dettagli meteo e la puntualità.</span>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-map-layers">
+                            <img src="../assets/img/subscription/subscription-list-map.png" class="subscription-list-overview__header-img" width="20" height="18.75" alt="">
+                            <span>Strati della mappa</span>
+                        </div><div id="map.layer.atc" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Confini ATC (FUNZIONALITÀ ESCLUSIVA PER IL PIANO GOLD)</span>
+                            <span>Scopri quali controllori del traffico aereo sono attualmente responsabili di un volo grazie ai confini della Regione di informazione di volo e della Regione superiore di informazione di volo sovrapposti sulla mappa. L'attuale area di controllo del traffico aereo (ATC) per uno specifico volo viene anche mostrata nel riquadro delle informazioni per quel volo.</span>
+                        </div><div id="map.layer.tracks.oceanic" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Rotte oceaniche (FUNZIONALITÀ ESCLUSIVA PER IL PIANO GOLD)</span>
+                            <span>Al di sopra di zone come l'oceano Pacifico e l'oceano Atlantico, i voli seguono rotte organizzate per mantenere una distanza di sicurezza tra loro quando non sono in contatto con i controllori del traffico aereo. Le rotte vengono aggiornate due volte al giorno per tenere conto del vento e delle condizioni meteorologiche. Guarda gli itinerari sulla nostra mappa in tempo reale e scopri come i voli li seguono per navigare in sicurezza in mare aperto.</span>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-map-views">
+                            <img src="../assets/img/subscription/subscription-list-general.png" class="subscription-list-overview__header-img" width="20" height="17.894736842105" alt="">
+                            <span>Visualizzazioni della mappa</span>
+                        </div><div id="map.view.3d.mobile" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Vista 3D</span>
+                            <span>La vista 3D, comprese sessioni illimitate, è disponibile con qualsiasi piano di abbonamento a Flightradar24.</span>
+                            <div class="subscription-list-overview__stats">
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Free: limitato</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Silver: illimitati</span>
+                                </div>
+                                <div class="subscription-list-overview__stats-section">
+                                    <span>Gold: illimitati</span>
+                                </div>
+                            </div>
+                        </div></li><li class="subscription-list-overview__category">
+                        <div class="subscription-list-overview__header" id="group-aeronautical-charts">
+                            <img src="../assets/img/subscription/subscription-list-charts.png" class="subscription-list-overview__header-img" width="20" height="20" alt="">
+                            <span>Carte aeronautiche</span>
+                        </div><div id="map.layer.ndb" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Aiuti alla navigazione (FUNZIONALITÀ ESCLUSIVA PER IL PIANO GOLD)</span>
+                            <span>Visualizza gli aiuti alla navigazione  cioè i radiofari che offrono ai piloti un supporto per la navigazione, sovrapposti sulla mappa.</span>
+                        </div><div id="map.layer.ndb.alt.low" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Bassa quota (FUNZIONALITÀ ESCLUSIVA PER IL PIANO GOLD)</span>
+                            <span>Visualizza waypoint di navigazione e aeroguide per voli a bassa quota sovrapposti sulla mappa.</span>
+                        </div><div id="map.layer.ndb.alt.high" class="subscription-list-overview__item">
+                            <span class="subscription-list-overview__item-header">Alta quota (FUNZIONALITÀ ESCLUSIVA PER IL PIANO GOLD)</span>
+                            <span>Visualizza waypoint di navigazione e aeroguide per voli ad alta quota sovrapposti sulla mappa.</span>
+                        </div></li>                </ul>
+            </div>
+
+            <div class="__upgrade_info">
+                <table class="__upgrade_info_links_table">
+                    <tr>
+                        <td style="text-align: center; width:50%;">
+                            <a href="#open-privacy-policy" onclick="anchorClicked('open-privacy-policy')">Politica sulla privacy</a>
+                        </td>
+                        <td style="width: 1px; background: #b9b9b9;" />
+                        <td style="text-align: center;">
+                            <a href="#open-terms-of-service" onclick="anchorClicked('open-terms-of-service')">Condizioni d'uso</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+        <script>
+            function anchorClicked(anchorId) {
+                if (window.AndroidInterface && AndroidInterface.onAnchorClicked) {
+                    AndroidInterface.onAnchorClicked(anchorId);
+                }
+            }
+        </script>
+
+        <script src="../assets/js/subscription.js"></script>
+
+    </body>
+
+</html>

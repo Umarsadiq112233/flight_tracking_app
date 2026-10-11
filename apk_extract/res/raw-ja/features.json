@@ -1,0 +1,1395 @@
+{
+    "adverts": {
+        "featureDescription": "広告の非表示",
+        "featureGroup": "General",
+        "featureId": 130,
+        "featureInfo": "Freeユーザーの場合アプリ内に広告が表示されます。Silver／Goldユーザーの場合は表示されません。アップグレードして、広告表示がなく処理速度に優れたFlightradar24をご体験ください。",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 90,
+        "featureUpgradeDescription": "広告の非表示",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "app.include.premium": {
+        "featureDescription": "プレミアム広告を含む",
+        "featureGroup": null,
+        "featureId": 85,
+        "featureInfo": null,
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 1000,
+        "featureUpgradeDescription": "プレミアム広告を含む",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "events": {
+        "featureDescription": "イベントビュー",
+        "featureGroup": null,
+        "featureId": 86,
+        "featureInfo": null,
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 1000,
+        "featureUpgradeDescription": "イベントビュー",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "history.aircraft.days": {
+        "featureDescription": "機体履歴",
+        "featureGroup": "Past flights",
+        "featureId": 134,
+        "featureInfo": "出発地、目的地、予定の出発時刻と到着時刻、実際の出発時刻と到着時刻などを含む過去の機体情報を確認できます。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 180,
+        "featureUpgradeDescription": "機体履歴",
+        "featureUpgradeInfo": "出発地、目的地、予定の出発時刻と到着時刻、実際の出発時刻と到着時刻などを含む過去の機体情報を確認できます。",
+        "planLimits": {
+            "Basic": 7,
+            "Silver": 90,
+            "Gold": 365,
+            "Business": 1095
+        },
+        "unit": "day"
+    },
+    "history.flight.days": {
+        "featureDescription": "フライト履歴",
+        "featureGroup": "Past flights",
+        "featureId": 56,
+        "featureInfo": "機種、機体記号、出発地、到着地、予定フライト時間と実際のフライト時間などの過去のフライト情報を取得できます。遡れる日数は料金プランに応じて異なります。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 175,
+        "featureUpgradeDescription": "フライト履歴",
+        "featureUpgradeInfo": "機種、機体記号、予定の出発時刻と到着時刻、実際の出発時刻と到着時刻などを含んだ過去のフライト情報を確認できます。",
+        "planLimits": {
+            "Basic": 7,
+            "Silver": 90,
+            "Gold": 365,
+            "Business": 1095
+        },
+        "unit": "day"
+    },
+    "history.flight.kml": {
+        "featureDescription": "CSV／KMLファイルのダウンロード",
+        "featureGroup": "Past flights",
+        "featureId": 57,
+        "featureInfo": "Manual download of CSV/KML files of past flights with flight data including position, speed and altitude. The number of downloads per day is limited by your subscription level. If interested in automated or commercial products, please visit <a target=\"_blank\" href=\"https://www.flightradar24.com/business/data-services\">data services</a> for more information.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 200,
+        "featureUpgradeDescription": "CSV／KMLファイルのダウンロード",
+        "featureUpgradeInfo": "過去のフライトのCSV／KMLファイル（位置／速度／高度などのデータを含む）をマニュアルダウンロードできます。1日あたりのダウンロード数は料金プランに応じて異なります。",
+        "planLimits": {
+            "Silver": 10,
+            "Gold": 25,
+            "Business": 60
+        },
+        "unit": "/day"
+    },
+    "history.playback.days": {
+        "featureDescription": "Playback",
+        "featureGroup": "Past flights",
+        "featureId": 141,
+        "featureInfo": "過去のある時点での空の状況を確認できます。またPlaybackを利用して個々のフライト情報を見ることも可能です。遡れる日数は料金プランに応じて異なります。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 185,
+        "featureUpgradeDescription": "Playback",
+        "featureUpgradeInfo": "選択した航空機のフライト情報のPlaybackと機体データを表示します。選択したフライトの任意の時点、または出発から到着までの軌道を見ることができます。",
+        "planLimits": {
+            "Basic": 7,
+            "Silver": 90,
+            "Gold": 365,
+            "Business": 1095
+        },
+        "unit": "day"
+    },
+    "history.playback.flight.days": {
+        "featureDescription": "フライトPlayback",
+        "featureGroup": "Past flights",
+        "featureId": 140,
+        "featureInfo": "選択した航空機のフライト情報のPlaybackと機体データを表示します。選択したフライトの任意の時点、または出発から到着までの軌道を見ることができます。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 190,
+        "featureUpgradeDescription": "フライトPlayback",
+        "featureUpgradeInfo": "世界各地の過去のフライト情報、または選択した航空機の高度と速度グラフを含むPlaybackを確認できます。",
+        "planLimits": {
+            "Basic": 7,
+            "Silver": 90,
+            "Gold": 365,
+            "Business": 1095
+        },
+        "unit": "day"
+    },
+    "map.data.ads-b": {
+        "featureDescription": "ADS-Bデータ",
+        "featureGroup": "Live flight tracking",
+        "featureId": 48,
+        "featureInfo": "ADS-Bを搭載した航空機の位置をリアルタイムで確認できます。<a href=\"/how-it-works/#adsb\" target=\"_blank\">ADS-Bについてはこちらを参照してください</a>。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 131,
+        "featureUpgradeDescription": "ADS-Bデータ",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.data.delaystats": {
+        "featureDescription": "遅延状況",
+        "featureGroup": null,
+        "featureId": 73,
+        "featureInfo": "世界中の空港または選択した地域の空港の遅延状況を確認できます。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 1000,
+        "featureUpgradeDescription": "遅延状況",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.data.faa": {
+        "featureDescription": "レーダーデータ",
+        "featureGroup": "Live flight tracking",
+        "featureId": 50,
+        "featureInfo": "北米とその周辺海域の一部をカバーするアメリカ合衆国／カナダの公式レーダーデータです。<a href=\"/how-it-works/#faa\" target=\"_blank\">レーダーデータについてはこちらを参照してください</a>。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 133,
+        "featureUpgradeDescription": "レーダーデータ",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.data.flarm": {
+        "featureDescription": "FLARMデータ",
+        "featureGroup": "Live flight tracking",
+        "featureId": 52,
+        "featureInfo": "FLARMを搭載している航空機のリアルタイムデータを確認できます。<a href=\"/how-it-works/#flarm\" target=\"_blank\">FLARMについてはこちらを参照してください</a>。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 135,
+        "featureUpgradeDescription": "FLARMデータ",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.data.mlat": {
+        "featureDescription": "MLATデータ",
+        "featureGroup": "Live flight tracking",
+        "featureId": 49,
+        "featureInfo": "ADS-Bを搭載していない航空機の位置をリアルタイムで確認できます。<a href=\"/how-it-works/#mlat\" target=\"_blank\">MLATについてはこちらを参照してください</a>。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 132,
+        "featureUpgradeDescription": "MLATデータ",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.data.satellite": {
+        "featureDescription": "サテライトリンクデータ",
+        "featureGroup": "Live flight tracking",
+        "featureId": 51,
+        "featureInfo": "Solar Impulse 2などのサテライトを搭載した航空機のリアルタイムデータを確認できます。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 134,
+        "featureUpgradeDescription": "サテライトリンクデータ",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.filters.saved": {
+        "featureDescription": "フィルタ",
+        "featureGroup": "Customization",
+        "featureId": 139,
+        "featureInfo": "旅客機、貨物機、軍用機などのカテゴリや、コールサイン、空港、高度、速度、機種、機体番号などのカスタムフィルタで地図上に表示する航空機を絞り込むことができます。航空会社、機体、空港、路線フィルタは無料で自由に設定することができます。保存できるフィルタの数は契約プランによって異なります。カテゴリおよび詳細なフィルタは、Silver または Gold プランでご利用いただけます。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 205,
+        "featureUpgradeDescription": "フィルタ",
+        "featureUpgradeInfo": "旅客機、貨物機、軍用機などのカテゴリや、コールサイン、空港、高度、速度、機種、機体番号などのカスタムフィルタで地図上に表示する航空機を絞り込むことができます。航空会社、機体、空港、路線フィルタは無料で自由に設定することができます。保存できるフィルタの数は契約プランによって異なります。カテゴリおよび詳細なフィルタは、Silver または Gold プランでご利用いただけます。",
+        "planLimits": {
+            "Basic": 1,
+            "Silver": 10,
+            "Gold": 25,
+            "Business": 60
+        },
+        "unit": null
+    },
+    "map.info.aircraft": {
+        "featureDescription": "機体情報",
+        "featureGroup": "Aircraft details",
+        "featureId": 54,
+        "featureInfo": "Basicユーザーは機種、機体記号、Mode-Sコードを、Silver／Gold／Businessユーザーは製造シリアルナンバー、機体年数も閲覧できます。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 150,
+        "featureUpgradeDescription": "機体情報",
+        "featureUpgradeInfo": "出発地、目的地、予定の出発時刻と到着時刻、実際の出発時刻と到着時刻などを含む過去のフライト情報を閲覧できます。料金プランに応じて遡れる日数は異なります。",
+        "planLimits": {
+            "Basic": "limited",
+            "Silver": "full",
+            "Gold": "full",
+            "Business": "full"
+        },
+        "unit": null
+    },
+    "map.info.aircraft.age": {
+        "featureDescription": "機体年数",
+        "featureGroup": "Aircraft details",
+        "featureId": 123,
+        "featureInfo": "お探しの航空機の機体年数を確認できます。",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 155,
+        "featureUpgradeDescription": "機体年数",
+        "featureUpgradeInfo": "お探しの航空機の機体年数を確認できます。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.aircraft.country": {
+        "featureDescription": "航空機の登録国",
+        "featureGroup": "Aircraft details",
+        "featureId": 163,
+        "featureInfo": "各航空機の登録国はフライト情報パネルでご確認ください。",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 156,
+        "featureUpgradeDescription": "航空機の登録国",
+        "featureUpgradeInfo": "各航空機の登録国はフライト情報パネルでご確認ください。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.aircraft.code": {
+        "featureDescription": "Mode-Sコード",
+        "featureGroup": "Aircraft details",
+        "featureId": 137,
+        "featureInfo": "航空機体のトランスポンダーを識別する6桁の英数字コードです。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 152,
+        "featureUpgradeDescription": "Mode-Sコード",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.aircraft.msn": {
+        "featureDescription": "機体シリアルナンバー",
+        "featureGroup": "Aircraft details",
+        "featureId": 122,
+        "featureInfo": "機体記号が変更されても常に同じである、航空機固有の製造シリアルナンバー (MSN) を確認できます。",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 154,
+        "featureUpgradeDescription": "機体シリアルナンバー",
+        "featureUpgradeInfo": "機体記号が変更されても常に同じである、航空機固有の製造シリアルナンバー (MSN) を確認できます。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.aircraft.registration": {
+        "featureDescription": "機体記号",
+        "featureGroup": "Aircraft details",
+        "featureId": 135,
+        "featureInfo": "機体後部に記載されているところからテイルナンバーとも呼ばれる航空機の固有識別子です。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 151,
+        "featureUpgradeDescription": "機体記号",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.aircraft.type": {
+        "featureDescription": "機種",
+        "featureGroup": "Aircraft details",
+        "featureId": 136,
+        "featureInfo": "ICAOによって割り当てられたタイプコードを含む、機体の詳しい名称です。ICAOのタイプコードを用いて機体フィルターを作成します。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 153,
+        "featureUpgradeDescription": "機種",
+        "featureUpgradeInfo": "ICAOによって割り当てられたタイプコードを含む、機体の詳しい名称です。ICAOのタイプコードを用いて機体フィルターを作成します。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.airport.arrivals": {
+        "featureDescription": "空港到着便",
+        "featureGroup": null,
+        "featureId": 89,
+        "featureInfo": null,
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 120,
+        "featureUpgradeDescription": null,
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.airport.departures": {
+        "featureDescription": "空港出発便",
+        "featureGroup": null,
+        "featureId": 90,
+        "featureInfo": null,
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 121,
+        "featureUpgradeDescription": null,
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.airport.onground.hours": {
+        "featureDescription": "地上の機体情報",
+        "featureGroup": "Past flights",
+        "featureId": 58,
+        "featureInfo": "各空港に到着が確認された航空機のリストです。再び空港を出発したことが確認されるまでリストに残ります。遡れる日数は料金プランに応じて異なります。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 195,
+        "featureUpgradeDescription": "地上の機体情報",
+        "featureUpgradeInfo": "各空港に到着が確認された航空機のリストです。再び空港を出発したことが確認されるまでリストに残ります。遡れる日数は料金プランに応じて異なります。",
+        "planLimits": {
+            "Basic": 1,
+            "Silver": 168,
+            "Gold": 720,
+            "Business": 2160
+        },
+        "unit": "hour-time"
+    },
+    "map.info.flight": {
+        "featureDescription": "フライト情報",
+        "featureGroup": "Flight details",
+        "featureId": 53,
+        "featureInfo": "Basicユーザーは対地速度／較正高度／コース／位置を、SilverユーザーはBasicプランの機能に加え昇降速度／Squawkを、GoldとBusinessユーザーは更に、FIR／UIR情報、GPS／高度／風／気温などの情報を含む拡張Mode-Sデータと航空機の速度データを確認できます。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 160,
+        "featureUpgradeDescription": "フライト情報",
+        "featureUpgradeInfo": "フライト履歴をお探しの場合、機種／機体記号／予定の出発時刻と到着時刻／実際の出発時刻と到着時刻などを含む過去のフライト情報を確認できます。料金プランに応じて遡れる日数は異なります。",
+        "planLimits": {
+            "Basic": "limited",
+            "Silver": "enhanced",
+            "Gold": "full",
+            "Business": "full"
+        },
+        "unit": null
+    },
+    "map.info.flight.airspace": {
+        "featureDescription": "FIR／UIR",
+        "featureGroup": "Flight details",
+        "featureId": 120,
+        "featureInfo": "世界中の飛行情報区 (FIR) と上層飛行情報区 (UIR) のデータを用いて、現在どの航空管制区域内を航行しているかを確認できます。",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 171,
+        "featureUpgradeDescription": "FIR／UIR",
+        "featureUpgradeInfo": "世界中の飛行情報区 (FIR) と上層飛行情報区 (UIR) の境界線を地図上に示し、現在どの航空管制区域内を航行しているかを確認できます。各フライトの現在の航空管制区域はフライト情報ボックス内でも確認できます。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.calibrated-altitude": {
+        "featureDescription": "較正高度",
+        "featureGroup": "Flight details",
+        "featureId": 144,
+        "featureInfo": "補正海抜気圧高度 (AMSL)",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 163,
+        "featureUpgradeDescription": "較正高度",
+        "featureUpgradeInfo": "補正海抜気圧高度 (AMSL)",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ems": {
+        "featureDescription": "拡張Mode-Sデータ",
+        "featureGroup": "Flight details",
+        "featureId": 121,
+        "featureInfo": null,
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 166,
+        "featureUpgradeDescription": "拡張Mode-Sデータ",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ems.alt.gps": {
+        "featureDescription": "GPS高度",
+        "featureGroup": "Flight details",
+        "featureId": 129,
+        "featureInfo": "GPSにより割り出された航空機の高度で、楕円体である地球を基準にしており、対地高度を示すものではありません。",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 166,
+        "featureUpgradeDescription": "GPS高度",
+        "featureUpgradeInfo": "GPSにより割り出された航空機の高度で、楕円体である地球を基準にしており、対地高度を示すものではありません。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ems.ias": {
+        "featureDescription": "指示対気速度",
+        "featureGroup": "Flight details",
+        "featureId": 124,
+        "featureInfo": "指示対気速度は、気温や気圧の補正をせずに対気速度計の値をそのまま使用した航空機の飛行速度です。",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 169,
+        "featureUpgradeDescription": "指示対気速度",
+        "featureUpgradeInfo": "指示対気速度は、気温や気圧の補正をせずに対気速度計の値をそのまま使用した航空機の飛行速度です。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ems.mach": {
+        "featureDescription": "マッハ",
+        "featureGroup": "Flight details",
+        "featureId": 126,
+        "featureInfo": "マッハの値は、当該フライトの飛行高度における音速に対する真対気速度の比率です。",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 172,
+        "featureUpgradeDescription": "マッハ",
+        "featureUpgradeInfo": "マッハの値は、当該フライトの飛行高度における音速に対する真対気速度の比率です。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ems.oat": {
+        "featureDescription": "気温",
+        "featureGroup": "Flight details",
+        "featureId": 128,
+        "featureInfo": "航空機から直接取得した外気温です。",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 170,
+        "featureUpgradeDescription": "気温",
+        "featureUpgradeInfo": "航空機から直接取得した外気温です。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ems.tas": {
+        "featureDescription": "真対気速度",
+        "featureGroup": "Flight details",
+        "featureId": 125,
+        "featureInfo": "真対気速度は、位置／機器の誤差／気圧と温度を考慮して補正された航空機の飛行速度です。",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 167,
+        "featureUpgradeDescription": "真対気速度",
+        "featureUpgradeInfo": "真対気速度は、位置／機器の誤差／気圧と温度を考慮して補正された航空機の飛行速度です。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ems.wind": {
+        "featureDescription": "風",
+        "featureGroup": "Flight details",
+        "featureId": 127,
+        "featureInfo": "航空機から直接取得した追い風・向かい風などの風向き情報や風速を確認できます。",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 168,
+        "featureUpgradeDescription": "飛行時の風に関する状況",
+        "featureUpgradeInfo": "航空機から直接取得した追い風・向かい風などの風向き情報や風速を確認できます。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ground-speed": {
+        "featureDescription": "対地速度",
+        "featureGroup": "Flight details",
+        "featureId": 143,
+        "featureInfo": "地面に対しての速度です。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 160,
+        "featureUpgradeDescription": "対地速度",
+        "featureUpgradeInfo": "地面に対しての速度です。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.position": {
+        "featureDescription": "位置",
+        "featureGroup": "Flight details",
+        "featureId": 146,
+        "featureInfo": "緯度と経度を用いた機体の位置です。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 161,
+        "featureUpgradeDescription": "位置",
+        "featureUpgradeInfo": "緯度と経度を用いた機体の位置です。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.squawk": {
+        "featureDescription": "Squawkコード",
+        "featureGroup": "Flight details",
+        "featureId": 118,
+        "featureInfo": "航空管制によって各航空機に割り当てられる4桁のコードです。航空管制のレーダー画面上でも同じ番号が表示されます。",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 165,
+        "featureUpgradeDescription": "Squawkコード",
+        "featureUpgradeInfo": "Squawkコードは航空管制によって各航空機に割り当てられる4桁のコードです。航空管制のレーダー画面上でも同じ番号が表示されます。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.track": {
+        "featureDescription": "コース",
+        "featureGroup": "Flight details",
+        "featureId": 145,
+        "featureInfo": "機体の方向を表しています。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 162,
+        "featureUpgradeDescription": "コース",
+        "featureUpgradeInfo": "機体の方向を表しています。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.vertical-speed": {
+        "featureDescription": "昇降速度",
+        "featureGroup": "Flight details",
+        "featureId": 119,
+        "featureInfo": "機体が上昇または下降する際の速度です。",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 164,
+        "featureUpgradeDescription": "昇降速度",
+        "featureUpgradeInfo": "機体が上昇または下降する際の速度です。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.labels.rows": {
+        "featureDescription": "文字ラベル",
+        "featureGroup": "Customization",
+        "featureId": 59,
+        "featureInfo": "機体アイコンと共に表示する情報を選択できます。コールサイン／便名／機体記号、または機種／機体記号／高度／速度、または出発地／目的地などの識別子の表示が可能です。文字ラベルの表示数は料金プランに応じて異なります。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 210,
+        "featureUpgradeDescription": "機体の文字ラベル",
+        "featureUpgradeInfo": "機体アイコンと共に表示する情報を選択できます。コールサイン／便名／機体記号、または、機体記号／機種／高度／速度、または出発地／目的地などの識別子の表示が可能です。文字ラベルの表示数は料金プランに応じて異なります。",
+        "planLimits": {
+            "Basic": 1,
+            "Silver": 4,
+            "Gold": 4,
+            "Business": 4
+        },
+        "unit": null
+    },
+    "map.layer.atc": {
+        "featureDescription": "航空管制 (ATC) 境界線",
+        "featureGroup": "Map layers",
+        "featureId": 70,
+        "featureInfo": "世界中の飛行情報区 (FIR) と上層飛行情報区 (UIR) の境界線を地図上に示し、現在どの航空管制区域内を航行しているかを確認できます。各フライトの現在の航空管制区域はフライト情報ボックス内でも確認できます。",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 340,
+        "featureUpgradeDescription": "航空管制 (ATC) 境界線",
+        "featureUpgradeInfo": "世界中の飛行情報区 (FIR) と上層飛行情報区 (UIR) の境界線を地図上に示し、現在どの航空管制区域内を航行しているかを確認できます。各フライトの現在の航空管制区域はフライト情報ボックス内でも確認できます。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.ndb": {
+        "featureDescription": "Navaids",
+        "featureGroup": "Aeronautical charts",
+        "featureId": 142,
+        "featureInfo": "パイロットの操縦を補助するラジオビーコンを用いた航路標識を地図上で確認できます。",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 505,
+        "featureUpgradeDescription": "Navaids",
+        "featureUpgradeInfo": "パイロットの操縦を補助するラジオビーコンを用いた航路標識を地図上で確認できます。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.ndb.alt.high": {
+        "featureDescription": "高高度",
+        "featureGroup": "Aeronautical charts",
+        "featureId": 133,
+        "featureInfo": "高高度を飛行中の航空機を誘導するウェイポイントと航路を地図上で確認できます。",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 520,
+        "featureUpgradeDescription": "高高度チャート",
+        "featureUpgradeInfo": "高高度を飛行中の航空機を誘導するウェイポイントと航路を地図上で確認できます。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.ndb.alt.low": {
+        "featureDescription": "低高度",
+        "featureGroup": "Aeronautical charts",
+        "featureId": 132,
+        "featureInfo": "低高度を飛行中の航空機を誘導するウェイポイントと航路を地図上で確認できます。",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 510,
+        "featureUpgradeDescription": "低高度チャート",
+        "featureUpgradeInfo": "低高度を飛行中の航空機を誘導するウェイポイントと航路を地図上で確認できます。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.ndb.charts": {
+        "featureDescription": "航空図",
+        "featureGroup": "Aeronautical charts",
+        "featureId": 71,
+        "featureInfo": "他の航空機と距離を保ちながら目的地に安全に到着するため、航空機は航空路に設定されているウェイポイントの間を飛行します。高高度と低高度チャートのほか、航路標識も見ることができます。",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 500,
+        "featureUpgradeDescription": "航空図",
+        "featureUpgradeInfo": "他の航空機と距離を保ちながら目的地に安全に到着するため、航空機は航空路に設定されているウェイポイントの間を飛行します。高高度と低高度チャートのほか、航路標識も見ることができます。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.tracks.oceanic": {
+        "featureDescription": "洋上航空路",
+        "featureGroup": "Map layers",
+        "featureId": 72,
+        "featureInfo": "太平洋や大西洋などの航空管制区域外において、安全に航行するため設定されている経路です。1日に2回、気象状況に応じて更新されます。ライブマップ上で航空機がどのような飛行経路をとり、安全に航行しているか見ることができます。",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 350,
+        "featureUpgradeDescription": "洋上航空路",
+        "featureUpgradeInfo": "太平洋や大西洋などの航空管制区域外において、安全に航行するため設定されている経路です。1日に2回、気象状況に応じて更新されます。ライブマップ上で航空機がどのような飛行経路をとり、安全に航行しているか見ることができます。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.vor": {
+        "featureDescription": "VORデータ",
+        "featureGroup": null,
+        "featureId": 92,
+        "featureInfo": null,
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 1000,
+        "featureUpgradeDescription": "VORデータ",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather": {
+        "featureDescription": "現在の気象情報",
+        "featureGroup": "Weather layers",
+        "featureId": 63,
+        "featureInfo": "快晴で温暖な福岡、雨天で冷え込むサンフランシスコなど、3,000以上ある世界中の空港の最新気象情報を気温、天候と共にライブマップ上で表示します。",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 270,
+        "featureUpgradeDescription": "現在の気象情報",
+        "featureUpgradeInfo": "快晴で温暖な福岡、雨天で冷え込むサンフランシスコなど、3,000以上ある世界中の空港の最新気象情報を気温、天候と共にライブマップ上で表示します。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.airmet": {
+        "featureDescription": "AIRMET／SIGMET",
+        "featureGroup": "Weather layers",
+        "featureId": 110,
+        "featureInfo": "AIRMET／SIGMETは当該当局により提供される飛行条件に悪影響を及ぼす可能性のある気象予報で、30分毎に更新されます。詳しい情報はAIRMET／SIGMETを参照してください。",
+        "featurePlans": [
+            "Business"
+        ],
+        "featureSortOrder": 300,
+        "featureUpgradeDescription": "AIRMET／SIGMET",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.auradar": {
+        "featureDescription": "オーストラリアレーダー",
+        "featureGroup": "Weather layers",
+        "featureId": 159,
+        "featureInfo": "オーストラリアレーダーは、オーストラリア全域の降水量を2kmの解像度で合成した画像です。",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 300,
+        "featureUpgradeDescription": "オーストラリアレーダー",
+        "featureUpgradeInfo": "オーストラリアレーダーは、オーストラリア全域の降水量を2kmの解像度で合成した画像です。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.cat": {
+        "featureDescription": "Clear-air turbulence",
+        "featureGroup": "Weather layers",
+        "featureId": 157,
+        "featureInfo": "Clear-air turbulence is the turbulent movement of air without any visual clues, this can often impact aviation. See clear air turbulence at various altitudes for a specific time in the future overlayed on our live map.",
+        "featurePlans": [
+            "Business"
+        ],
+        "featureSortOrder": 300,
+        "featureUpgradeDescription": "Clear-air turbulence",
+        "featureUpgradeInfo": "Clear-air turbulence is the turbulent movement of air without any visual clues, this can often impact aviation. See clear air turbulence at various altitudes for a specific time in the future overlayed on our live map.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.highlevel": {
+        "featureDescription": "悪天候予報図",
+        "featureGroup": "Weather layers",
+        "featureId": 112,
+        "featureInfo": "Forecasted areas of high level significant weather, such as wind patterns and storm activity, available for up to a 24-hour period in six hour increments.",
+        "featurePlans": [
+            "Business"
+        ],
+        "featureSortOrder": 310,
+        "featureUpgradeDescription": "悪天候予報図",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.icing": {
+        "featureDescription": "Icing",
+        "featureGroup": "Weather layers",
+        "featureId": 155,
+        "featureInfo": "Icing can lead to ice build up on aircraft which can be extremely dangerous for pilots. See forecasted icing at various altitudes for a specific time in the future overlayed on our live map.",
+        "featurePlans": [
+            "Business"
+        ],
+        "featureSortOrder": 300,
+        "featureUpgradeDescription": "Icing",
+        "featureUpgradeInfo": "Icing can lead to ice build up on aircraft which can be extremely dangerous for pilots. See forecasted icing at various altitudes for a specific time in the future overlayed on our live map.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.ict": {
+        "featureDescription": "In cloud turbulence",
+        "featureGroup": "Weather layers",
+        "featureId": 156,
+        "featureInfo": "Currents and water vapor in and around clouds can cause turbulence, this can often impact aviation. See in cloud turbulence at various altitudes for a specific time in the future overlayed on our live map.",
+        "featurePlans": [
+            "Business"
+        ],
+        "featureSortOrder": 300,
+        "featureUpgradeDescription": "In cloud turbulence",
+        "featureUpgradeInfo": "Currents and water vapor in and around clouds can cause turbulence, this can often impact aviation. See in cloud turbulence at various altitudes for a specific time in the future overlayed on our live map.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.lightning": {
+        "featureDescription": "雷情報",
+        "featureGroup": "Weather layers",
+        "featureId": 113,
+        "featureInfo": "観測された落雷情報が地図上に表示されます。15分毎に更新されます。",
+        "featurePlans": [
+            "Business"
+        ],
+        "featureSortOrder": 320,
+        "featureUpgradeDescription": "雷情報",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.naradar": {
+        "featureDescription": "北米レーダー",
+        "featureGroup": "Weather layers",
+        "featureId": 158,
+        "featureInfo": "高解像度の北米レーダーは、米国本土、アラスカ、ハワイ、プエルトリコ、カナダ南部をカバーするレーダーのモザイク画像です。1kmの解像度で頻繁に更新されるため、詳細な気象情報を確認できます。",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 300,
+        "featureUpgradeDescription": "北米レーダー",
+        "featureUpgradeInfo": "高解像度の北米レーダーは、米国本土、アラスカ、ハワイ、プエルトリコ、カナダ南部をカバーするレーダーのモザイク画像です。1kmの解像度で頻繁に更新されるため、詳細な気象情報を確認できます。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.radar": {
+        "featureDescription": "短期降水量",
+        "featureGroup": "Weather layers",
+        "featureId": 109,
+        "featureInfo": "気象レーダーが提供する世界各地域の豪雨情報を表示し、迂回など航空機が影響を受けている状況をライブマップ上で確認できます。30分毎に更新されます。",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 295,
+        "featureUpgradeDescription": "短期降水量",
+        "featureUpgradeInfo": "気象レーダーが提供する世界各地域の豪雨情報を表示し、迂回など航空機が影響を受けている状況をライブマップ上で確認できます。30分毎に更新されます。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.radar.global": {
+        "featureDescription": "降水量",
+        "featureGroup": "Weather layers",
+        "featureId": 149,
+        "featureInfo": "現在の世界中の降水量をライブマップ上に表示します。1日に12回更新されます。",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 290,
+        "featureUpgradeDescription": "降水量",
+        "featureUpgradeInfo": "現在の世界中の降水量をライブマップ上に表示します。1日に12回更新されます。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.satellite": {
+        "featureDescription": "雲",
+        "featureGroup": "Weather layers",
+        "featureId": 108,
+        "featureInfo": "気象衛星が提供する世界中の雲の動きを地図上に表示します。60分毎に更新されます。",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 280,
+        "featureUpgradeDescription": "雲",
+        "featureUpgradeInfo": "気象衛星が提供する世界中の雲の動きをライブマップ上で表示します。60分毎に更新されます。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.volcano": {
+        "featureDescription": "火山噴火情報",
+        "featureGroup": "Weather layers",
+        "featureId": 111,
+        "featureInfo": "過去のアイスランドのエイヤフィヤトラヨークトルのように、火山の噴火は航空産業にとって大きな影響を与える要因の一つです。活火山や火山灰を含んだ雲の位置をライブマップ上で表示します。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 260,
+        "featureUpgradeDescription": "火山噴火情報",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.wind": {
+        "featureDescription": "風情報",
+        "featureGroup": "Weather layers",
+        "featureId": 150,
+        "featureInfo": "1,000〜51,000フィートの間で1,000フィート毎に風速と風向きをライブマップ上で表示します。矢羽の形もしくは色のグラデーションから選択できます。1日に12回更新されます。",
+        "featurePlans": [
+            "Business"
+        ],
+        "featureSortOrder": 298,
+        "featureUpgradeDescription": "風情報",
+        "featureUpgradeInfo": "1,000〜51,000フィートの間で1,000フィート毎に風速と風向きをライブマップ上で表示します。矢羽の形もしくは色のグラデーションから選択できます。1日に12回更新されます。",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.search": {
+        "featureDescription": "検索",
+        "featureGroup": null,
+        "featureId": 94,
+        "featureInfo": null,
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 1000,
+        "featureUpgradeDescription": "検索",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.status.flight": {
+        "featureDescription": "フライト運航状況",
+        "featureGroup": "Aircraft on map",
+        "featureId": 104,
+        "featureInfo": "便名、航空会社、出発地、目的地、フライト運航状況、到着予定時刻、実際の出発時刻、平均飛行時間、平均遅延時間、飛行距離などを閲覧できます。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 130,
+        "featureUpgradeDescription": "フライト運航状況",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.tracking.live": {
+        "featureDescription": "リアルタイムフライト追跡",
+        "featureGroup": "Live flight tracking",
+        "featureId": 47,
+        "featureInfo": "世界中から現在飛行中のフライトのリアルタイムデータを閲覧できます。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 130,
+        "featureUpgradeDescription": "リアルタイムフライト追跡",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.widgets.bookmarks.max": {
+        "featureDescription": "ブックマーク",
+        "featureGroup": "Customization",
+        "featureId": 162,
+        "featureInfo": "ブックマークを作成すれば保存済みの設定に簡単にアクセスできます。ブックマークには地図の位置、レイヤー、設定、フィルタを登録できます。ブックマーク数は料金プランに応じて異なります。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 240,
+        "featureUpgradeDescription": "ブックマーク",
+        "featureUpgradeInfo": "ブックマークを作成すれば保存済みの設定に簡単にアクセスできます。ブックマークには地図の位置、レイヤー、設定、フィルタを登録できます。ブックマーク数は料金プランに応じて異なります。",
+        "planLimits": {
+            "Basic": 1,
+            "Silver": 10,
+            "Gold": 25,
+            "Business": 60
+        },
+        "unit": null
+    },
+    "support.level": {
+        "featureDescription": "優先カスタマーサポート",
+        "featureGroup": "General",
+        "featureId": 83,
+        "featureInfo": "Silver／Goldユーザーは優先的にカスタマーサポートを受けられます。",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 100,
+        "featureUpgradeDescription": "優先カスタマーサポート",
+        "featureUpgradeInfo": "Silver／Goldユーザーは優先的にカスタマーサポートを受けられます。",
+        "planLimits": {
+            "Silver": "Yes",
+            "Gold": "Yes",
+            "Business": "Yes"
+        },
+        "unit": null
+    },
+    "support.platform": {
+        "featureDescription": "クロスプラットフォームサポート",
+        "featureGroup": "General",
+        "featureId": 138,
+        "featureInfo": "Flightradar24のSilverプランとGoldプラン限定の追加機能を全ての端末でお楽しみいただけます。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 105,
+        "featureUpgradeDescription": "クロスプラットフォームサポート",
+        "featureUpgradeInfo": "Flightradar24のSilverプランとGoldプラン限定の追加機能を全ての端末でお楽しみいただけます。",
+        "planLimits": {
+            "Basic": "Limited",
+            "Silver": "Yes",
+            "Gold": "Yes",
+            "Business": "Yes"
+        },
+        "unit": null
+    },
+    "usage.rights": {
+        "featureDescription": "許可されている使用範囲",
+        "featureGroup": "General",
+        "featureId": 82,
+        "featureInfo": "Flightradar24の商用利用は、Flightradar24の<a href=\"/terms-and-conditions\" target=\"_blank\">利用規約</a>により禁じられています（Businessプランを除く）。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 125,
+        "featureUpgradeDescription": "許可されている使用範囲",
+        "featureUpgradeInfo": null,
+        "planLimits": {
+            "Basic": "Private",
+            "Silver": "Private",
+            "Gold": "Private",
+            "Business": "Private & Business"
+        },
+        "unit": null
+    },
+    "user.alerts.max": {
+        "featureDescription": "カスタムアラート",
+        "featureGroup": "Customization",
+        "featureId": 131,
+        "featureInfo": "便名／機体記号／航空会社／機種などの設定した条件が一致した場合に、カスタムアラート通知が届きます。設定可能なアラート数は料金プランに応じて異なります。",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 215,
+        "featureUpgradeDescription": "カスタムアラート",
+        "featureUpgradeInfo": "便名／機体記号／航空会社／機種などの設定した条件が一致した場合に、カスタムアラート通知が届きます。設定可能なアラート数は料金プランに応じて異なります。",
+        "planLimits": {
+            "Silver": 10,
+            "Gold": 25,
+            "Business": 60
+        },
+        "unit": null
+    },
+    "user.sessions.max": {
+        "featureDescription": "セッション",
+        "featureGroup": "General",
+        "featureId": 103,
+        "featureInfo": "1つのアカウントにつき登録できるユーザーは1名のみですが、料金プランに応じて3つまたは4つの端末（ブラウザ／タブレット／スマートフォン）で同時に使用できます。",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 110,
+        "featureUpgradeDescription": "セッション",
+        "featureUpgradeInfo": null,
+        "planLimits": {
+            "Silver": 3,
+            "Gold": 3,
+            "Business": 4
+        },
+        "unit": null
+    },
+    "user.users": {
+        "featureDescription": "Users",
+        "featureGroup": "General",
+        "featureId": 154,
+        "featureInfo": "Each Flightradar24 account is valid for a single user. If you are interested in multi-user accounts please <a href=\"/contact-us\">contact our business team</a> for options and pricing.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 100,
+        "featureUpgradeDescription": "Users",
+        "featureUpgradeInfo": "Each Flightradar24 account is valid for a single user. If you are interested in multi-user accounts please <a href=\"/contact-us\">contact our business team</a> for options and pricing.",
+        "planLimits": {
+            "Silver": 1,
+            "Gold": 1,
+            "Business": 1
+        },
+        "unit": null
+    },
+    "map.view.3d.mobile": {
+        "featureId": 155,
+        "featureGroup": "Map views",
+        "featureSortOrder": 400,
+        "featureDescription": "3Dビュー",
+        "featureUpgradeDescription": "3Dビュー",
+        "featureInfo": "Follow a 3D model over high-resolution satellite and terrain imagery. Now also see other nearby flights and aircraft shadows. Access three 3D sessions using a free Basic account and get more sessions by watching an ad. Unlimited access to 3D view is available with any paid Flightradar24 subscription.",
+        "featureUpgradeInfo": "無制限セッションを含む3Dビューは、Flightradar24のどの料金プランでも利用できます。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Basic": -2,
+            "Silver": -1,
+            "Gold": -1,
+            "Business": -1
+        },
+        "unit": "session"
+    },
+    "airport.panel.latest.events": {
+        "featureId": 1000,
+        "featureGroup": "Airport",
+        "featureSortOrder": 130,
+        "featureDescription": "最近の動向",
+        "featureUpgradeDescription": "最近の動向",
+        "featureInfo": "選択した空港における、過去7日間の総離着陸回数を見ることができます。\n\n最新の動向は、SilverまたはGoldプランで利用可能です。",
+        "featureUpgradeInfo": "選択した空港における、過去7日間の総離着陸回数を見ることができます。\n\n最新の動向は、SilverまたはGoldプランで利用可能です。",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Silver": -1,
+            "Gold": -1,
+            "Business": -1
+        },
+        "unit": null
+    },
+    "airport.panel.movements.per.day": {
+        "featureId": 1001,
+        "featureGroup": "Airport",
+        "featureSortOrder": 130,
+        "featureDescription": "1日の離着陸情報",
+        "featureUpgradeDescription": "1日の離着陸情報",
+        "featureInfo": "過去7日間の日別離着陸合計数を見ることができます。\n\nGold 、1日あたりの発着回数をご確認いただけます。",
+        "featureUpgradeInfo": "過去7日間の日別離着陸合計数を見ることができます。\n\nGold 、1日あたりの発着回数をご確認いただけます。",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Gold": -1,
+            "Business": -1
+        },
+        "unit": null
+    },
+    "airport.panel.runway.usage": {
+        "featureId": 1002,
+        "featureGroup": "Airport",
+        "featureSortOrder": 130,
+        "featureDescription": "滑走路の使用状況",
+        "featureUpgradeDescription": "滑走路の使用状況",
+        "featureInfo": "選択した空港における、過去7日間の滑走路ごとの総離着陸回数を見ることができます。\n\n滑走路の使用状況は、Goldプランで利用可能です。",
+        "featureUpgradeInfo": "選択した空港における、過去7日間の滑走路ごとの総離着陸回数を見ることができます。\n\n滑走路の使用状況は、Goldプランで利用可能です。",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Gold": -1,
+            "Business": -1
+        },
+        "unit": null
+    },
+    "airport.panel.runway.details": {
+        "featureId": 1003,
+        "featureGroup": "Airport",
+        "featureSortOrder": 130,
+        "featureDescription": "空港と滑走路の詳細情報",
+        "featureUpgradeDescription": "空港と滑走路の詳細情報",
+        "featureInfo": "滑走路番号、長さ、路面タイプなど、空港とその滑走路に関する追加情報のロックを解除します。\n\n空港と滑走路の詳細情報は、SilverまたはGoldプランで利用できます。",
+        "featureUpgradeInfo": "滑走路番号、長さ、路面タイプなど、空港とその滑走路に関する追加情報のロックを解除します。\n\n空港と滑走路の詳細情報は、SilverまたはGoldプランで利用できます。",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Silver": -1,
+            "Gold": -1,
+            "Business": -1
+        },
+        "unit": null
+    },
+    "airport.panel.arrivals_departures": {
+        "featureId": 1004,
+        "featureGroup": "Airport",
+        "featureSortOrder": 130,
+        "featureDescription": "到着と出発",
+        "featureUpgradeDescription": "到着と出発",
+        "featureInfo": "便名と出発地を含む発着時間のロックを解除します。標準では12時間ご利用いただけます。無料アカウントを作成して24時間のロックを解除するか、Silver (36) またはGold (48) プランにアップグレードしてください。",
+        "featureUpgradeInfo": "便名と出発地を含む発着時間のロックを解除します。標準では12時間ご利用いただけます。無料アカウントを作成して24時間のロックを解除するか、Silver (36) またはGold (48) プランにアップグレードしてください。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Basic": 24,
+            "Silver": 36,
+            "Gold": 48,
+            "Business": 72
+        },
+        "unit": "hour-time"
+    },
+    "airport.panel.onground": {
+        "featureId": 1005,
+        "featureGroup": "Airport",
+        "featureSortOrder": 130,
+        "featureDescription": "地上の機体情報",
+        "featureUpgradeDescription": "地上の機体情報",
+        "featureInfo": "各空港に着陸した航空機のリストにアクセスできます。航空機は、再び空港を出発したことが確認できるまでリストに残ります。地上の航空機機能は、Silverプラン（直近7日間）またはGoldプラン（30日間）で利用できます。",
+        "featureUpgradeInfo": "各空港に着陸した航空機のリストにアクセスできます。航空機は、再び空港を出発したことが確認できるまでリストに残ります。地上の航空機機能は、Silverプラン（直近7日間）またはGoldプラン（30日間）で利用できます。",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Basic": 2,
+            "Silver": 168,
+            "Gold": 720,
+            "Business": 2160
+        },
+        "unit": "hour-time"
+    },
+    "history.airport.days": {
+        "featureId": 1006,
+        "featureGroup": "Airport",
+        "featureSortOrder": 130,
+        "featureDescription": "空港のフライト履歴を見る",
+        "featureUpgradeDescription": "空港のフライト履歴を見る",
+        "featureInfo": "各空港の過去の離着陸データ（航空会社、コールサイン、便名、機種、フライト時間など）を確認できます。\n\nさらに、選択した空港の直近4回の離着陸情報を確認できます。遡って閲覧できる期間は、ご利用のプランによって異なります。 \n\n空港のフライト履歴は、SilverまたはGoldプランで利用可能です。 ",
+        "featureUpgradeInfo": "各空港の過去の離着陸データ（航空会社、コールサイン、便名、機種、フライト時間など）を確認できます。\n\nさらに、選択した空港の直近4回の離着陸情報を確認できます。遡って閲覧できる期間は、ご利用のプランによって異なります。 \n\n空港のフライト履歴は、SilverまたはGoldプランで利用可能です。 ",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Silver": 90,
+            "Gold": 365,
+            "Business": 1095
+        },
+        "unit": "day"
+    }
+}

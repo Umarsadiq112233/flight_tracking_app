@@ -1,0 +1,1395 @@
+{
+    "adverts": {
+        "featureDescription": "Pubs supprimées",
+        "featureGroup": "General",
+        "featureId": 130,
+        "featureInfo": "Les utilisateurs Free voient des publicités sur l'app. Les abonnés Silver et Gold n'en voient pas. Optez pour un plan supérieur pour utiliser Flightradar24 plus rapidement et sans publicité.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 90,
+        "featureUpgradeDescription": "Pubs supprimées",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "app.include.premium": {
+        "featureDescription": "Pubs premium incluses",
+        "featureGroup": null,
+        "featureId": 85,
+        "featureInfo": null,
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 1000,
+        "featureUpgradeDescription": "Pubs premium incluses",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "events": {
+        "featureDescription": "Affichage des événements",
+        "featureGroup": null,
+        "featureId": 86,
+        "featureInfo": null,
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 1000,
+        "featureUpgradeDescription": "Affichage des événements",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "history.aircraft.days": {
+        "featureDescription": "Historique de l'appareil",
+        "featureGroup": "Past flights",
+        "featureId": 134,
+        "featureInfo": "Vous cherchez des informations historiques concernant l'appareil ? Découvrez des données détaillées sur les vols passés, dont l'origine, la destination, et les heures prévues et réelles de départ et d'arrivée.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 180,
+        "featureUpgradeDescription": "Historique de l'appareil",
+        "featureUpgradeInfo": "Vous cherchez des informations historiques concernant l'appareil ? Découvrez des données détaillées sur les vols passés, dont l'origine, la destination, et les heures prévues et réelles de départ et d'arrivée.",
+        "planLimits": {
+            "Basic": 7,
+            "Silver": 90,
+            "Gold": 365,
+            "Business": 1095
+        },
+        "unit": "day"
+    },
+    "history.flight.days": {
+        "featureDescription": "Historique de vol",
+        "featureGroup": "Past flights",
+        "featureId": 56,
+        "featureInfo": "Obtenez des informations sur les vols passés, dont le type d'appareil, l'immatriculation, l'origine, la destination, et les heures prévues et réelles de départ et d'arrivée. Vous disposez de plus ou moins d'informations en fonction de votre abonnement.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 175,
+        "featureUpgradeDescription": "Historique de vol",
+        "featureUpgradeInfo": "Vous cherchez des informations historiques concernant le vol ? Découvrez des données détaillées sur les vols passés, dont le type d'appareil, l'immatriculation, et les heures prévues et réelles de départ et d'arrivée.",
+        "planLimits": {
+            "Basic": 7,
+            "Silver": 90,
+            "Gold": 365,
+            "Business": 1095
+        },
+        "unit": "day"
+    },
+    "history.flight.kml": {
+        "featureDescription": "Télécharger des fichiers CSV/KML",
+        "featureGroup": "Past flights",
+        "featureId": 57,
+        "featureInfo": "Manual download of CSV/KML files of past flights with flight data including position, speed and altitude. The number of downloads per day is limited by your subscription level. If interested in automated or commercial products, please visit <a target=\"_blank\" href=\"https://www.flightradar24.com/business/data-services\">data services</a> for more information.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 200,
+        "featureUpgradeDescription": "Télécharger des fichiers CSV/KML",
+        "featureUpgradeInfo": "Téléchargement manuel de fichiers CSV/KML de vols passés avec des données de vol, dont la position, la vitesse et l'altitude. Le nombre de téléchargements par jour est limité en fonction de votre abonnement.",
+        "planLimits": {
+            "Silver": 10,
+            "Gold": 25,
+            "Business": 60
+        },
+        "unit": "/day"
+    },
+    "history.playback.days": {
+        "featureDescription": "Playback",
+        "featureGroup": "Past flights",
+        "featureId": 141,
+        "featureInfo": "Découvrez à quoi ressemblait l'espace aérien à un moment donné dans le passé. Vous pouvez également regarder le playback d'un vol en particulier. Vous disposez de plus ou moins d'informations en fonction de votre abonnement.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 185,
+        "featureUpgradeDescription": "Playback",
+        "featureUpgradeInfo": "Regardez le playback d'un vol unique avec des données détaillées sur le vol et l'appareil. Rejoignez facilement l'appareil sur n'importe quelle partie du vol entre le décollage et l'atterrissage.",
+        "planLimits": {
+            "Basic": 7,
+            "Silver": 90,
+            "Gold": 365,
+            "Business": 1095
+        },
+        "unit": "day"
+    },
+    "history.playback.flight.days": {
+        "featureDescription": "Playback du vol",
+        "featureGroup": "Past flights",
+        "featureId": 140,
+        "featureInfo": "Regardez le playback d'un vol unique avec des données détaillées sur le vol et l'appareil. Rejoignez facilement l'appareil sur n'importe quelle partie du vol entre le décollage et l'atterrissage.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 190,
+        "featureUpgradeDescription": "Playback du vol",
+        "featureUpgradeInfo": "Voyagez dans le passé et visualisez un aperçu mondial des vols ou un playback détaillé pour un seul vol, avec des graphiques d'altitude et de vitesse.",
+        "planLimits": {
+            "Basic": 7,
+            "Silver": 90,
+            "Gold": 365,
+            "Business": 1095
+        },
+        "unit": "day"
+    },
+    "map.data.ads-b": {
+        "featureDescription": "Données ADS-B",
+        "featureGroup": "Live flight tracking",
+        "featureId": 48,
+        "featureInfo": "Positionnement en temps réel d'un appareil équipé d'un dispositif ADS-B. <a href=\"/how-it-works/#adsb\" target=\"_blank\">Plus d'informations sur ADS-B ici</a>.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 131,
+        "featureUpgradeDescription": "Données ADS-B",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.data.delaystats": {
+        "featureDescription": "Statistiques des retards",
+        "featureGroup": null,
+        "featureId": 73,
+        "featureInfo": "Obtenez un aperçu instantané des retards des aéroports dans le monde entier ou dans une région précise.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 1000,
+        "featureUpgradeDescription": "Statistiques des retards",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.data.faa": {
+        "featureDescription": "Données radar",
+        "featureGroup": "Live flight tracking",
+        "featureId": 50,
+        "featureInfo": "Données officielles en temps réel de radars USA/Canada couvrant l'Amérique du Nord et certaines régions océaniques autour de l'Amérique du Nord.<a href=\"/how-it-works/#faa\" target=\"_blank\">Plus d'informations sur les données de radar ici</a>.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 133,
+        "featureUpgradeDescription": "Données radar",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.data.flarm": {
+        "featureDescription": "Données FLARM",
+        "featureGroup": "Live flight tracking",
+        "featureId": 52,
+        "featureInfo": "Données en temps réel d'un appareil équipé d'un dispositif FLARM. <a href=\"/how-it-works/#flarm\" target=\"_blank\">Plus d'informations sur FLARM ici</a>.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 135,
+        "featureUpgradeDescription": "Données FLARM",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.data.mlat": {
+        "featureDescription": "Données MLAT",
+        "featureGroup": "Live flight tracking",
+        "featureId": 49,
+        "featureInfo": "Positionnement en temps réel d'un appareil sans dispositif ADS-B. <a href=\"/how-it-works/#mlat\" target=\"_blank\">Plus d'informations sur MLAT ici</a>.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 132,
+        "featureUpgradeDescription": "Données MLAT",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.data.satellite": {
+        "featureDescription": "Données satellite",
+        "featureGroup": "Live flight tracking",
+        "featureId": 51,
+        "featureInfo": "Données en temps réel d'un appareil équipé d'un satellite, comme le Solar Impulse 2.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 134,
+        "featureUpgradeDescription": "Données satellite",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.filters.saved": {
+        "featureDescription": "Filtres",
+        "featureGroup": "Customization",
+        "featureId": 139,
+        "featureInfo": "Vous pouvez définir des filtres pour réduire le nombre d'avions à afficher sur la carte, soit par catégorie, p. ex. Passagers, Cargo et Militaire, soit par des filtres personnalisés, comme l'indicatif d'appel, l'aéroport, l'altitude, la vitesse, le type d'avion et l'immatriculation. Vous pouvez utiliser votre filtre gratuit sur les compagnies aériennes, les avions, les aéroports et les itinéraires. Le nombre de filtres que vous pouvez enregistrer dépend de votre abonnement. L'accès aux catégories et aux filtres avancés est disponible avec un abonnement à Silver ou Gold.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 205,
+        "featureUpgradeDescription": "Filtres",
+        "featureUpgradeInfo": "Vous pouvez définir des filtres pour réduire le nombre d'avions à afficher sur la carte, soit par catégorie, p. ex. Passagers, Cargo et Militaire, soit par des filtres personnalisés, comme l'indicatif d'appel, l'aéroport, l'altitude, la vitesse, le type d'avion et l'immatriculation. Vous pouvez utiliser votre filtre gratuit sur les compagnies aériennes, les avions, les aéroports et les itinéraires. Le nombre de filtres que vous pouvez enregistrer dépend de votre abonnement. L'accès aux catégories et aux filtres avancés est disponible avec un abonnement à Silver ou Gold.",
+        "planLimits": {
+            "Basic": 1,
+            "Silver": 10,
+            "Gold": 25,
+            "Business": 60
+        },
+        "unit": null
+    },
+    "map.info.aircraft": {
+        "featureDescription": "Informations sur l'appareil",
+        "featureGroup": "Aircraft details",
+        "featureId": 54,
+        "featureInfo": "Les utilisateurs Basic voient le type d'appareil, l'immatriculation et le code Mode-S. Les abonnés Silver, Gold et Business voient également le numéro de série du constructeur et l'âge de l'appareil.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 150,
+        "featureUpgradeDescription": "Informations sur l'appareil",
+        "featureUpgradeInfo": "Vous cherchez des informations historiques sur l'appareil ? Découvrez des données détaillées sur les vols passés, dont l'origine, la destination, et les heures prévues et réelles de départ et d'arrivée. Vous disposez de plus ou moins d'informations historiques en fonction de votre abonnement.",
+        "planLimits": {
+            "Basic": "limited",
+            "Silver": "full",
+            "Gold": "full",
+            "Business": "full"
+        },
+        "unit": null
+    },
+    "map.info.aircraft.age": {
+        "featureDescription": "Âge de l'appareil",
+        "featureGroup": "Aircraft details",
+        "featureId": 123,
+        "featureInfo": "Vous vous demandez si un appareil est neuf ou s'il a déjà 20 années de vol derrière lui ? Découvrez l'âge de l'appareil que vous suivez et quand il a volé pour la première fois.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 155,
+        "featureUpgradeDescription": "Âge de l'appareil",
+        "featureUpgradeInfo": "Vous vous demandez si un appareil est neuf ou s'il a déjà 20 années de vol derrière lui ? Découvrez l'âge de l'appareil que vous suivez et quand il a volé pour la première fois.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.aircraft.country": {
+        "featureDescription": "Pays d'immatriculation de l'appareil",
+        "featureGroup": "Aircraft details",
+        "featureId": 163,
+        "featureInfo": "Le pays d'immatriculation de chaque appareil est indiqué sur le panneau d'informations de vol.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 156,
+        "featureUpgradeDescription": "Pays d'immatriculation de l'appareil",
+        "featureUpgradeInfo": "Le pays d'immatriculation de chaque appareil est indiqué sur le panneau d'informations de vol.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.aircraft.code": {
+        "featureDescription": "Code Mode-S",
+        "featureGroup": "Aircraft details",
+        "featureId": 137,
+        "featureInfo": "Un code alphanumérique à six chiffres qui identifie de façon unique le transpondeur de l'appareil.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 152,
+        "featureUpgradeDescription": "Code Mode-S",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.aircraft.msn": {
+        "featureDescription": "Numéro de série de l'appareil",
+        "featureGroup": "Aircraft details",
+        "featureId": 122,
+        "featureInfo": "Découvrez le numéro de série du constructeur unique à l'appareil, qu'il conserve même quand son immatriculation change.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 154,
+        "featureUpgradeDescription": "Numéro de série de l'appareil",
+        "featureUpgradeInfo": "Découvrez le numéro de série du constructeur unique à l'appareil, qu'il conserve même quand son immatriculation change.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.aircraft.registration": {
+        "featureDescription": "Immatriculation",
+        "featureGroup": "Aircraft details",
+        "featureId": 135,
+        "featureInfo": "Un identifiant unique à un appareil, souvent appelé « numéro de queue » compte tenu de l'endroit où il est imprimé sur l'appareil.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 151,
+        "featureUpgradeDescription": "Immatriculation de l'appareil",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.aircraft.type": {
+        "featureDescription": "Type d'appareil",
+        "featureGroup": "Aircraft details",
+        "featureId": 136,
+        "featureInfo": "Le nom détaillé de l'appareil, dont le code ICAO assigné. Utilisez le code ICAO pour créer des filtres d'appareil.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 153,
+        "featureUpgradeDescription": "Type d'appareil",
+        "featureUpgradeInfo": "Le nom détaillé de l'appareil, dont le code ICAO assigné. Utilisez le code ICAO pour créer des filtres d'appareil.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.airport.arrivals": {
+        "featureDescription": "Arrivées à l'aéroport",
+        "featureGroup": null,
+        "featureId": 89,
+        "featureInfo": null,
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 120,
+        "featureUpgradeDescription": null,
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.airport.departures": {
+        "featureDescription": "Départs à l'aéroport",
+        "featureGroup": null,
+        "featureId": 90,
+        "featureInfo": null,
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 121,
+        "featureUpgradeDescription": null,
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.airport.onground.hours": {
+        "featureDescription": "Appareil au sol",
+        "featureGroup": "Past flights",
+        "featureId": 58,
+        "featureInfo": "Liste de tous les appareils enregistrés comme ayant atterri à un aéroport en particulier. Un appareil restera dans la liste jusqu'à ce que nous puissions confirmer son décollage de l'aéroport. Vous disposez de plus ou moins d'informations dans cette liste en fonction de votre abonnement.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 195,
+        "featureUpgradeDescription": "Appareil au sol",
+        "featureUpgradeInfo": "Liste de tous les appareils enregistrés comme ayant atterri à un aéroport en particulier. Un appareil restera dans la liste jusqu'à ce que nous puissions confirmer son décollage de l'aéroport. Vous disposez de plus ou moins d'informations dans cette liste en fonction de votre abonnement.",
+        "planLimits": {
+            "Basic": 1,
+            "Silver": 168,
+            "Gold": 720,
+            "Business": 2160
+        },
+        "unit": "hour-time"
+    },
+    "map.info.flight": {
+        "featureDescription": "Informations sur le vol",
+        "featureGroup": "Flight details",
+        "featureId": 53,
+        "featureInfo": "Les utilisateurs Basic peuvent voir la vitesse sol, l'altitude calibrée, le parcours et la position. Les abonnés Silver voient les informations Basic ainsi que la vitesse verticale et le code d'affichage. Les abonnés Gold et Business ont également accès aux informations FIR et UIR ainsi qu'à des données Mode-S étendues, qui peuvent inclure l'altitude GPS, des informations sur le vent et la température, et des données supplémentaires sur la vitesse de l'appareil.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 160,
+        "featureUpgradeDescription": "Informations sur le vol",
+        "featureUpgradeInfo": "Vous cherchez des informations historiques sur le vol ? Découvrez des données détaillées sur les vols passés, dont le type d'appareil, l'immatriculation, et les heures prévues et réelles de départ et d'arrivée. Vous disposez de plus ou moins d'informations historiques en fonction de votre abonnement.",
+        "planLimits": {
+            "Basic": "limited",
+            "Silver": "enhanced",
+            "Gold": "full",
+            "Business": "full"
+        },
+        "unit": null
+    },
+    "map.info.flight.airspace": {
+        "featureDescription": "FIR/UIR",
+        "featureGroup": "Flight details",
+        "featureId": 120,
+        "featureInfo": "Découvrez quels contrôleurs aériens sont actuellement en charge d'un vol grâce aux données de Région d'information de vol (FIR) et de Région supérieure d'information de vol (UIR).",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 171,
+        "featureUpgradeDescription": "FIR/UIR",
+        "featureUpgradeInfo": "Découvrez quels contrôleurs aériens sont actuellement en charge d'un vol avec les limites des données mondiales de Région d'information de vol et de Région supérieure d'information de vol superposées sur la carte. La zone de contrôle aérien actuelle pour un vol en particulier est également affichée dans le champ des informations de ce vol.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.calibrated-altitude": {
+        "featureDescription": "Altitude calibrée",
+        "featureGroup": "Flight details",
+        "featureId": 144,
+        "featureInfo": "Altitude-pression corrigée au-dessus du niveau moyen de la mer (AMSL)",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 163,
+        "featureUpgradeDescription": "Altitude calibrée",
+        "featureUpgradeInfo": "Altitude-pression corrigée au-dessus du niveau moyen de la mer (AMSL)",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ems": {
+        "featureDescription": "Données Mode-S étendues",
+        "featureGroup": "Flight details",
+        "featureId": 121,
+        "featureInfo": null,
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 166,
+        "featureUpgradeDescription": "Données Mode-S étendues",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ems.alt.gps": {
+        "featureDescription": "Altitude GPS",
+        "featureGroup": "Flight details",
+        "featureId": 129,
+        "featureInfo": "L'altitude de l'appareil relevée par GPS, basée sur un ellipsoïde de toute la planète et n'indiquant pas nécessairement l'altitude au-dessus du sol.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 166,
+        "featureUpgradeDescription": "Altitude GPS",
+        "featureUpgradeInfo": "L'altitude de l'appareil relevée par GPS, basée sur un ellipsoïde de toute la planète et n'indiquant pas nécessairement l'altitude au-dessus du sol.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ems.ias": {
+        "featureDescription": "Vitesse indiquée de l'avion",
+        "featureGroup": "Flight details",
+        "featureId": 124,
+        "featureInfo": "La vitesse indiquée de l'avion est la vitesse de l'appareil dans l'air directement issue d'un indicateur de la vitesse dans l'air, sans correction de la température ou de la pression.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 169,
+        "featureUpgradeDescription": "Vitesse indiquée de l'avion",
+        "featureUpgradeInfo": "La vitesse indiquée de l'avion est la vitesse de l'appareil dans l'air directement issue d'un indicateur de la vitesse dans l'air, sans correction de la température ou de la pression.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ems.mach": {
+        "featureDescription": "Mach",
+        "featureGroup": "Flight details",
+        "featureId": 126,
+        "featureInfo": "Un nombre de Mach est le rapport de la vitesse réelle de l'avion à la vitesse du son à l'altitude d'un vol donné.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 172,
+        "featureUpgradeDescription": "Mach",
+        "featureUpgradeInfo": "Un nombre de Mach est le rapport de la vitesse réelle de l'avion à la vitesse du son à l'altitude d'un vol donné.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ems.oat": {
+        "featureDescription": "Température",
+        "featureGroup": "Flight details",
+        "featureId": 128,
+        "featureInfo": "Découvrez la température de l'air extérieur provenant directement de l'appareil.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 170,
+        "featureUpgradeDescription": "Température",
+        "featureUpgradeInfo": "Découvrez la température de l'air extérieur provenant directement de l'appareil.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ems.tas": {
+        "featureDescription": "Vitesse réelle de l'avion",
+        "featureGroup": "Flight details",
+        "featureId": 125,
+        "featureInfo": "La vitesse réelle de l'avion est la vitesse de l'appareil dans l'air après correction de la position et des erreurs d'instrument, en prenant en compte la pression et la température.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 167,
+        "featureUpgradeDescription": "Vitesse réelle de l'avion",
+        "featureUpgradeInfo": "La vitesse réelle de l'avion est la vitesse de l'appareil dans l'air après correction de la position et des erreurs d'instrument, en prenant en compte la pression et la température.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ems.wind": {
+        "featureDescription": "Vent",
+        "featureGroup": "Flight details",
+        "featureId": 127,
+        "featureInfo": "Découvrez si un avion vole dans le sens du vent ou contre lui. La vitesse et le sens du vent proviennent directement de l'appareil.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 168,
+        "featureUpgradeDescription": "Conditions de vent pendant le vol",
+        "featureUpgradeInfo": "Découvrez si un avion vole dans le sens du vent ou contre lui. La vitesse et le sens du vent proviennent directement de l'appareil.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.ground-speed": {
+        "featureDescription": "Vitesse sol",
+        "featureGroup": "Flight details",
+        "featureId": 143,
+        "featureInfo": "Vitesse relative au sol.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 160,
+        "featureUpgradeDescription": "Vitesse sol",
+        "featureUpgradeInfo": "Vitesse relative au sol.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.position": {
+        "featureDescription": "Position",
+        "featureGroup": "Flight details",
+        "featureId": 146,
+        "featureInfo": "La localisation de l'appareil en latitude et longitude.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 161,
+        "featureUpgradeDescription": "Position",
+        "featureUpgradeInfo": "La localisation de l'appareil en latitude et longitude.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.squawk": {
+        "featureDescription": "Code d'affichage",
+        "featureGroup": "Flight details",
+        "featureId": 118,
+        "featureInfo": "Un code à quatre chiffres assigné à un vol par le contrôle aérien pour faire correspondre le vol à ses écrans de radar.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 165,
+        "featureUpgradeDescription": "Code d'affichage",
+        "featureUpgradeInfo": "Le code d'affichage est un code à quatre chiffres assigné à un vol par le contrôle aérien pour faire correspondre le vol à ses écrans de radar.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.track": {
+        "featureDescription": "Suivi",
+        "featureGroup": "Flight details",
+        "featureId": 145,
+        "featureInfo": "La direction de l'appareil",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 162,
+        "featureUpgradeDescription": "Suivi",
+        "featureUpgradeInfo": "La direction de l'appareil",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.info.flight.vertical-speed": {
+        "featureDescription": "Vitesse verticale",
+        "featureGroup": "Flight details",
+        "featureId": 119,
+        "featureInfo": "Découvrez la vitesse d'ascension et de descente d'un appareil.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 164,
+        "featureUpgradeDescription": "Vitesse verticale",
+        "featureUpgradeInfo": "Découvrez la vitesse d'ascension et de descente d'un appareil.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.labels.rows": {
+        "featureDescription": "Étiquettes de texte",
+        "featureGroup": "Customization",
+        "featureId": 59,
+        "featureInfo": "Choisissez quelles informations voyagent avec les icônes d'appareil. Ajoutez des identifiants tels que l'indicatif, le numéro de vol ou l'immatriculation, et intégrez des informations supplémentaires comme le type et l'immatriculation, l'altitude et la vitesse, ou l'origine et la destination. Le nombre d'étiquettes de texte que vous pouvez voir dépend de votre abonnement.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 210,
+        "featureUpgradeDescription": "Étiquettes de texte d'appareil",
+        "featureUpgradeInfo": "Choisissez quelles informations voyagent avec les icônes d'appareil. Ajoutez des identifiants tels que l'indicatif, le numéro de vol ou l'immatriculation, et intégrez des informations supplémentaires comme le type et l'immatriculation, l'altitude et la vitesse, ou l'origine et la destination. Le nombre d'étiquettes de texte que vous pouvez voir dépend de votre abonnement.",
+        "planLimits": {
+            "Basic": 1,
+            "Silver": 4,
+            "Gold": 4,
+            "Business": 4
+        },
+        "unit": null
+    },
+    "map.layer.atc": {
+        "featureDescription": "Limites du contrôle aérien",
+        "featureGroup": "Map layers",
+        "featureId": 70,
+        "featureInfo": "Découvrez quels contrôleurs aériens sont actuellement en charge d'un vol avec les limites des données mondiales de Région d'information de vol (FIR) et de Région supérieure d'information de vol (UIR) superposées sur la carte. La zone de contrôle aérien actuelle pour un vol individuel est également affichée dans le champ des informations de ce vol.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 340,
+        "featureUpgradeDescription": "Limites du contrôle aérien",
+        "featureUpgradeInfo": "Découvrez quels contrôleurs aériens sont actuellement en charge d'un vol avec les limites des données mondiales de Région d'information de vol et de Région supérieure d'information de vol superposées sur la carte. La zone de contrôle aérien actuelle pour un vol en particulier est également affichée dans le champ des informations de ce vol.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.ndb": {
+        "featureDescription": "Aides à la navigation",
+        "featureGroup": "Aeronautical charts",
+        "featureId": 142,
+        "featureInfo": "Découvrez des aides à la navigation, qui sont des balises radio qui aident les pilotes à naviguer, superposées sur la carte.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 505,
+        "featureUpgradeDescription": "Aides à la navigation",
+        "featureUpgradeInfo": "Découvrez des aides à la navigation, qui sont des balises radio qui aident les pilotes à naviguer, superposées sur la carte.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.ndb.alt.high": {
+        "featureDescription": "Haute altitude",
+        "featureGroup": "Aeronautical charts",
+        "featureId": 133,
+        "featureInfo": "Visualisez des cheminements de navigation et des voies aériennes pour les vols à haute altitude superposés sur la carte.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 520,
+        "featureUpgradeDescription": "Cartes de haute altitude",
+        "featureUpgradeInfo": "Visualisez des cheminements de navigation et des voies aériennes pour les vols à haute altitude superposés sur la carte.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.ndb.alt.low": {
+        "featureDescription": "Basse altitude",
+        "featureGroup": "Aeronautical charts",
+        "featureId": 132,
+        "featureInfo": "Visualisez des cheminements de navigation et des voies aériennes pour les vols à basse altitude superposés sur la carte.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 510,
+        "featureUpgradeDescription": "Cartes de basse altitude",
+        "featureUpgradeInfo": "Visualisez des cheminements de navigation et des voies aériennes pour les vols à basse altitude superposés sur la carte.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.ndb.charts": {
+        "featureDescription": "Cartes aéronautiques",
+        "featureGroup": "Aeronautical charts",
+        "featureId": 71,
+        "featureInfo": "Pour arriver à destination en toute sécurité et rester séparés des autres vols, les appareils suivent des voies aériennes entre des cheminements de navigation. Visualisez l'itinéraire d'un vol avec nos cartes de haute et basse altitude, en plus d'une couche dédiée aux aides à la navigation.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 500,
+        "featureUpgradeDescription": "Cartes aéronautiques",
+        "featureUpgradeInfo": "Pour arriver à destination en toute sécurité et rester séparés des autres vols, les appareils suivent des voies aériennes entre des cheminements de navigation. Visualisez l'itinéraire d'un vol avec nos cartes de haute et basse altitude, en plus d'une couche dédiée aux aides à la navigation.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.tracks.oceanic": {
+        "featureDescription": "Courants océaniques",
+        "featureGroup": "Map layers",
+        "featureId": 72,
+        "featureInfo": "Au-dessus de zones telles que les océans Atlantique et Pacifique, les vols suivent des courants organisés pour respecter une distance de sécurité quand ils ne sont pas en contact avec le contrôle aérien. Les courants sont mis à jour deux fois par jour en prenant en compte le vent et les conditions météorologiques. Visualisez ces courants sur notre carte live et découvrez comment les vols les suivent pour naviguer en toute sécurité au-dessus d'océans.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 350,
+        "featureUpgradeDescription": "Courants océaniques",
+        "featureUpgradeInfo": "Au-dessus de zones telles que les océans Atlantique et Pacifique, les vols suivent des courants organisés pour respecter une distance de sécurité quand ils ne sont pas constamment en contact avec le contrôle aérien. Les courants sont mis à jour deux fois par jour en prenant en compte le vent et les conditions météorologiques. Visualisez ces courants sur notre carte live et découvrez comment les vols les suivent pour naviguer en toute sécurité au-dessus d'océans.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.vor": {
+        "featureDescription": "Données VOR",
+        "featureGroup": null,
+        "featureId": 92,
+        "featureInfo": null,
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 1000,
+        "featureUpgradeDescription": "Données VOR",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather": {
+        "featureDescription": "Météo actuelle",
+        "featureGroup": "Weather layers",
+        "featureId": 63,
+        "featureInfo": "Soleil et chaleur à Madrid, pluie et froid à San Francisco. Découvrez la météo actuelle, dont la température et les conditions climatiques de plus de 3 000 aéroports dans le monde superposées sur notre carte live.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 270,
+        "featureUpgradeDescription": "Météo actuelle",
+        "featureUpgradeInfo": "Soleil et chaleur à Madrid, pluie et froid à San Francisco. Découvrez la météo actuelle, dont la température et les conditions climatiques de plus de 3 000 aéroports dans le monde superposées sur notre carte live.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.airmet": {
+        "featureDescription": "AIRMETS/SIGMETS",
+        "featureGroup": "Weather layers",
+        "featureId": 110,
+        "featureInfo": "AIRMETS/SIGMETS publiés par les autorités concernant des phénomènes météorologiques significatifs qui pourraient éventuellement rendre dangereux de voler dans la zone concernée, mis à jour toutes les 30 minutes. Cliquez sur AIRMET/SIGMET pour voir tout le texte.",
+        "featurePlans": [
+            "Business"
+        ],
+        "featureSortOrder": 300,
+        "featureUpgradeDescription": "AIRMETS/SIGMETS",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.auradar": {
+        "featureDescription": "Radar australien",
+        "featureGroup": "Weather layers",
+        "featureId": 159,
+        "featureInfo": " Le radar australien est une image composite des précipitations sur toute l’Australie avec une résolution de 2 km.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 300,
+        "featureUpgradeDescription": "Radar australien",
+        "featureUpgradeInfo": " Le radar australien est une image composite des précipitations sur toute l’Australie avec une résolution de 2 km.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.cat": {
+        "featureDescription": "Clear-air turbulence",
+        "featureGroup": "Weather layers",
+        "featureId": 157,
+        "featureInfo": "Clear-air turbulence is the turbulent movement of air without any visual clues, this can often impact aviation. See clear air turbulence at various altitudes for a specific time in the future overlayed on our live map.",
+        "featurePlans": [
+            "Business"
+        ],
+        "featureSortOrder": 300,
+        "featureUpgradeDescription": "Clear-air turbulence",
+        "featureUpgradeInfo": "Clear-air turbulence is the turbulent movement of air without any visual clues, this can often impact aviation. See clear air turbulence at various altitudes for a specific time in the future overlayed on our live map.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.highlevel": {
+        "featureDescription": "Intempéries de haut niveau",
+        "featureGroup": "Weather layers",
+        "featureId": 112,
+        "featureInfo": "Forecasted areas of high level significant weather, such as wind patterns and storm activity, available for up to a 24-hour period in six hour increments.",
+        "featurePlans": [
+            "Business"
+        ],
+        "featureSortOrder": 310,
+        "featureUpgradeDescription": "Intempéries de haut niveau",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.icing": {
+        "featureDescription": "Icing",
+        "featureGroup": "Weather layers",
+        "featureId": 155,
+        "featureInfo": "Icing can lead to ice build up on aircraft which can be extremely dangerous for pilots. See forecasted icing at various altitudes for a specific time in the future overlayed on our live map.",
+        "featurePlans": [
+            "Business"
+        ],
+        "featureSortOrder": 300,
+        "featureUpgradeDescription": "Icing",
+        "featureUpgradeInfo": "Icing can lead to ice build up on aircraft which can be extremely dangerous for pilots. See forecasted icing at various altitudes for a specific time in the future overlayed on our live map.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.ict": {
+        "featureDescription": "In cloud turbulence",
+        "featureGroup": "Weather layers",
+        "featureId": 156,
+        "featureInfo": "Currents and water vapor in and around clouds can cause turbulence, this can often impact aviation. See in cloud turbulence at various altitudes for a specific time in the future overlayed on our live map.",
+        "featurePlans": [
+            "Business"
+        ],
+        "featureSortOrder": 300,
+        "featureUpgradeDescription": "In cloud turbulence",
+        "featureUpgradeInfo": "Currents and water vapor in and around clouds can cause turbulence, this can often impact aviation. See in cloud turbulence at various altitudes for a specific time in the future overlayed on our live map.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.lightning": {
+        "featureDescription": "Foudre",
+        "featureGroup": "Weather layers",
+        "featureId": 113,
+        "featureInfo": "La foudre enregistrée et affichée sur une carte actualisée toutes les 15 minutes.",
+        "featurePlans": [
+            "Business"
+        ],
+        "featureSortOrder": 320,
+        "featureUpgradeDescription": "Foudre",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.naradar": {
+        "featureDescription": "Radar nord-américain",
+        "featureGroup": "Weather layers",
+        "featureId": 158,
+        "featureInfo": "Le radar nord-américain à haute résolution est une mosaïque d’images de radars couvrant les États-Unis continentaux, l’Alaska, Hawaï, Porto Rico et le sud du Canada. Le radar nord-américain à haute résolution combine une résolution de 1 km avec des mises à jour fréquentes pour allier rapidité et meilleures informations météorologiques.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 300,
+        "featureUpgradeDescription": "Radar nord-américain",
+        "featureUpgradeInfo": "Le radar nord-américain à haute résolution est une mosaïque d’images de radars couvrant les États-Unis continentaux, l’Alaska, Hawaï, Porto Rico et le sud du Canada. Le radar nord-américain à haute résolution combine une résolution de 1 km avec des mises à jour fréquentes pour allier rapidité et meilleures informations météorologiques.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.radar": {
+        "featureDescription": "Intensité des précipitations",
+        "featureGroup": "Weather layers",
+        "featureId": 109,
+        "featureInfo": "Découvrez les conditions météorologiques évitées par les vols en superposition sur notre carte live. Notre radar mondial affiche les zones de précipitation intense dans le monde entier pour que vous sachiez quel impact elles pourraient avoir sur les vols. La couche de précipitation intense est rafraîchie toutes les 30 minutes.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 295,
+        "featureUpgradeDescription": "Intensité des précipitations",
+        "featureUpgradeInfo": "Découvrez les conditions météorologiques évitées par les vols en superposition sur notre carte live. Notre radar mondial affiche les zones de précipitation intense dans le monde entier pour que vous sachiez quel impact elles pourraient avoir sur les vols. La couche de précipitation intense est rafraîchie toutes les 30 minutes.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.radar.global": {
+        "featureDescription": "Total des précipitations",
+        "featureGroup": "Weather layers",
+        "featureId": 149,
+        "featureInfo": "Une vue d'ensemble des précipitations actuelles dans le monde superposée sur une carte live. La couche du total des précipitations est actualisée 12 fois par jour.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 290,
+        "featureUpgradeDescription": "Total des précipitations",
+        "featureUpgradeInfo": "Une vue d'ensemble des précipitations actuelles dans le monde superposée sur une carte live. La couche du total des précipitations est actualisée 12 fois par jour.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.satellite": {
+        "featureDescription": "Nuages",
+        "featureGroup": "Weather layers",
+        "featureId": 108,
+        "featureInfo": "Des satellites infrarouges mondiaux affichent l'épaisseur des nuages sur une carte actualisée toutes les 60 minutes.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 280,
+        "featureUpgradeDescription": "Nuages",
+        "featureUpgradeInfo": "Des satellites infrarouges vous permettent de voir l'épaisseur des nuages sur une carte actualisée toutes les 60 minutes.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.volcano": {
+        "featureDescription": "Éruption volcanique",
+        "featureGroup": "Weather layers",
+        "featureId": 111,
+        "featureInfo": "Les éruptions volcaniques peuvent avoir un impact majeur sur l'aviation (vous vous souvenez du volcan islandais Eyjafjallajökull ?). Découvrez quels volcans sont actifs et localisez tous les nuages de cendre perturbant des vols sur notre carte live.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 260,
+        "featureUpgradeDescription": "Éruption volcanique",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.layer.weather.wind": {
+        "featureDescription": "Vents",
+        "featureGroup": "Weather layers",
+        "featureId": 150,
+        "featureInfo": "Visualisez la vitesse et le sens du vent sur notre carte live avec des augmentations tous les 1 000 pieds de 1 000 à 51 000 pieds. Affichage par barbule de vent ou dégradé de couleurs. La couche de vent est actualisée 12 fois par jour.",
+        "featurePlans": [
+            "Business"
+        ],
+        "featureSortOrder": 298,
+        "featureUpgradeDescription": "Vents",
+        "featureUpgradeInfo": "Visualisez la vitesse et le sens du vent sur notre carte live avec des augmentations tous les 1 000 pieds de 1 000 à 51 000 pieds. Affichage par barbule de vent ou dégradé de couleurs. La couche de vent est actualisée 12 fois par jour.",
+        "planLimits": null,
+        "unit": null
+    },
+    "map.search": {
+        "featureDescription": "Chercher",
+        "featureGroup": null,
+        "featureId": 94,
+        "featureInfo": null,
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 1000,
+        "featureUpgradeDescription": "Chercher",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.status.flight": {
+        "featureDescription": "Statut du vol",
+        "featureGroup": "Aircraft on map",
+        "featureId": 104,
+        "featureInfo": "Visualisez le numéro de vol, la compagnie aérienne, la destination, les horaires de vol, l'heure d'arrivée prévue, l'heure réel de départ, la durée moyenne du vol, le retard moyen à l'arrivée et la distance de vol.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 130,
+        "featureUpgradeDescription": "Statut du vol",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.tracking.live": {
+        "featureDescription": "Suivi du vol en direct",
+        "featureGroup": "Live flight tracking",
+        "featureId": 47,
+        "featureInfo": "Découvrez des données en temps réel de vols en direct autour du monde.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 130,
+        "featureUpgradeDescription": "Suivi du vol en direct",
+        "featureUpgradeInfo": null,
+        "planLimits": null,
+        "unit": null
+    },
+    "map.widgets.bookmarks.max": {
+        "featureDescription": "Marque-pages",
+        "featureGroup": "Customization",
+        "featureId": 162,
+        "featureInfo": "Créez un marque-page pour facilement accéder aux paramètres et préférences que vous avez enregistrés. Les marque-pages peuvent inclure la position sur une carte, des couches de carte, des paramètres et des filtres. Le nombre de marque-pages disponible dépend de votre abonnement.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 240,
+        "featureUpgradeDescription": "Marque-pages",
+        "featureUpgradeInfo": "Créez un marque-page pour facilement accéder aux paramètres et préférences que vous avez enregistrés. Les marque-pages peuvent inclure la position sur une carte, des couches de carte, des paramètres et des filtres. Le nombre de marque-pages disponible dépend de votre abonnement.",
+        "planLimits": {
+            "Basic": 1,
+            "Silver": 10,
+            "Gold": 25,
+            "Business": 60
+        },
+        "unit": null
+    },
+    "support.level": {
+        "featureDescription": "Assistance client prioritaire",
+        "featureGroup": "General",
+        "featureId": 83,
+        "featureInfo": "Les demandes d'assistance des abonnés Silver et Gold sont traitées en priorité.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 100,
+        "featureUpgradeDescription": "Assistance client prioritaire",
+        "featureUpgradeInfo": "Les demandes d'assistance des abonnés Silver et Gold sont traitées en priorité.",
+        "planLimits": {
+            "Silver": "Yes",
+            "Gold": "Yes",
+            "Business": "Yes"
+        },
+        "unit": null
+    },
+    "support.platform": {
+        "featureDescription": "Assistance sur plusieurs plate-formes",
+        "featureGroup": "General",
+        "featureId": 138,
+        "featureInfo": "Profitez des fonctions supplémentaires disponibles avec votre abonnement Silver ou Gold sur toutes les plate-formes sur lesquelles Flightradar24 est accessible.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 105,
+        "featureUpgradeDescription": "Assistance sur plusieurs plate-formes",
+        "featureUpgradeInfo": "Profitez des fonctions supplémentaires disponibles avec votre abonnement Silver ou Gold sur toutes les plate-formes sur lesquelles Flightradar24 est accessible.",
+        "planLimits": {
+            "Basic": "Limited",
+            "Silver": "Yes",
+            "Gold": "Yes",
+            "Business": "Yes"
+        },
+        "unit": null
+    },
+    "usage.rights": {
+        "featureDescription": "Types d'utilisation autorisés",
+        "featureGroup": "General",
+        "featureId": 82,
+        "featureInfo": "L'utilisation commerciale de Flightradar24 avec tout autre plan que l'abonnement Business est strictement interdite comme indiqué dans les <a href=\"/terms-and-conditions\" target=\"_blank\">conditions d'utilisation</a> de Flightradar24.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 125,
+        "featureUpgradeDescription": "Types d'utilisation autorisés",
+        "featureUpgradeInfo": null,
+        "planLimits": {
+            "Basic": "Private",
+            "Silver": "Private",
+            "Gold": "Private",
+            "Business": "Private & Business"
+        },
+        "unit": null
+    },
+    "user.alerts.max": {
+        "featureDescription": "Alertes personnalisées",
+        "featureGroup": "Customization",
+        "featureId": 131,
+        "featureInfo": "Laissez les vols venir à vous. Créez des alertes personnalisées pour un numéro de vol, une immatriculation, une compagnie aérienne ou un type d'appareil et recevez une notification quand un vol répond à vos critères. Le nombre d'alertes personnalisées que vous pouvez créer dépend de votre abonnement.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 215,
+        "featureUpgradeDescription": "Alertes personnalisées",
+        "featureUpgradeInfo": "Laissez les vols venir à vous. Créez des alertes personnalisées pour un numéro de vol, une immatriculation, une compagnie aérienne ou un type d'appareil et recevez une notification quand un vol répond à vos critères. Le nombre d'alertes personnalisées que vous pouvez créer dépend de votre abonnement.",
+        "planLimits": {
+            "Silver": 10,
+            "Gold": 25,
+            "Business": 60
+        },
+        "unit": null
+    },
+    "user.sessions.max": {
+        "featureDescription": "Sessions",
+        "featureGroup": "General",
+        "featureId": 103,
+        "featureInfo": "Les comptes sont valables pour un utilisateur unique et peuvent être simultanément utilisés sur 3 ou 4 appareils (navigateurs/tablettes/téléphones) en fonction de l'abonnement.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 110,
+        "featureUpgradeDescription": "Sessions",
+        "featureUpgradeInfo": null,
+        "planLimits": {
+            "Silver": 3,
+            "Gold": 3,
+            "Business": 4
+        },
+        "unit": null
+    },
+    "user.users": {
+        "featureDescription": "Users",
+        "featureGroup": "General",
+        "featureId": 154,
+        "featureInfo": "Each Flightradar24 account is valid for a single user. If you are interested in multi-user accounts please <a href=\"/contact-us\">contact our business team</a> for options and pricing.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "featureSortOrder": 100,
+        "featureUpgradeDescription": "Users",
+        "featureUpgradeInfo": "Each Flightradar24 account is valid for a single user. If you are interested in multi-user accounts please <a href=\"/contact-us\">contact our business team</a> for options and pricing.",
+        "planLimits": {
+            "Silver": 1,
+            "Gold": 1,
+            "Business": 1
+        },
+        "unit": null
+    },
+    "map.view.3d.mobile": {
+        "featureId": 155,
+        "featureGroup": "Map views",
+        "featureSortOrder": 400,
+        "featureDescription": "Vue 3D",
+        "featureUpgradeDescription": "Vue 3D",
+        "featureInfo": "Follow a 3D model over high-resolution satellite and terrain imagery. Now also see other nearby flights and aircraft shadows. Access three 3D sessions using a free Basic account and get more sessions by watching an ad. Unlimited access to 3D view is available with any paid Flightradar24 subscription.",
+        "featureUpgradeInfo": "La vue 3D, y compris des sessions illimitées, est disponible avec tous les abonnements Flightradar24 payants.",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Basic": -2,
+            "Silver": -1,
+            "Gold": -1,
+            "Business": -1
+        },
+        "unit": "session"
+    },
+    "airport.panel.latest.events": {
+        "featureId": 1000,
+        "featureGroup": "Airport",
+        "featureSortOrder": 130,
+        "featureDescription": "Derniers événements",
+        "featureUpgradeDescription": "Derniers événements",
+        "featureInfo": "Consultez le nombre total de décollages et d'atterrissages sur les 7 derniers jours, pour l'aéroport de votre choix.\n\nLes derniers événements sont disponibles avec un abonnement Silver ou Gold.",
+        "featureUpgradeInfo": "Consultez le nombre total de décollages et d'atterrissages sur les 7 derniers jours, pour l'aéroport de votre choix.\n\nLes derniers événements sont disponibles avec un abonnement Silver ou Gold.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Silver": -1,
+            "Gold": -1,
+            "Business": -1
+        },
+        "unit": null
+    },
+    "airport.panel.movements.per.day": {
+        "featureId": 1001,
+        "featureGroup": "Airport",
+        "featureSortOrder": 130,
+        "featureDescription": "Mouvements par jour",
+        "featureUpgradeDescription": "Mouvements par jour",
+        "featureInfo": "Voir le nombre total d'atterrissages et de décollages ventilé par jour, pour les 7 derniers jours.\n\nLes mouvements par jour sont disponibles avec un abonnement Gold.",
+        "featureUpgradeInfo": "Voir le nombre total d'atterrissages et de décollages ventilé par jour, pour les 7 derniers jours.\n\nLes mouvements par jour sont disponibles avec un abonnement Gold.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Gold": -1,
+            "Business": -1
+        },
+        "unit": null
+    },
+    "airport.panel.runway.usage": {
+        "featureId": 1002,
+        "featureGroup": "Airport",
+        "featureSortOrder": 130,
+        "featureDescription": "Utilisation des pistes",
+        "featureUpgradeDescription": "Utilisation des pistes",
+        "featureInfo": "Consultez les 7 derniers jours du nombre total de décollages et d'atterrissages par piste, pour l'aéroport de votre choix.\n\nL'utilisation des pistes est disponible avec un abonnement Gold.",
+        "featureUpgradeInfo": "Consultez les 7 derniers jours du nombre total de décollages et d'atterrissages par piste, pour l'aéroport de votre choix.\n\nL'utilisation des pistes est disponible avec un abonnement Gold.",
+        "featurePlans": [
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Gold": -1,
+            "Business": -1
+        },
+        "unit": null
+    },
+    "airport.panel.runway.details": {
+        "featureId": 1003,
+        "featureGroup": "Airport",
+        "featureSortOrder": 130,
+        "featureDescription": "Détails de l'aéroport et des pistes",
+        "featureUpgradeDescription": "Détails de l'aéroport et des pistes",
+        "featureInfo": "Débloquer des informations supplémentaires sur un aéroport et ses pistes, notamment le numéro de piste, la longueur et le type de revêtement.\n\nLes détails sur les aéroports et les pistes sont disponibles avec un abonnement Silver ou Gold.",
+        "featureUpgradeInfo": "Débloquer des informations supplémentaires sur un aéroport et ses pistes, notamment le numéro de piste, la longueur et le type de revêtement.\n\nLes détails sur les aéroports et les pistes sont disponibles avec un abonnement Silver ou Gold.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Silver": -1,
+            "Gold": -1,
+            "Business": -1
+        },
+        "unit": null
+    },
+    "airport.panel.arrivals_departures": {
+        "featureId": 1004,
+        "featureGroup": "Airport",
+        "featureSortOrder": 130,
+        "featureDescription": "Arrivées et départs",
+        "featureUpgradeDescription": "Arrivées et départs",
+        "featureInfo": "Débloquez des heures supplémentaires d'arrivées et de départs, y compris le numéro de vol et l'origine. 12 heures sont disponibles en standard. Créez un compte gratuit pour débloquer 24 heures ou passez à un abonnement Silver (36) ou Gold (48).",
+        "featureUpgradeInfo": "Débloquez des heures supplémentaires d'arrivées et de départs, y compris le numéro de vol et l'origine. 12 heures sont disponibles en standard. Créez un compte gratuit pour débloquer 24 heures ou passez à un abonnement Silver (36) ou Gold (48).",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Basic": 24,
+            "Silver": 36,
+            "Gold": 48,
+            "Business": 72
+        },
+        "unit": "hour-time"
+    },
+    "airport.panel.onground": {
+        "featureId": 1005,
+        "featureGroup": "Airport",
+        "featureSortOrder": 130,
+        "featureDescription": "Appareil au sol",
+        "featureUpgradeDescription": "Appareil au sol",
+        "featureInfo": "Accédez à une liste d'aéronefs suivis comme ayant atterri dans un aéroport particulier. Un aéronef restera sur la liste jusqu'à ce que nous puissions confirmer qu'il a quitté l'aéroport. La fonction Avions au sol est disponible avec un abonnement Silver (7 derniers jours) ou Gold (30).",
+        "featureUpgradeInfo": "Accédez à une liste d'aéronefs suivis comme ayant atterri dans un aéroport particulier. Un aéronef restera sur la liste jusqu'à ce que nous puissions confirmer qu'il a quitté l'aéroport. La fonction Avions au sol est disponible avec un abonnement Silver (7 derniers jours) ou Gold (30).",
+        "featurePlans": [
+            "Basic",
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Basic": 2,
+            "Silver": 168,
+            "Gold": 720,
+            "Business": 2160
+        },
+        "unit": "hour-time"
+    },
+    "history.airport.days": {
+        "featureId": 1006,
+        "featureGroup": "Airport",
+        "featureSortOrder": 130,
+        "featureDescription": "Consulter l'historique des vols de l'aéroport",
+        "featureUpgradeDescription": "Consulter l'historique des vols de l'aéroport",
+        "featureInfo": "Consultez les données historiques de décollage et d'atterrissage pour chaque aéroport, y compris la compagnie aérienne, l'indicatif d'appel, le numéro de vol, le type d'aéronef et l'heure de vol.\n\nVous pouvez également consulter les quatre derniers atterrissages et décollages de l'aéroport de votre choix. L'ancienneté des données dépend de votre niveau d'abonnement.\n\nL'historique des vols dans les aéroports est disponible avec un abonnement Silver ou Gold.",
+        "featureUpgradeInfo": "Consultez les données historiques de décollage et d'atterrissage pour chaque aéroport, y compris la compagnie aérienne, l'indicatif d'appel, le numéro de vol, le type d'aéronef et l'heure de vol.\n\nVous pouvez également consulter les quatre derniers atterrissages et décollages de l'aéroport de votre choix. L'ancienneté des données dépend de votre niveau d'abonnement.\n\nL'historique des vols dans les aéroports est disponible avec un abonnement Silver ou Gold.",
+        "featurePlans": [
+            "Silver",
+            "Gold",
+            "Business"
+        ],
+        "planLimits": {
+            "Silver": 90,
+            "Gold": 365,
+            "Business": 1095
+        },
+        "unit": "day"
+    }
+}
